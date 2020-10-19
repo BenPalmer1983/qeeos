@@ -1,0 +1,180 @@
+File Name:                      eos_001
+Path:                           wd/eos
+File In:                        wd/eos/eos_001.in
+File Out:                       wd/eos/eos_001.out
+Hash:                           afc342e15819f1325f5508a201e5fd26c846d084d9537ba1e9d50dfa57020193cd440b81314f1258c839e435f1ad09e26b6a3ecb245639298e4ac179eac5a20b
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/afc342e15819f1325f5508a201e5fd26c846d084d9537ba1e9d50dfa57020193cd440b81314f1258c839e435f1ad09e26b6a3ecb245639298e4ac179eac5a20b.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/afc342e15819f1325f5508a201e5fd26c846d084d9537ba1e9d50dfa57020193cd440b81314f1258c839e435f1ad09e26b6a3ecb245639298e4ac179eac5a20b.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_001.in > wd/eos/eos_001.out
+
+
+File Name:                      eos_002
+Path:                           wd/eos
+File In:                        wd/eos/eos_002.in
+File Out:                       wd/eos/eos_002.out
+Hash:                           efaf9145bcf8254676e993d1381248884f322015821d1021090cecefb82bdb048bad798822e63d6b3b3713dcae62c5309e6227dd350aa7fddb76f9337579a420
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/efaf9145bcf8254676e993d1381248884f322015821d1021090cecefb82bdb048bad798822e63d6b3b3713dcae62c5309e6227dd350aa7fddb76f9337579a420.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/efaf9145bcf8254676e993d1381248884f322015821d1021090cecefb82bdb048bad798822e63d6b3b3713dcae62c5309e6227dd350aa7fddb76f9337579a420.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_002.in > wd/eos/eos_002.out
+
+
+File Name:                      eos_003
+Path:                           wd/eos
+File In:                        wd/eos/eos_003.in
+File Out:                       wd/eos/eos_003.out
+Hash:                           78256e8fd2c5d99adfa71b000fa37af76a656f3dcc270e476560859d5c0b72edafa9432cda68aa5028059803a895b0e80b392902e297fb822d4ac18f0f012e63
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/78256e8fd2c5d99adfa71b000fa37af76a656f3dcc270e476560859d5c0b72edafa9432cda68aa5028059803a895b0e80b392902e297fb822d4ac18f0f012e63.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/78256e8fd2c5d99adfa71b000fa37af76a656f3dcc270e476560859d5c0b72edafa9432cda68aa5028059803a895b0e80b392902e297fb822d4ac18f0f012e63.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_003.in > wd/eos/eos_003.out
+
+
+File Name:                      eos_004
+Path:                           wd/eos
+File In:                        wd/eos/eos_004.in
+File Out:                       wd/eos/eos_004.out
+Hash:                           b4a62d6920cfb0d65dcc1473da567927a403da6b870d9990c05b3ccfd78fdb9fc0fcbb5c77ab92d64abd06783475f317fed55aca1cbe7dea0ebf773f4a7a5e51
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/b4a62d6920cfb0d65dcc1473da567927a403da6b870d9990c05b3ccfd78fdb9fc0fcbb5c77ab92d64abd06783475f317fed55aca1cbe7dea0ebf773f4a7a5e51.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/b4a62d6920cfb0d65dcc1473da567927a403da6b870d9990c05b3ccfd78fdb9fc0fcbb5c77ab92d64abd06783475f317fed55aca1cbe7dea0ebf773f4a7a5e51.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_004.in > wd/eos/eos_004.out
+
+
+File Name:                      eos_005
+Path:                           wd/eos
+File In:                        wd/eos/eos_005.in
+File Out:                       wd/eos/eos_005.out
+Hash:                           c6584c9c049088c461d1a65e6d3d70d94fddce7d40033b232aa8967ea6b1eba45976300196938383fbeb718b322d59f9eeefac1f71b5349251e4edb8aaafb2b3
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/c6584c9c049088c461d1a65e6d3d70d94fddce7d40033b232aa8967ea6b1eba45976300196938383fbeb718b322d59f9eeefac1f71b5349251e4edb8aaafb2b3.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/c6584c9c049088c461d1a65e6d3d70d94fddce7d40033b232aa8967ea6b1eba45976300196938383fbeb718b322d59f9eeefac1f71b5349251e4edb8aaafb2b3.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_005.in > wd/eos/eos_005.out
+
+
+File Name:                      eos_006
+Path:                           wd/eos
+File In:                        wd/eos/eos_006.in
+File Out:                       wd/eos/eos_006.out
+Hash:                           bd5d7602c7f06069c9c2394327bfb419da158711ace3c48421ef2218222cbba6bb150e60754a9f93f162b1a435901325003c9fead1f5a5f086a7ed6aeb52d9dd
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/bd5d7602c7f06069c9c2394327bfb419da158711ace3c48421ef2218222cbba6bb150e60754a9f93f162b1a435901325003c9fead1f5a5f086a7ed6aeb52d9dd.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/bd5d7602c7f06069c9c2394327bfb419da158711ace3c48421ef2218222cbba6bb150e60754a9f93f162b1a435901325003c9fead1f5a5f086a7ed6aeb52d9dd.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_006.in > wd/eos/eos_006.out
+
+
+File Name:                      eos_007
+Path:                           wd/eos
+File In:                        wd/eos/eos_007.in
+File Out:                       wd/eos/eos_007.out
+Hash:                           9d0b60655827ae951c06b114260d5b0004b365613991f15cfbe18384b7c88a6bca2459431768d1cbe58b9c99aed8630efec16db8088403dd90a7e5e0718cf150
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/9d0b60655827ae951c06b114260d5b0004b365613991f15cfbe18384b7c88a6bca2459431768d1cbe58b9c99aed8630efec16db8088403dd90a7e5e0718cf150.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/9d0b60655827ae951c06b114260d5b0004b365613991f15cfbe18384b7c88a6bca2459431768d1cbe58b9c99aed8630efec16db8088403dd90a7e5e0718cf150.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_007.in > wd/eos/eos_007.out
+
+
+File Name:                      eos_008
+Path:                           wd/eos
+File In:                        wd/eos/eos_008.in
+File Out:                       wd/eos/eos_008.out
+Hash:                           428f5996127753f60426b3d6390f91eaf70a9b89332fe1997e06b5541c529c8227d19dc7354ccb4e9729d77b01df1011f0c011eb3960db332c3e5bc831948800
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/428f5996127753f60426b3d6390f91eaf70a9b89332fe1997e06b5541c529c8227d19dc7354ccb4e9729d77b01df1011f0c011eb3960db332c3e5bc831948800.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/428f5996127753f60426b3d6390f91eaf70a9b89332fe1997e06b5541c529c8227d19dc7354ccb4e9729d77b01df1011f0c011eb3960db332c3e5bc831948800.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_008.in > wd/eos/eos_008.out
+
+
+File Name:                      eos_009
+Path:                           wd/eos
+File In:                        wd/eos/eos_009.in
+File Out:                       wd/eos/eos_009.out
+Hash:                           b4b5511d775afcc8c0086d39262c8f7e6ada4bd7ca7a36fa175e54850a7eefce8f8eb5f06c1976986f18d4731a5fd03417608fb48a3de801b18d943c336b5df1
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/b4b5511d775afcc8c0086d39262c8f7e6ada4bd7ca7a36fa175e54850a7eefce8f8eb5f06c1976986f18d4731a5fd03417608fb48a3de801b18d943c336b5df1.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/b4b5511d775afcc8c0086d39262c8f7e6ada4bd7ca7a36fa175e54850a7eefce8f8eb5f06c1976986f18d4731a5fd03417608fb48a3de801b18d943c336b5df1.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_009.in > wd/eos/eos_009.out
+
+
+File Name:                      eos_010
+Path:                           wd/eos
+File In:                        wd/eos/eos_010.in
+File Out:                       wd/eos/eos_010.out
+Hash:                           1c78a90cb3bfea0e561b7a0dd7298a551be5fcbf44efd9b837e867cde43926efe6955bab6848d8da1fbccc5a82cd8e511f82c7ec4bc80b4e2d44e6c47f81cdbc
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/1c78a90cb3bfea0e561b7a0dd7298a551be5fcbf44efd9b837e867cde43926efe6955bab6848d8da1fbccc5a82cd8e511f82c7ec4bc80b4e2d44e6c47f81cdbc.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/1c78a90cb3bfea0e561b7a0dd7298a551be5fcbf44efd9b837e867cde43926efe6955bab6848d8da1fbccc5a82cd8e511f82c7ec4bc80b4e2d44e6c47f81cdbc.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_010.in > wd/eos/eos_010.out
+
+
+File Name:                      eos_011
+Path:                           wd/eos
+File In:                        wd/eos/eos_011.in
+File Out:                       wd/eos/eos_011.out
+Hash:                           e4744fca5f5a8234601199b211d830b0176ceafb94a52a320c8787329c188692494275ce498ef2b4d345bab30033e65c855577daca41b2dc4254ee72996ec0e3
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/e4744fca5f5a8234601199b211d830b0176ceafb94a52a320c8787329c188692494275ce498ef2b4d345bab30033e65c855577daca41b2dc4254ee72996ec0e3.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/e4744fca5f5a8234601199b211d830b0176ceafb94a52a320c8787329c188692494275ce498ef2b4d345bab30033e65c855577daca41b2dc4254ee72996ec0e3.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_011.in > wd/eos/eos_011.out
+
+
+File Name:                      eos_012
+Path:                           wd/eos
+File In:                        wd/eos/eos_012.in
+File Out:                       wd/eos/eos_012.out
+Hash:                           89bbe7c6ac25147ae828e5826fe1edaea25b3a30c63544c64b0282cdc110e76d2ca1a8c38541daab8a607e46d3a3fc3ff2d40bb1f124c07d8707c763925b62ab
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/89bbe7c6ac25147ae828e5826fe1edaea25b3a30c63544c64b0282cdc110e76d2ca1a8c38541daab8a607e46d3a3fc3ff2d40bb1f124c07d8707c763925b62ab.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/89bbe7c6ac25147ae828e5826fe1edaea25b3a30c63544c64b0282cdc110e76d2ca1a8c38541daab8a607e46d3a3fc3ff2d40bb1f124c07d8707c763925b62ab.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_012.in > wd/eos/eos_012.out
+
+
+File Name:                      eos_013
+Path:                           wd/eos
+File In:                        wd/eos/eos_013.in
+File Out:                       wd/eos/eos_013.out
+Hash:                           1469433b7ed80800c06a63681478dc028b11a62a2224a11d6e89f79616c92f3cb173d6d19c52876ca69e3bb44913a2174f15e2905109b4b7e67d1d1fd2c13a4a
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/1469433b7ed80800c06a63681478dc028b11a62a2224a11d6e89f79616c92f3cb173d6d19c52876ca69e3bb44913a2174f15e2905109b4b7e67d1d1fd2c13a4a.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/1469433b7ed80800c06a63681478dc028b11a62a2224a11d6e89f79616c92f3cb173d6d19c52876ca69e3bb44913a2174f15e2905109b4b7e67d1d1fd2c13a4a.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_013.in > wd/eos/eos_013.out
+
+
+File Name:                      eos_014
+Path:                           wd/eos
+File In:                        wd/eos/eos_014.in
+File Out:                       wd/eos/eos_014.out
+Hash:                           54e47a495e907903ff86283cc08d287d9b93a6b59348a3dfe329abea2694ab251f3f11e73ce27fe13bcbe53bfda27db9857b039242d1166b620d9d5ac5fe52db
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/54e47a495e907903ff86283cc08d287d9b93a6b59348a3dfe329abea2694ab251f3f11e73ce27fe13bcbe53bfda27db9857b039242d1166b620d9d5ac5fe52db.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/54e47a495e907903ff86283cc08d287d9b93a6b59348a3dfe329abea2694ab251f3f11e73ce27fe13bcbe53bfda27db9857b039242d1166b620d9d5ac5fe52db.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_014.in > wd/eos/eos_014.out
+
+
+File Name:                      eos_015
+Path:                           wd/eos
+File In:                        wd/eos/eos_015.in
+File Out:                       wd/eos/eos_015.out
+Hash:                           50f23cab8e6474178f999e32174b651ff8c1d095ce92d52b17bf609da5eea32b6cf1947751d377e76af72d14f78976110a8090746b3f4265409f77f84afe74c5
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/50f23cab8e6474178f999e32174b651ff8c1d095ce92d52b17bf609da5eea32b6cf1947751d377e76af72d14f78976110a8090746b3f4265409f77f84afe74c5.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/50f23cab8e6474178f999e32174b651ff8c1d095ce92d52b17bf609da5eea32b6cf1947751d377e76af72d14f78976110a8090746b3f4265409f77f84afe74c5.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i wd/eos/eos_015.in > wd/eos/eos_015.out
+
+

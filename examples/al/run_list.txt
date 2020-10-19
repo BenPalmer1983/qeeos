@@ -1,0 +1,84 @@
+File Name:                      eos_001
+Path:                           wd/eos
+File In:                        wd/eos/eos_001.in
+File Out:                       wd/eos/eos_001.out
+Hash:                           588038bb43a2811a4e2992033b2533d69d61e66334b6ea9304d739f5902fa8be363f879e2a1aedabe9ec226095dd45cbbdb06b8c111c28152cd86122c039dfec
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /opt/pwscf_cache/588038bb43a2811a4e2992033b2533d69d61e66334b6ea9304d739f5902fa8be363f879e2a1aedabe9ec226095dd45cbbdb06b8c111c28152cd86122c039dfec.in
+Cache Out:                      /opt/pwscf_cache/588038bb43a2811a4e2992033b2533d69d61e66334b6ea9304d739f5902fa8be363f879e2a1aedabe9ec226095dd45cbbdb06b8c111c28152cd86122c039dfec.out
+CMD:                            /opt/qe/bin/pw.sh 1 wd/eos/eos_001.in wd/eos/eos_001.out
+
+
+File Name:                      eos_002
+Path:                           wd/eos
+File In:                        wd/eos/eos_002.in
+File Out:                       wd/eos/eos_002.out
+Hash:                           00e7404d0aeb12a36e2ec2c3fbba9c82b1c3d2b29ab446809b59ab07a47d63be4db18dd052f9ac6ab7742a7e8ab54ab9c0f398c93ed21afe05787a882480f8f5
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /opt/pwscf_cache/00e7404d0aeb12a36e2ec2c3fbba9c82b1c3d2b29ab446809b59ab07a47d63be4db18dd052f9ac6ab7742a7e8ab54ab9c0f398c93ed21afe05787a882480f8f5.in
+Cache Out:                      /opt/pwscf_cache/00e7404d0aeb12a36e2ec2c3fbba9c82b1c3d2b29ab446809b59ab07a47d63be4db18dd052f9ac6ab7742a7e8ab54ab9c0f398c93ed21afe05787a882480f8f5.out
+CMD:                            /opt/qe/bin/pw.sh 1 wd/eos/eos_002.in wd/eos/eos_002.out
+
+
+File Name:                      eos_003
+Path:                           wd/eos
+File In:                        wd/eos/eos_003.in
+File Out:                       wd/eos/eos_003.out
+Hash:                           dd24ac4f15ce6f1555f677661aa07411513584a9250771d192f6ec0afca2e8ef65f8b2f47c13f73f25b4661a258e8f5b188dd1a069781ba8bde8634e4dc5e2cc
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /opt/pwscf_cache/dd24ac4f15ce6f1555f677661aa07411513584a9250771d192f6ec0afca2e8ef65f8b2f47c13f73f25b4661a258e8f5b188dd1a069781ba8bde8634e4dc5e2cc.in
+Cache Out:                      /opt/pwscf_cache/dd24ac4f15ce6f1555f677661aa07411513584a9250771d192f6ec0afca2e8ef65f8b2f47c13f73f25b4661a258e8f5b188dd1a069781ba8bde8634e4dc5e2cc.out
+CMD:                            /opt/qe/bin/pw.sh 1 wd/eos/eos_003.in wd/eos/eos_003.out
+
+
+File Name:                      eos_004
+Path:                           wd/eos
+File In:                        wd/eos/eos_004.in
+File Out:                       wd/eos/eos_004.out
+Hash:                           5fa2ea9ff41656f1312edb7b9e019e4346ab0c6918172d69311e54108577b65245b890edcba69b1c6c533a862e591fcdd82f98e37b8fb664799e91a56c6e42f3
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /opt/pwscf_cache/5fa2ea9ff41656f1312edb7b9e019e4346ab0c6918172d69311e54108577b65245b890edcba69b1c6c533a862e591fcdd82f98e37b8fb664799e91a56c6e42f3.in
+Cache Out:                      /opt/pwscf_cache/5fa2ea9ff41656f1312edb7b9e019e4346ab0c6918172d69311e54108577b65245b890edcba69b1c6c533a862e591fcdd82f98e37b8fb664799e91a56c6e42f3.out
+CMD:                            /opt/qe/bin/pw.sh 1 wd/eos/eos_004.in wd/eos/eos_004.out
+
+
+File Name:                      eos_005
+Path:                           wd/eos
+File In:                        wd/eos/eos_005.in
+File Out:                       wd/eos/eos_005.out
+Hash:                           c0e184ac47b9f2d92f1d8e5b97b4c374896b0d462f17f8d732ae5e924c890c2419a2d60d9a8b54332dd2fd3a0d11c2fb0738ed3c8796c58d383544a74313c06c
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /opt/pwscf_cache/c0e184ac47b9f2d92f1d8e5b97b4c374896b0d462f17f8d732ae5e924c890c2419a2d60d9a8b54332dd2fd3a0d11c2fb0738ed3c8796c58d383544a74313c06c.in
+Cache Out:                      /opt/pwscf_cache/c0e184ac47b9f2d92f1d8e5b97b4c374896b0d462f17f8d732ae5e924c890c2419a2d60d9a8b54332dd2fd3a0d11c2fb0738ed3c8796c58d383544a74313c06c.out
+CMD:                            /opt/qe/bin/pw.sh 1 wd/eos/eos_005.in wd/eos/eos_005.out
+
+
+File Name:                      eos_006
+Path:                           wd/eos
+File In:                        wd/eos/eos_006.in
+File Out:                       wd/eos/eos_006.out
+Hash:                           67bbc12af04b7e33198550f5f09abb735e70215596ebbcbd6f793f82977e34424f554da34984d3963c23ae878dc7a7f72f7fafbe0598bc37b768e5e8936f4a33
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /opt/pwscf_cache/67bbc12af04b7e33198550f5f09abb735e70215596ebbcbd6f793f82977e34424f554da34984d3963c23ae878dc7a7f72f7fafbe0598bc37b768e5e8936f4a33.in
+Cache Out:                      /opt/pwscf_cache/67bbc12af04b7e33198550f5f09abb735e70215596ebbcbd6f793f82977e34424f554da34984d3963c23ae878dc7a7f72f7fafbe0598bc37b768e5e8936f4a33.out
+CMD:                            /opt/qe/bin/pw.sh 1 wd/eos/eos_006.in wd/eos/eos_006.out
+
+
+File Name:                      eos_007
+Path:                           wd/eos
+File In:                        wd/eos/eos_007.in
+File Out:                       wd/eos/eos_007.out
+Hash:                           ddcbd3f460912266f19666f48566275bc4f3c19d73841e7bbe5cb954e20e299884508a274bf2f7d771d349fad5886e7bff630e348eca0e2490b815662352f0ec
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /opt/pwscf_cache/ddcbd3f460912266f19666f48566275bc4f3c19d73841e7bbe5cb954e20e299884508a274bf2f7d771d349fad5886e7bff630e348eca0e2490b815662352f0ec.in
+Cache Out:                      /opt/pwscf_cache/ddcbd3f460912266f19666f48566275bc4f3c19d73841e7bbe5cb954e20e299884508a274bf2f7d771d349fad5886e7bff630e348eca0e2490b815662352f0ec.out
+CMD:                            /opt/qe/bin/pw.sh 1 wd/eos/eos_007.in wd/eos/eos_007.out
+
+

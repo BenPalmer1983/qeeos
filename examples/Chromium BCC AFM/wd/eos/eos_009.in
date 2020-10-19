@@ -1,0 +1,69 @@
+! Edited 3:13   16/6/2020
+&CONTROL 
+calculation = "scf", 
+disk_io = 'low', 
+etot_conv_thr = 1.0E-4, 
+forc_conv_thr = 1.0D-3, 
+nstep = 40, 
+outdir = "/scratch/bxp912_16865089.HeERCr", 
+prefix = "NAbnEcmEgYVpqmjL", 
+pseudo_dir = "/rds/homes/b/bxp912/pp", 
+restart_mode = 'from_scratch', 
+tprnfor = .true., 
+tstress = .true., 
+/ 
+&SYSTEM 
+celldm(1) = 10.744167672, 
+degauss = 0.04, 
+ecutrho = 430, 
+ecutwfc = 71, 
+ibrav = 0, 
+nat = 16, 
+nspin = 2, 
+ntyp = 2, 
+occupations = 'smearing', 
+smearing = 'mv', 
+starting_magnetization(1) = 0.3, 
+starting_magnetization(2) = -0.3, 
+/ 
+&ELECTRONS 
+conv_thr = 1.0D-6, 
+diagonalization = 'david', 
+mixing_beta = 1.0000000E-01, 
+mixing_mode = 'plain', 
+mixing_ndim = 10, 
+/ 
+&IONS 
+ion_dynamics = 'bfgs', 
+/ 
+&CELL 
+cell_dynamics = 'bfgs', 
+cell_factor = 2.0, 
+press = 0.0, 
+/ 
+ATOMIC_SPECIES 
+Cr1 55.845 Cr.pbe-spn-kjpaw_psl.1.0.0.UPF 
+Cr2 55.845 Cr.pbe-spn-kjpaw_psl.1.0.0.UPF 
+ATOMIC_POSITIONS crystal
+Cr1   0.0   0.0   0.0   
+Cr2   0.250000049255   0.250000049255   0.249999753727   
+Cr1   0.0   0.0   0.499999507454   
+Cr2   0.250000049255   0.250000049255   0.750000246273   
+Cr1   0.0   0.500000197019   0.0   
+Cr2   0.250000049255   0.750000246273   0.249999753727   
+Cr1   0.0   0.500000197019   0.499999507454   
+Cr2   0.250000049255   0.750000246273   0.750000246273   
+Cr1   0.500000197019   0.0   0.0   
+Cr2   0.750000246273   0.250000049255   0.249999753727   
+Cr1   0.500000197019   0.0   0.499999507454   
+Cr2   0.750000246273   0.250000049255   0.750000246273   
+Cr1   0.500000197019   0.500000197019   0.0   
+Cr2   0.750000246273   0.750000246273   0.249999753727   
+Cr1   0.500000197019   0.500000197019   0.499999507454   
+Cr2   0.750000246273   0.750000246273   0.750000246273   
+K_POINTS automatic
+9 9 9 1 1 1  
+CELL_PARAMETERS alat
+1.00285714286 0.0 0.0 
+0.0 1.00285714286 0.0 
+0.0 0.0 1.00285714286

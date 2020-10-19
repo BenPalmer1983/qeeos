@@ -1,0 +1,128 @@
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Thu Jun 11 07:12:20 2020 for bxp912(5629)
+| Identity jobid 16713031 jobname pwfeeosbccmag
+| Running against project readmsd02 and in partition cascadelake-hdr-shared
+| Requested cpu=20,mem=80G,node=1,billing=20 - 08:00:00 walltime
+| Assigned to nodes bear-pg0206u23a
+| Command /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag/batch.sh
+| WorkDir /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Thu Jun 11 09:45:55 2020 for bxp912(5629) on the BlueBEAR Cluster
+| Required (1-08:57:03 cputime, 6391864K memory used) - 02:33:35 walltime
+| JobState COMPLETING - Reason None
+| Exitcode 0:0
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Thu Jun 11 20:28:45 2020 for bxp912(5629)
+| Identity jobid 16717328 jobname pwfeeosbccmag
+| Running against project readmsd02 and in partition cascadelake-shared
+| Requested cpu=20,mem=80G,node=1,billing=20 - 04:00:00 walltime
+| Assigned to nodes bear-pg0211u10b
+| Command /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag/batch.sh
+| WorkDir /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Fri Jun 12 00:28:58 2020 for bxp912(5629) on the BlueBEAR Cluster
+| Required (3-07:44:56 cputime, 7136308K memory used) - 04:00:23 walltime
+| JobState COMPLETING - Reason TimeLimit
+| Exitcode 0:0
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Fri Jun 12 01:03:46 2020 for bxp912(5629)
+| Identity jobid 16717599 jobname pwfeeosbccmag
+| Running against project readmsd02 and in partition broadwell-shared
+| Requested cpu=20,mem=80G,node=1,billing=20 - 04:00:00 walltime
+| Assigned to nodes bear-pg0210u09a
+| Command /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag/batch.sh
+| WorkDir /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Fri Jun 12 05:03:51 2020 for bxp912(5629) on the BlueBEAR Cluster
+| Required (3-07:42:03 cputime, 6994164K memory used) - 04:00:14 walltime
+| JobState COMPLETING - Reason TimeLimit
+| Exitcode 0:0
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Fri Jun 12 07:57:04 2020 for bxp912(5629)
+| Identity jobid 16720529 jobname pwfeeosbccmag
+| Running against project readmsd02 and in partition haswell-shared
+| Requested cpu=20,mem=80G,node=1,billing=20 - 1-00:00:00 walltime
+| Assigned to nodes bber0501u14a
+| Command /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag/batch.sh
+| WorkDir /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Fri Jun 12 15:30:13 2020 for bxp912(5629) on the BlueBEAR Cluster
+| Required (07:32:03 cputime, 7052136K memory used) - 07:33:10 walltime
+| JobState COMPLETING - Reason NonZeroExitCode
+| Exitcode 1:0
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Fri Jun 12 17:51:04 2020 for bxp912(5629)
+| Identity jobid 16758776 jobname pwfeeosbccmag
+| Running against project readmsd02 and in partition broadwell-medium-shared
+| Requested cpu=20,mem=80G,node=1,billing=20 - 00:10:00 walltime
+| Assigned to nodes bear-pg0212u17a
+| Command /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag/batch.sh
+| WorkDir /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Fri Jun 12 17:51:41 2020 for bxp912(5629) on the BlueBEAR Cluster
+| Required (00:14.091 cputime, 1200K memory used) - 00:00:38 walltime
+| JobState COMPLETING - Reason NonZeroExitCode
+| Exitcode 1:0
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Sat Jun 13 21:40:17 2020 for bxp912(5629)
+| Identity jobid 16784260 jobname pwfeeosbccmag
+| Running against project readmsd02 and in partition cascadelake-hdr-shared
+| Requested cpu=20,mem=80G,node=1,billing=20 - 00:10:00 walltime
+| Assigned to nodes bear-pg0206u36b
+| Command /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag/batch.sh
+| WorkDir /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Sat Jun 13 21:50:28 2020 for bxp912(5629) on the BlueBEAR Cluster
+| Required (30:39.164 cputime, 5704252K memory used) - 00:10:12 walltime
+| JobState COMPLETING - Reason TimeLimit
+| Exitcode 0:0
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Sat Jun 13 22:06:41 2020 for bxp912(5629)
+| Identity jobid 16784339 jobname pwfeeosbccmag
+| Running against project readmsd02 and in partition cascadelake-hdr-shared
+| Requested cpu=20,mem=80G,node=1,billing=20 - 04:00:00 walltime
+| Assigned to nodes bear-pg0206u36b
+| Command /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag/batch.sh
+| WorkDir /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Sun Jun 14 00:02:34 2020 for bxp912(5629) on the BlueBEAR Cluster
+| Required (22:19:14 cputime, 5996012K memory used) - 01:55:53 walltime
+| JobState COMPLETING - Reason NonZeroExitCode
+| Exitcode 1:0
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Sun Jun 14 00:57:02 2020 for bxp912(5629)
+| Identity jobid 16784648 jobname pwfeeosbccmag
+| Running against project readmsd02 and in partition cascadelake-hdr-shared
+| Requested cpu=20,mem=80G,node=1,billing=20 - 01:00:00 walltime
+| Assigned to nodes bear-pg0206u37a
+| Command /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag/batch.sh
+| WorkDir /rds/homes/b/bxp912/jobs/20200507_fe_eos_bcc_mag
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Sun Jun 14 01:48:01 2020 for bxp912(5629) on the BlueBEAR Cluster
+| Required (16:48:30 cputime, 5943552K memory used) - 00:50:59 walltime
+| JobState COMPLETING - Reason NonZeroExitCode
+| Exitcode 1:0
++--------------------------------------------------------------------------+

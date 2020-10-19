@@ -1,0 +1,29 @@
+################################################################
+#                        RESULTS                               #
+################################################################
+Sun, 14 Jun 2020 00:47:58 +0000
+
+INPUT SETTINGS
+################################
+
+Structure:                    bcc
+Size:                         2
+Alat:                         2.8
+Alat Units:                   ang
+Alat/Bohr:                    10.584
+
+Ecutwfc:                      71
+Ecutrho:                      430
+Degauss:                      0.04
+Kpoints:                      9 9 9 1 1 1
+Kpoints Type:                 automatic
+EOS Points:                   15
+EOS Strain:                   0.02
+EC Points:                    9
+EC Strain:                    0.004
+
+
+RELAXED
+################################
+
+a0 (Bohr):                    None

@@ -1,0 +1,13 @@
+4.0K	./untitled folder
+172K	./wd/input
+36K	./wd/data
+28K	./wd/results
+304K	./wd/plots
+1.1M	./wd/ec
+8.0K	./wd/log
+116K	./wd/eos
+24K	./wd/templates
+4.0K	./wd/output
+40K	./wd/relax
+1.8M	./wd
+1.9M	.

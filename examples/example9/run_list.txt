@@ -1,0 +1,12 @@
+File Name:                      relax
+Path:                           wd/relax
+File In:                        wd/relax/relax.in
+File Out:                       wd/relax/relax.out
+Hash:                           eb113c8400fc0d21a21fb922db40f75e81845491ba2f1722773542209082c8d6f19743c34994f5a997bb430ec40438a9a0c243f2373a699cee104e28c1454fcc
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /opt/pwscf_cache/eb113c8400fc0d21a21fb922db40f75e81845491ba2f1722773542209082c8d6f19743c34994f5a997bb430ec40438a9a0c243f2373a699cee104e28c1454fcc.in
+Cache Out:                      /opt/pwscf_cache/eb113c8400fc0d21a21fb922db40f75e81845491ba2f1722773542209082c8d6f19743c34994f5a997bb430ec40438a9a0c243f2373a699cee104e28c1454fcc.out
+CMD:                            mpirun -n 1 /opt/qe/bin/pw.x -i wd/relax/relax.in > wd/relax/relax.out
+
+

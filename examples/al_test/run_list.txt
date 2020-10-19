@@ -1,0 +1,12 @@
+File Name:                      ec_9_004
+Path:                           wd/ec
+File In:                        wd/ec/ec_9_004.in
+File Out:                       wd/ec/ec_9_004.out
+Hash:                           0f7a8261335ae213b042b23deb90b91f4e11ed22a4bfdd3633ab9819177ac6931a2f24a3f08792e9449d76a93611310440b6baae4bae5774c4adab3072d1bcf0
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /opt/pwscf_cache/0f7a8261335ae213b042b23deb90b91f4e11ed22a4bfdd3633ab9819177ac6931a2f24a3f08792e9449d76a93611310440b6baae4bae5774c4adab3072d1bcf0.in
+Cache Out:                      /opt/pwscf_cache/0f7a8261335ae213b042b23deb90b91f4e11ed22a4bfdd3633ab9819177ac6931a2f24a3f08792e9449d76a93611310440b6baae4bae5774c4adab3072d1bcf0.out
+CMD:                            /opt/qe/bin/pw.sh 1 wd/ec/ec_9_004.in wd/ec/ec_9_004.out
+
+

@@ -1,0 +1,1368 @@
+=============================================================================
+              START                                 
+1593741566
+=============================================================================
+1
+1
+/scratch
+/opt/pp
+/opt/pwscf_cache
+/opt/qe/bin/pw.x
+/opt/qe/bin/pw.sh
+
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  586M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              12
+On-line CPU(s) list: 0-11
+Thread(s) per core:  2
+Core(s) per socket:  6
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               113
+Model name:          AMD Ryzen 5 3600 6-Core Processor
+Stepping:            0
+CPU MHz:             3872.815
+BogoMIPS:            7199.99
+Virtualisation:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-11
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:            15G         13G        852M        577M        1.7G        1.6G
+Swap:           29G         14G         15G
+=============================================================================
+1
+wd/eos/eos_002.in
+wd/eos/eos_002.out
+=============================================================================
+              RUNNING                                 
+=============================================================================
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  586M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+=============================================================================
+              END                                 
+1593741566
+=============================================================================
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
+              START                                 
+1593741571
+=============================================================================
+1
+1
+/scratch
+/opt/pp
+/opt/pwscf_cache
+/opt/qe/bin/pw.x
+/opt/qe/bin/pw.sh
+
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  586M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              12
+On-line CPU(s) list: 0-11
+Thread(s) per core:  2
+Core(s) per socket:  6
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               113
+Model name:          AMD Ryzen 5 3600 6-Core Processor
+Stepping:            0
+CPU MHz:             3723.671
+BogoMIPS:            7199.99
+Virtualisation:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-11
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:            15G         13G        846M        577M        1.7G        1.6G
+Swap:           29G         14G         15G
+=============================================================================
+1
+wd/eos/eos_003.in
+wd/eos/eos_003.out
+=============================================================================
+              RUNNING                                 
+=============================================================================
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  580M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+=============================================================================
+              END                                 
+1593741571
+=============================================================================
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
+              START                                 
+1593741574
+=============================================================================
+1
+1
+/scratch
+/opt/pp
+/opt/pwscf_cache
+/opt/qe/bin/pw.x
+/opt/qe/bin/pw.sh
+
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              12
+On-line CPU(s) list: 0-11
+Thread(s) per core:  2
+Core(s) per socket:  6
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               113
+Model name:          AMD Ryzen 5 3600 6-Core Processor
+Stepping:            0
+CPU MHz:             3621.243
+BogoMIPS:            7199.99
+Virtualisation:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-11
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:            15G         13G        858M        567M        1.7G        1.7G
+Swap:           29G         14G         15G
+=============================================================================
+1
+wd/eos/eos_005.in
+wd/eos/eos_005.out
+=============================================================================
+              RUNNING                                 
+=============================================================================
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+=============================================================================
+              END                                 
+1593741574
+=============================================================================
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
+              START                                 
+1593741578
+=============================================================================
+1
+1
+/scratch
+/opt/pp
+/opt/pwscf_cache
+/opt/qe/bin/pw.x
+/opt/qe/bin/pw.sh
+
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              12
+On-line CPU(s) list: 0-11
+Thread(s) per core:  2
+Core(s) per socket:  6
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               113
+Model name:          AMD Ryzen 5 3600 6-Core Processor
+Stepping:            0
+CPU MHz:             3605.672
+BogoMIPS:            7199.99
+Virtualisation:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-11
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:            15G         13G        852M        567M        1.7G        1.6G
+Swap:           29G         14G         15G
+=============================================================================
+1
+wd/eos/eos_006.in
+wd/eos/eos_006.out
+=============================================================================
+              RUNNING                                 
+=============================================================================
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+=============================================================================
+              END                                 
+1593741578
+=============================================================================
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
+              START                                 
+1593741582
+=============================================================================
+1
+1
+/scratch
+/opt/pp
+/opt/pwscf_cache
+/opt/qe/bin/pw.x
+/opt/qe/bin/pw.sh
+
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              12
+On-line CPU(s) list: 0-11
+Thread(s) per core:  2
+Core(s) per socket:  6
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               113
+Model name:          AMD Ryzen 5 3600 6-Core Processor
+Stepping:            0
+CPU MHz:             3486.622
+BogoMIPS:            7199.99
+Virtualisation:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-11
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:            15G         13G        855M        567M        1.7G        1.7G
+Swap:           29G         14G         15G
+=============================================================================
+1
+wd/eos/eos_008.in
+wd/eos/eos_008.out
+=============================================================================
+              RUNNING                                 
+=============================================================================
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+=============================================================================
+              END                                 
+1593741582
+=============================================================================
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
+              START                                 
+1593741585
+=============================================================================
+1
+1
+/scratch
+/opt/pp
+/opt/pwscf_cache
+/opt/qe/bin/pw.x
+/opt/qe/bin/pw.sh
+
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              12
+On-line CPU(s) list: 0-11
+Thread(s) per core:  2
+Core(s) per socket:  6
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               113
+Model name:          AMD Ryzen 5 3600 6-Core Processor
+Stepping:            0
+CPU MHz:             3233.784
+BogoMIPS:            7199.99
+Virtualisation:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-11
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:            15G         13G        847M        567M        1.7G        1.6G
+Swap:           29G         14G         15G
+=============================================================================
+1
+wd/eos/eos_009.in
+wd/eos/eos_009.out
+=============================================================================
+              RUNNING                                 
+=============================================================================
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+=============================================================================
+              END                                 
+1593741585
+=============================================================================
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
+              START                                 
+1593741588
+=============================================================================
+1
+1
+/scratch
+/opt/pp
+/opt/pwscf_cache
+/opt/qe/bin/pw.x
+/opt/qe/bin/pw.sh
+
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              12
+On-line CPU(s) list: 0-11
+Thread(s) per core:  2
+Core(s) per socket:  6
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               113
+Model name:          AMD Ryzen 5 3600 6-Core Processor
+Stepping:            0
+CPU MHz:             3577.701
+BogoMIPS:            7199.99
+Virtualisation:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-11
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:            15G         13G        845M        567M        1.7G        1.6G
+Swap:           29G         14G         15G
+=============================================================================
+1
+wd/eos/eos_011.in
+wd/eos/eos_011.out
+=============================================================================
+              RUNNING                                 
+=============================================================================
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+=============================================================================
+              END                                 
+1593741588
+=============================================================================
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
+              START                                 
+1593741592
+=============================================================================
+1
+1
+/scratch
+/opt/pp
+/opt/pwscf_cache
+/opt/qe/bin/pw.x
+/opt/qe/bin/pw.sh
+
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              12
+On-line CPU(s) list: 0-11
+Thread(s) per core:  2
+Core(s) per socket:  6
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               113
+Model name:          AMD Ryzen 5 3600 6-Core Processor
+Stepping:            0
+CPU MHz:             3795.655
+BogoMIPS:            7199.99
+Virtualisation:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-11
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:            15G         13G        845M        567M        1.7G        1.6G
+Swap:           29G         14G         15G
+=============================================================================
+1
+wd/eos/eos_012.in
+wd/eos/eos_012.out
+=============================================================================
+              RUNNING                                 
+=============================================================================
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+=============================================================================
+              END                                 
+1593741592
+=============================================================================
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
+              START                                 
+1593741595
+=============================================================================
+1
+1
+/scratch
+/opt/pp
+/opt/pwscf_cache
+/opt/qe/bin/pw.x
+/opt/qe/bin/pw.sh
+
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              12
+On-line CPU(s) list: 0-11
+Thread(s) per core:  2
+Core(s) per socket:  6
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               113
+Model name:          AMD Ryzen 5 3600 6-Core Processor
+Stepping:            0
+CPU MHz:             3790.084
+BogoMIPS:            7199.99
+Virtualisation:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-11
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:            15G         13G        840M        567M        1.7G        1.6G
+Swap:           29G         14G         15G
+=============================================================================
+1
+wd/eos/eos_014.in
+wd/eos/eos_014.out
+=============================================================================
+              RUNNING                                 
+=============================================================================
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+=============================================================================
+              END                                 
+1593741595
+=============================================================================
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
+              START                                 
+1593741598
+=============================================================================
+1
+1
+/scratch
+/opt/pp
+/opt/pwscf_cache
+/opt/qe/bin/pw.x
+/opt/qe/bin/pw.sh
+
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              12
+On-line CPU(s) list: 0-11
+Thread(s) per core:  2
+Core(s) per socket:  6
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               113
+Model name:          AMD Ryzen 5 3600 6-Core Processor
+Stepping:            0
+CPU MHz:             3791.252
+BogoMIPS:            7199.99
+Virtualisation:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-11
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:            15G         13G        839M        567M        1.7G        1.6G
+Swap:           29G         14G         15G
+=============================================================================
+1
+wd/eos/eos_015.in
+wd/eos/eos_015.out
+=============================================================================
+              RUNNING                                 
+=============================================================================
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+=============================================================================
+              END                                 
+1593741598
+=============================================================================
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
+              START                                 
+1593741603
+=============================================================================
+1
+1
+/scratch
+/opt/pp
+/opt/pwscf_cache
+/opt/qe/bin/pw.x
+/opt/qe/bin/pw.sh
+
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              12
+On-line CPU(s) list: 0-11
+Thread(s) per core:  2
+Core(s) per socket:  6
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               113
+Model name:          AMD Ryzen 5 3600 6-Core Processor
+Stepping:            0
+CPU MHz:             3496.010
+BogoMIPS:            7199.99
+Virtualisation:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-11
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:            15G         13G        834M        567M        1.7G        1.6G
+Swap:           29G         14G         15G
+=============================================================================
+1
+wd/eos/eos_017.in
+wd/eos/eos_017.out
+=============================================================================
+              RUNNING                                 
+=============================================================================
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+=============================================================================
+              END                                 
+1593741603
+=============================================================================
+
+
+
+
+
+
+
+
+
+
+
+=============================================================================
+              START                                 
+1593741607
+=============================================================================
+1
+1
+/scratch
+/opt/pp
+/opt/pwscf_cache
+/opt/qe/bin/pw.x
+/opt/qe/bin/pw.sh
+
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              12
+On-line CPU(s) list: 0-11
+Thread(s) per core:  2
+Core(s) per socket:  6
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           AuthenticAMD
+CPU family:          23
+Model:               113
+Model name:          AMD Ryzen 5 3600 6-Core Processor
+Stepping:            0
+CPU MHz:             3622.605
+BogoMIPS:            7199.99
+Virtualisation:      AMD-V
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            512K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-11
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate sme ssbd ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif umip rdpid overflow_recov succor smca
+              total        used        free      shared  buff/cache   available
+Mem:            15G         13G        841M        567M        1.7G        1.6G
+Swap:           29G         14G         15G
+=============================================================================
+1
+wd/eos/eos_018.in
+wd/eos/eos_018.out
+=============================================================================
+              RUNNING                                 
+=============================================================================
+Filesystem                       Size  Used Avail Use% Mounted on
+udev                             7.8G     0  7.8G   0% /dev
+tmpfs                            1.6G  3.3M  1.6G   1% /run
+/dev/sdd4                        185G  101G   75G  58% /
+tmpfs                            7.9G  576M  7.3G   8% /dev/shm
+tmpfs                            5.0M  4.0K  5.0M   1% /run/lock
+tmpfs                            7.9G     0  7.9G   0% /sys/fs/cgroup
+/dev/sdb1                        220G   92G  117G  45% /DATA/disk1
+/dev/sdd3                        524M  6.1M  518M   2% /boot/efi
+/dev/sda                         916G  853G   17G  99% /DATA/disk3
+/dev/sdc                         230G  205G   13G  95% /DATA/disk2
+//10.10.10.20/ve                 7.3T  6.8T  527G  93% /ve_old
+10.10.10.20:/DATA/backup         1.8T  1.3T  454G  74% /NET/backup
+10.10.10.38:/var/www              20G   16G  3.4G  82% /www
+10.10.10.13:/DATA/nas02          7.3T  6.1T  1.3T  83% /NET/nas02
+10.10.10.11:/DATA/nas01           11T  7.5T  3.5T  68% /NET/nas01
+10.10.10.20:/DATA/store2         7.3T  6.3T  670G  91% /NET/store2
+10.10.10.20:/DATA/cloud          1.8T  1.2T  584G  67% /cloud
+10.10.10.20:/DATA/backup/ve      1.8T  1.3T  454G  74% /ve
+10.10.10.20:/DATA/cloud/Scripts  1.8T  1.2T  584G  67% /NET/scripts
+10.10.10.20:/DATA/store1         7.3T  6.4T  527G  93% /NET/store1
+10.10.10.20:/DATA/store1/blogs   7.3T  6.4T  527G  93% /NET/blogs
+tmpfs                            1.6G  260K  1.6G   1% /run/user/1000
+10.10.10.20:/DATA/store1/ve      7.3T  6.8T  527G  93% /ve_old
+10.10.10.11:/DATA/cloud           11T  7.5T  3.5T  68% /NET/cloud_backup
+/dev/sdd2                        4.6G   56M  4.3G   2% /media/ben/87fb4e2f-0a23-4ff8-a3e1-4bab6dc1ecb5
+/dev/sde1                         60G   24G   37G  39% /media/ben/NIKON D3300
+=============================================================================
+              END                                 
+1593741607
+=============================================================================
+
+
+
+
+
+
+
+
+
+
+

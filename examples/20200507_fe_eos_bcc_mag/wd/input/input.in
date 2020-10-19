@@ -1,0 +1,9 @@
+# The template pwscf file
+pwscf_template file=febcc.in
+settings ecutwfc=71 ecutrho=430 kpoints='9 9 9 1 1 1' kpointstype='automatic' degauss=0.04 
+
+config structure=bcc size=2 alat=2.8 alat_units=ang
+
+ec run=false points=9 strain=0.004
+eos run=true points=15 strain=0.02
+

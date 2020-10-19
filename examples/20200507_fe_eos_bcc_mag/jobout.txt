@@ -1,0 +1,438 @@
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b3e0da21040 valid_mask = 0x3)
+[bear-pg0206u23a][[61652,1],0][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x339fee0 valid_mask = 0x3)
+[bear-pg0206u23a][[61652,1],1][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u23a.bear.cluster:03189] 17 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:03189] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:03189] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u23a.bear.cluster:37055] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:37055] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:37055] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u23a.bear.cluster:46631] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:46631] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:46631] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u23a.bear.cluster:48160] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:48160] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:48160] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u23a.bear.cluster:57768] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:57768] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:57768] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u23a.bear.cluster:59102] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:59102] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:59102] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u23a.bear.cluster:68714] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:68714] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:68714] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u23a.bear.cluster:69831] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:69831] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:69831] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u23a.bear.cluster:76267] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:76267] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:76267] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/tWAzexALLqXXYMtH.save/wfcdw6.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B568CD0F505  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+[bear-pg0206u23a.bear.cluster:80447] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:80447] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:80447] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+
+mkdir fail: [28] No space left on device
+[bear-pg0206u23a.bear.cluster:80447] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[bear-pg0206u23a.bear.cluster:81363] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:81363] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:81363] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+
+mkdir fail: [28] No space left on device
+[bear-pg0206u23a.bear.cluster:90658] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:90658] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:90658] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+
+mkdir fail: [28] No space left on device
+[bear-pg0206u23a.bear.cluster:91631] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:91631] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:91631] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+
+mkdir fail: [28] No space left on device
+[bear-pg0206u23a.bear.cluster:91631] 1 more process has sent help message help-mpi-api.txt / mpi-abort
+[bear-pg0206u23a.bear.cluster:100927] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:100927] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:100927] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+
+mkdir fail: [28] No space left on device
+[bear-pg0206u23a.bear.cluster:101963] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:101963] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:101963] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+
+mkdir fail: [28] No space left on device
+[bear-pg0206u23a.bear.cluster:111328] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u23a.bear.cluster:111328] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u23a.bear.cluster:111328] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+
+mkdir fail: [28] No space left on device
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+slurmstepd: error: *** JOB 16717328 ON bear-pg0211u10b CANCELLED AT 2020-06-12T00:28:58 DUE TO TIME LIMIT ***
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+slurmstepd: error: *** JOB 16717599 ON bear-pg0210u09a CANCELLED AT 2020-06-12T05:03:50 DUE TO TIME LIMIT ***
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5428, in <module>
+    main()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5408, in main
+    qeeos.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 600, in run
+    qeeos.run_all()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 609, in run_all
+    qeeos.eos()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 644, in eos
+    calc_eos.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4409, in run
+    cp = (1.0 + s_arr[n]) * r_cp
+TypeError: unsupported operand type(s) for *: 'float' and 'NoneType'
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5428, in <module>
+    main()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5408, in main
+    qeeos.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 600, in run
+    qeeos.run_all()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 609, in run_all
+    qeeos.eos()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 644, in eos
+    calc_eos.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4409, in run
+    cp = (1.0 + s_arr[n]) * r_cp
+TypeError: unsupported operand type(s) for *: 'float' and 'NoneType'
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+[bear-pg0206u36b.bear.cluster:70224] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:70224] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:70224] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u36b.bear.cluster:82288] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:82288] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:82288] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+slurmstepd: error: *** JOB 16784260 ON bear-pg0206u36b CANCELLED AT 2020-06-13T21:50:28 DUE TO TIME LIMIT ***
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+[bear-pg0206u36b.bear.cluster:94628] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:94628] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:94628] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u36b.bear.cluster:104413] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:104413] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:104413] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u36b.bear.cluster:105840] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:105840] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:105840] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u36b.bear.cluster:115560] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:115560] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:115560] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u36b.bear.cluster:117097] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:117097] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:117097] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u36b.bear.cluster:126804] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:126804] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:126804] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u36b.bear.cluster:134706] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:134706] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:134706] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x38b9f30 valid_mask = 0x3)
+[bear-pg0206u36b][[64103,1],8][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u36b.bear.cluster:138079] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:138079] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:138079] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x22097e0 valid_mask = 0x3)
+[bear-pg0206u36b][[41747,1],6][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u36b.bear.cluster:148011] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:148011] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:148011] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/FabTQsftDAkVbKTy.save/wfcup35.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B50A8FC9505  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x27a2f30 valid_mask = 0x3)
+[bear-pg0206u36b][[42548,1],6][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u36b.bear.cluster:149260] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:149260] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:149260] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+
+mkdir fail: [28] No space left on device
+[bear-pg0206u36b.bear.cluster:149260] 2 more processes have sent help message help-mpi-api.txt / mpi-abort
+[bear-pg0206u36b.bear.cluster:158695] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:158695] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:158695] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+
+mkdir fail: [28] No space left on device
+[bear-pg0206u36b.bear.cluster:159780] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:159780] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:159780] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+
+mkdir fail: [28] No space left on device
+[bear-pg0206u36b.bear.cluster:169187] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:169187] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:169187] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+
+mkdir fail: [28] No space left on device
+[bear-pg0206u36b.bear.cluster:170182] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u36b.bear.cluster:170182] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u36b.bear.cluster:170182] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+
+mkdir fail: [28] No space left on device
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5361, in <module>
+    main()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5341, in main
+    qeeos.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 601, in run
+    qeeos.run_all()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 613, in run_all
+    qeeos.save_results()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 662, in save_results
+    save_results.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4864, in run
+    save_results.relaxed(file)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4908, in relaxed
+    + str(g.relaxed['cp'][0,2]) + "\n")
+TypeError: 'NoneType' object is not subscriptable
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+[bear-pg0206u37a.bear.cluster:261107] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u37a.bear.cluster:261107] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u37a.bear.cluster:261107] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u37a.bear.cluster:262789] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u37a.bear.cluster:262789] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u37a.bear.cluster:262789] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u37a.bear.cluster:264674] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u37a.bear.cluster:264674] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u37a.bear.cluster:264674] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u37a.bear.cluster:266000] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u37a.bear.cluster:266000] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u37a.bear.cluster:266000] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u37a.bear.cluster:267646] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u37a.bear.cluster:267646] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u37a.bear.cluster:267646] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u37a.bear.cluster:268791] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u37a.bear.cluster:268791] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u37a.bear.cluster:268791] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5361, in <module>
+    main()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5341, in main
+    qeeos.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 601, in run
+    qeeos.run_all()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 613, in run_all
+    qeeos.save_results()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 662, in save_results
+    save_results.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4864, in run
+    save_results.relaxed(file)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4908, in relaxed
+    + str(g.relaxed['cp'][0,2]) + "\n")
+TypeError: 'NoneType' object is not subscriptable

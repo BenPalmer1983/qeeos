@@ -1,0 +1,67 @@
+! Edited 3:25   16/6/2020
+&CONTROL 
+calculation = "scf", 
+disk_io = 'low', 
+etot_conv_thr = 1.0E-4, 
+forc_conv_thr = 1.0D-3, 
+nstep = 40, 
+outdir = "/opt/scratch", 
+prefix = "xUsMEOFkzoqkQrmv", 
+pseudo_dir = "/opt/pp", 
+restart_mode = 'from_scratch', 
+tprnfor = .true., 
+tstress = .true., 
+/ 
+&SYSTEM 
+celldm(1) = 10.391466456, 
+degauss = 0.04, 
+ecutrho = 430, 
+ecutwfc = 71, 
+ibrav = 0, 
+nat = 16, 
+nspin = 1, 
+ntyp = 1, 
+occupations = 'smearing', 
+smearing = 'mv', 
+starting_magnetization(1) = 0, 
+/ 
+&ELECTRONS 
+conv_thr = 5.0D-5, 
+diagonalization = 'david', 
+mixing_beta = 1.0000000E-01, 
+mixing_mode = 'plain', 
+mixing_ndim = 10, 
+/ 
+&IONS 
+ion_dynamics = 'bfgs', 
+/ 
+&CELL 
+cell_dynamics = 'bfgs', 
+cell_factor = 2.0, 
+press = 0.0, 
+/ 
+ATOMIC_SPECIES 
+Fe 55.845 Fe.pbe-spn-kjpaw_psl.1.0.0.UPF 
+ATOMIC_POSITIONS crystal
+Fe   0.0   0.0   0.0   
+Fe   0.25000891212   0.25000891212   0.25000891212   
+Fe   0.0   0.0   0.499999490736   
+Fe   0.25000891212   0.25000891212   0.74999108788   
+Fe   0.0   0.500000101853   0.0   
+Fe   0.25000891212   0.749991189732   0.25000891212   
+Fe   0.0   0.500000101853   0.499999490736   
+Fe   0.25000891212   0.749991189732   0.74999108788   
+Fe   0.500000101853   0.0   0.0   
+Fe   0.749991189732   0.25000891212   0.25000891212   
+Fe   0.500000101853   0.0   0.499999490736   
+Fe   0.749991189732   0.25000891212   0.74999108788   
+Fe   0.500000101853   0.500000101853   0.0   
+Fe   0.749991189732   0.749991189732   0.25000891212   
+Fe   0.500000101853   0.500000101853   0.499999490736   
+Fe   0.749991189732   0.749991189732   0.74999108788   
+K_POINTS automatic
+9 9 9 1 1 1  
+CELL_PARAMETERS alat
+1.01142857143 0.0 0.0 
+0.0 1.01142857143 0.0 
+0.0 0.0 1.01142857143

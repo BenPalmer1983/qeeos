@@ -1,0 +1,52 @@
+################################################################
+#                        RESULTS                               #
+################################################################
+Fri, 12 Jun 2020 23:42:59 +0000
+
+INPUT SETTINGS
+################################
+
+Structure:                    bcc
+Size:                         1
+Alat:                         3.2
+Alat Units:                   ang
+Alat/Bohr:                    6.048
+
+Ecutwfc:                      25
+Ecutrho:                      100
+Degauss:                      0.04
+Kpoints:                      3 3 3 1 1 1
+Kpoints Type:                 automatic
+EOS Points:                   7
+EOS Strain:                   0.003
+EC Points:                    6
+EC Strain:                    0.004
+
+
+RELAXED
+################################
+
+a0 (Bohr):                    5.948183808
+CP:                           1.0      0.0      0.0
+                              0.0      1.0      0.0
+                              0.0      0.0      1.0
+Volume (Bohr^3/unit cell):    210.452040661
+Density KG/m^3:               2876.29212475
+AMU per crystal unit:         53.964
+Atoms per crystal unit:       2
+Total Energy/Ry:              -78.97732766
+Energy per Atom/Ry:           -39.48866383
+Total Force Ry/Bohr:          0.0
+Force per atom Ry/Bohr:       0.0
+
+
+EOS
+################################
+
+V0 (Bohr^3 / atom):           105.3434537
+E0 (Ry / atom):               -39.4886655185
+B0 (RY/BOHR3):                0.0100629130244
+B0 (GPA):                     148.030482045
+B0P:                          -11.4130375548
+
+

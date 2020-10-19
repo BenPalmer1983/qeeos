@@ -1,0 +1,52 @@
+################################################################
+#                        RESULTS                               #
+################################################################
+Mon, 20 Jul 2020 16:17:25 +0000
+
+INPUT SETTINGS
+################################
+
+Structure:                    fcc
+Size:                         1
+Alat:                         4.04
+Alat Units:                   ang
+Alat/Bohr:                    7.6356
+
+Ecutwfc:                      25
+Ecutrho:                      100
+Degauss:                      0.041
+Kpoints:                      3 3 3 1 1 1
+Kpoints Type:                 automatic
+EOS Points:                   7
+EOS Strain:                   0.003
+EC Points:                    7
+EC Strain:                    0.004
+
+
+RELAXED
+################################
+
+a0 (Bohr):                    7.6302779868
+CP:                           1.0      0.0      0.0
+                              0.0      1.0      0.0
+                              0.0      0.0      1.0
+Volume (Bohr^3/unit cell):    444.243499358
+Density KG/m^3:               2725.17908789
+AMU per crystal unit:         107.928
+Atoms per crystal unit:       4
+Total Energy/Ry:              -158.04784749
+Energy per Atom/Ry:           -39.5119618725
+Total Force Ry/Bohr:          0.0
+Force per atom Ry/Bohr:       0.0
+
+
+EOS
+################################
+
+V0 (Bohr^3 / atom):           111.584952756
+E0 (Ry / atom):               -39.5119672427
+B0 (RY/BOHR3):                0.00394050091811
+B0 (GPA):                     57.9667387558
+B0P:                          4.5865424943
+
+
