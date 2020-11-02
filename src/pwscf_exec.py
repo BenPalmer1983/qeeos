@@ -120,7 +120,7 @@ class pwscf_exec:
       #  cmd = 'mpirun -n ' + s['proc_count'] + ' ' + s['pwscf_bin'] + ' -i ' + file_path + ' > ' + path + '/' + file_name + '.out'
       #else:
       #  cmd = s['pwscf_script'] + ' ' + s['proc_count'] + ' ' + file_path + ' ' + path + '/' + file_name + '.out'
-      cmd = s['pwscf_script'] + ' ' + s['proc_count'] + ' ' + file_path + ' ' + path + '/' + file_name + '.out'
+      cmd = s['pwscf_script'] + ' ' + str(s['proc_count']) + ' ' + file_path + ' ' + path + '/' + file_name + '.out'
       
       run_list.append({
         'file_name': file_name, 

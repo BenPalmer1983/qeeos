@@ -94,18 +94,21 @@ class calc_eos:
       g.eos['data'][n, 0] = float(s_arr[n])
 
       
-    try:
+    #try:
+    if(True):
+      print("EOS")
       fh = open(g.dirs['results'] + '/eos.csv', 'w')
       for n in range(len(f_out_list)):
         if(os.path.exists(f_out_list[n])):
           fpo = pwscf_output(f_out_list[n])
-          if(fpo.get_job_done()):
+          if((g.inp['job_done']['setting'] == 'done' and fpo.get_job_done()) or (g.inp['job_done']['setting'] == 'almost' and fpo.get_job_almost_done())):
             g.eos['data'][n, 1] = fpo.get_volume_per_atom()
             g.eos['data'][n, 2] = fpo.get_energy_per_atom()
             fh.write(str(g.eos['data'][n, 0]) + ',' +  str(g.eos['data'][n, 1]) + ',' +  str(g.eos['data'][n, 2]) + '\n')
+            print(str(g.eos['data'][n, 0]) + ',' +  str(g.eos['data'][n, 1]) + ',' +  str(g.eos['data'][n, 2]))
       fh.close()
-    except:
-      pass
+    #except:
+    #  pass
 
       
     # SAVE DATA

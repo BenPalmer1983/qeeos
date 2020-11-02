@@ -109,11 +109,12 @@ class calc_ec:
         g.ec[key][n, 0] = float(s_arr[n])
    
     try:
+      print("EC")
       fh = open(g.dirs['results'] + '/ec.csv', 'w')
       s = 0
       for file in f_out_list:
         fpo = pwscf_output(file)
-        if(fpo.get_job_done() and fpo.get_job_converged()):        
+        if((g.inp['job_done']['setting'] == 'done' and fpo.get_job_done() and fpo.get_job_converged()) or (g.inp['job_done']['setting'] == 'almost' and fpo.get_job_almost_done())):
           dn = s // s_points
           g.log_fh.write("#############\n")
           g.log_fh.write(str(dn) + "\n")
@@ -125,6 +126,7 @@ class calc_ec:
           g.ec[key][n, 3] = fpo.get_total_energy()
           fh.write(str(s) + ',' + str(dn) + ',' + str(n) + ',' + str(g.ec[key][n, 0]) + ',' + str(g.ec[key][n, 1]) + ',' +  str(g.ec[key][n, 2]) + ',' +  str(g.ec[key][n, 3]) + '\n')
           g.log_fh.write(str(s) + ',' + str(dn) + ',' + str(n) + ',' + str(g.ec[key][n, 0]) + ',' + str(g.ec[key][n, 1]) + ',' +  str(g.ec[key][n, 2]) + ',' +  str(g.ec[key][n, 3]) + '\n')
+          print(s, g.ec[key][n, 0], g.ec[key][n, 1], g.ec[key][n, 2], g.ec[key][n, 3])
           s = s + 1  
       fh.close()
       g.log_fh.write("\n") 

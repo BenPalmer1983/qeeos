@@ -6,7 +6,7 @@
 #
 #SBATCH --ntasks 40
 #SBATCH --nodes 1
-#SBATCH --time 6000:00
+#SBATCH --time 2000:00
 #SBATCH --mem 120GB
 #
 #SBATCH --get-user-env

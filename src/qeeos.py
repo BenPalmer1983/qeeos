@@ -146,6 +146,10 @@ class qeeos:
                          'use_existing': True,
                          'always_use_existing': False,
                         }
+      
+    g.inp['job_done'] = {                  
+                        'setting': 'done',
+                        }
                         
     for i in g.inp.keys():
       for j in g.inp[i].keys():

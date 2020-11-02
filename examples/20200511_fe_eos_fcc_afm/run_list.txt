@@ -1,0 +1,12 @@
+File Name:                      relax
+Path:                           wd/relax
+File In:                        wd/relax/relax.in
+File Out:                       wd/relax/relax.out
+Hash:                           394fac94ba6207f749be1328dde0a88fb0189514ac7bba71d59da204c463e5fac363ab5370a40563823c9510d1dcbb8009a7413ebb3d432c908523ddc9788165
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /opt/pwscf_cache/394fac94ba6207f749be1328dde0a88fb0189514ac7bba71d59da204c463e5fac363ab5370a40563823c9510d1dcbb8009a7413ebb3d432c908523ddc9788165.in
+Cache Out:                      /opt/pwscf_cache/394fac94ba6207f749be1328dde0a88fb0189514ac7bba71d59da204c463e5fac363ab5370a40563823c9510d1dcbb8009a7413ebb3d432c908523ddc9788165.out
+CMD:                            /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.sh 1 wd/relax/relax.in wd/relax/relax.out
+
+

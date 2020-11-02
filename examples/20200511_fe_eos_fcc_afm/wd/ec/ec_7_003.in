@@ -1,0 +1,89 @@
+! Edited 2:14   31/10/2020
+&CONTROL 
+calculation = "scf", 
+disk_io = 'low', 
+etot_conv_thr = 1.0E-4, 
+forc_conv_thr = 1.0D-3, 
+nstep = 40, 
+outdir = "/opt/scratch", 
+prefix = "qCwgwEMJqNXBFDkT", 
+pseudo_dir = "/opt/pp", 
+restart_mode = 'from_scratch', 
+tprnfor = .true., 
+tstress = .true., 
+/ 
+&SYSTEM 
+celldm(1) = 12.9381866998, 
+degauss = 0.04, 
+ecutrho = 430, 
+ecutwfc = 71, 
+ibrav = 0, 
+nat = 32, 
+nspin = 2, 
+ntyp = 4, 
+occupations = 'smearing', 
+smearing = 'mv', 
+starting_magnetization(1) = 0.1, 
+starting_magnetization(2) = -0.1, 
+starting_magnetization(3) = 0.1, 
+starting_magnetization(4) = -0.1, 
+/ 
+&ELECTRONS 
+conv_thr = 1.0D-6, 
+diagonalization = 'david', 
+mixing_beta = 1.0000000E-01, 
+mixing_mode = 'plain', 
+mixing_ndim = 10, 
+/ 
+&IONS 
+ion_dynamics = 'bfgs', 
+/ 
+&CELL 
+cell_dynamics = 'bfgs', 
+cell_factor = 2.0, 
+press = 0.0, 
+/ 
+ATOMIC_SPECIES 
+Fe1 55.845 Fe.pbe-spn-kjpaw_psl.1.0.0.UPF 
+Fe2 55.845 Fe.pbe-spn-kjpaw_psl.1.0.0.UPF 
+Fe3 55.845 Fe.pbe-spn-kjpaw_psl.1.0.0.UPF 
+Fe4 55.845 Fe.pbe-spn-kjpaw_psl.1.0.0.UPF 
+ATOMIC_POSITIONS crystal
+Fe1   0.0   0.0   0.0   
+Fe2   0.249996845385   0.250002516784   0.0   
+Fe3   0.249998147289   0.0   0.249997997044   
+Fe4   0.0   0.250001187162   0.250004005913   
+Fe1   0.0   0.0   0.5   
+Fe2   0.249999649487   0.250005176028   0.5   
+Fe3   0.249998147289   0.0   0.750001001478   
+Fe4   0.0   0.250001187162   0.749994992609   
+Fe1   0.0   0.500000094973   0.0   
+Fe2   0.249996845385   0.749997768135   0.0   
+Fe3   0.250000350513   0.500000094973   0.250002002956   
+Fe4   0.0   0.749999097757   0.250004005913   
+Fe1   0.0   0.500000094973   0.5   
+Fe2   0.249999649487   0.749995108891   0.5   
+Fe3   0.250000350513   0.500000094973   0.749997997044   
+Fe4   0.0   0.749999097757   0.749994992609   
+Fe1   0.499999799707   0.0   0.0   
+Fe2   0.750002653883   0.250002516784   0.0   
+Fe3   0.750001452124   0.0   0.249997997044   
+Fe4   0.499999799707   0.250000237432   0.250002002956   
+Fe1   0.499999799707   0.0   0.5   
+Fe2   0.74999984978   0.250005176028   0.5   
+Fe3   0.750001452124   0.0   0.750001001478   
+Fe4   0.499999799707   0.250000237432   0.749996995565   
+Fe1   0.499999799707   0.500000094973   0.0   
+Fe2   0.750002653883   0.749997768135   0.0   
+Fe3   0.749999248901   0.500000094973   0.250002002956   
+Fe4   0.499999799707   0.750000047486   0.250002002956   
+Fe1   0.499999799707   0.500000094973   0.5   
+Fe2   0.74999984978   0.749995108891   0.5   
+Fe3   0.749999248901   0.500000094973   0.749997997044   
+Fe4   0.499999799707   0.750000047486   0.749996995565   
+K_POINTS automatic
+9 9 9 1 1 1  
+CELL_PARAMETERS alat
+1.00333704941 0.0 0.0 
+0.0 1.05096267517 0.0 
+0.0 0.0 0.999990684636
