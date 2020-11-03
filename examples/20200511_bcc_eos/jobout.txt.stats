@@ -1,0 +1,16 @@
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Sat Sep  5 06:06:48 2020 for bxp912(5629)
+| Identity jobid 21270735 jobname feeos
+| Running against project readmsd02 and in partition cascadelake-shared
+| Requested cpu=40,mem=120G,node=1,billing=40 - 2-00:00:00 walltime
+| Assigned to nodes bear-pg0211u07b
+| Command /rds/homes/b/bxp912/jobs/20200511_bcc_eos/batch.sh
+| WorkDir /rds/homes/b/bxp912/jobs/20200511_bcc_eos
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Sat Sep  5 15:36:57 2020 for bxp912(5629) on the BlueBEAR Cluster
+| Required (15-17:09:41 cputime, 9841636K memory used) - 09:30:14 walltime
+| JobState COMPLETING - Reason None
+| Exitcode 0:0
++--------------------------------------------------------------------------+

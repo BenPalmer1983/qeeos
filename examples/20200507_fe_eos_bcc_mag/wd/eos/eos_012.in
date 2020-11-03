@@ -1,13 +1,13 @@
-! Edited 0:57   14/6/2020
+! Edited 4:42   3/11/2020
 &CONTROL 
 calculation = "scf", 
 disk_io = 'low', 
 etot_conv_thr = 1.0E-4, 
 forc_conv_thr = 1.0D-3, 
 nstep = 40, 
-outdir = "/scratch", 
-prefix = "ncdrGfkByDcMCdTk", 
-pseudo_dir = "/rds/homes/b/bxp912/pp", 
+outdir = "/opt/scratch", 
+prefix = "ChWDwxsJdqKmgVRJ", 
+pseudo_dir = "/opt/pp", 
 restart_mode = 'from_scratch', 
 tprnfor = .true., 
 tstress = .true., 

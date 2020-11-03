@@ -693,11 +693,19 @@ class qeeos:
                          'run': True,
                          'points': 6,
                          'strain': 0.005,
+                         'use_existing': True,
+                         'always_use_existing': False,
                         }
     g.inp['eos'] = {
                          'run': True,
                          'points': 6,
                          'strain': 0.005,
+                         'use_existing': True,
+                         'always_use_existing': False,
+                        }
+      
+    g.inp['job_done'] = {                  
+                        'setting': 'done',
                         }
                         
     for i in g.inp.keys():
@@ -758,6 +766,8 @@ class load_template:
 ###########################################
 class pwscf_exec:
 
+  data = {'cache_used': False,}
+  
   @staticmethod
   def run():
     print("Running")
@@ -804,9 +814,8 @@ class pwscf_exec:
 
 # Save
     pwscf_exec.save_run_list(run_list)
-    
-# Return log
-    return log, list_out, run_list
+   
+    return list_out
 
   @staticmethod
   def pre_run(files_in, set_dirs):
@@ -848,7 +857,11 @@ class pwscf_exec:
         if (not os.path.exists(cache_file_out)):
           use_cache = False
       
-      cmd = 'mpirun -n ' + s['proc_count'] + ' ' + s['pwscf_bin'] + ' -i ' + file_path + ' > ' + path + '/' + file_name + '.out'
+#if(s['pwscf_script'] == ''):
+#  cmd = 'mpirun -n ' + s['proc_count'] + ' ' + s['pwscf_bin'] + ' -i ' + file_path + ' > ' + path + '/' + file_name + '.out'
+#else:
+#  cmd = s['pwscf_script'] + ' ' + s['proc_count'] + ' ' + file_path + ' ' + path + '/' + file_name + '.out'
+      cmd = s['pwscf_script'] + ' ' + str(s['proc_count']) + ' ' + file_path + ' ' + path + '/' + file_name + '.out'
       
       run_list.append({
         'file_name': file_name, 
@@ -887,6 +900,7 @@ class pwscf_exec:
           use_cache = True        
       
       if(use_cache and allow_cache):
+        pwscf_exec.data['cache_used'] = True
         run_list[i]['cache_used'] = True
         copyfile(run_file['cache_out'], run_file['file_path_out'])
         list_out.append({"file": run_file['file_path_out'], "status": "complete",})
@@ -898,7 +912,7 @@ class pwscf_exec:
           log.add("##END PWSCF##")
           log.add("")
       else:  
-      
+        pwscf_exec.data['cache_used'] = False
 # Run
         if(run):
           os.system(run_file['cmd'])
@@ -1014,14 +1028,14 @@ class pwscf_settings:
     "pwscf_pp": '',
     "pwscf_cache": '',
     "pwscf_bin": '',
+    "pwscf_script": '',
     }
 
-    s['omp_num_threads'] = os.environ['OMP_NUM_THREADS']
-    s['proc_count'] = os.environ['PROC_COUNT']
-    s['pwscf_scratch'] = os.environ['PWSCF_SCRATCH']
-    s['pwscf_pp'] = os.environ['PWSCF_PP']
-    s['pwscf_cache'] = os.environ['PWSCF_CACHE']
-    s['pwscf_bin'] = os.environ['PWSCF_BIN']
+    for k in s.keys():
+      try:
+        s[k.lower()] = os.environ[k.upper()]
+      except:
+        pass
 
     return s
 
@@ -1737,6 +1751,25 @@ class pwscf_input:
      
 #print(alat, cp, nat, l, coords)
     
+  def match_output(self, file_path):
+# Load output file
+    f_out = pwscf_output(file_path)
+    self.match_sig()
+    f_out.match_sig()
+    
+  def match_sig(self):
+    self.sig = ''
+    self.match_sig_add(self.control['calculation'])
+    self.match_sig_add(self.system['ibrav'])
+    self.match_sig_add(self.system['nat'])
+    self.match_sig_add(self.system['ntyp'])
+    self.match_sig_add(self.system['degauss'])
+    
+    print(self.sig)
+    
+  def match_sig_add(self, input):
+    self.sig = self.sig + input.strip().lower().replace('"','').replace("'",'')
+ 
 ############################
 #  Load Atom Config
 ############################
@@ -2352,6 +2385,7 @@ class pwscf_output:
     self.data = {
       "ok": False,
       "job_done": False,
+      "job_almost_done": False,
       "error": False,
       "error_code": None,
       "converged": False,
@@ -2465,6 +2499,8 @@ class pwscf_output:
       line = line.strip()
       if(pwscf_output.compare(line, "JOB DONE.")):
         self.data['job_done'] = True
+      if(pwscf_output.compare(line, "Writing output data file")):
+        self.data['job_almost_done'] = True
       if(pwscf_output.compare(line, "Exit code:")):
         self.data['error'] = True              
         try:
@@ -3005,6 +3041,9 @@ PWSCF        :     1h29m CPU        1h32m WALL
   def get_job_done(self):
     return self.data['job_done']
     
+  def get_job_almost_done(self):
+    return self.data['job_almost_done']
+    
   def get_job_error(self):
     return self.data['error']
     
@@ -3074,6 +3113,16 @@ PWSCF        :     1h29m CPU        1h32m WALL
         }
     return o
       
+  def match_sig(self):
+    self.sig = ''
+
+    print(self.data['scf_settings'])
+    
+    print(self.sig)
+    
+  def match_sig_add(self, input):
+    self.sig = self.sig + input.strip().lower().replace('"','').replace("'",'')
+
 #################################
 # Interactive
 #################################
@@ -4289,7 +4338,7 @@ class calc_relax:
     runfile.append(g.dirs['relax'] + '/relax.in')
     
     if(g.inp['settings']['pwscf_run']):
-      log, files_out, run_list = pwscf_exec.execute(runfile)
+      files_out = pwscf_exec.execute(runfile)
     else:
       files_out = []
 
@@ -4318,6 +4367,8 @@ class calc_relax:
   
     else:
       save_load.save({'ERROR': True,}, g.dirs['data'] + '/' + 'relax.dat')
+
+#exit()
 
 #d = save_load.load(g.dirs['data'] + '/' + 'relax.dat')
 
@@ -4356,8 +4407,15 @@ class calc_eos:
 
 #
     runfile = []
+    f_out_list = []
     f = pwscf_input()
     f.load("eos_template.in", g.dirs['templates'])
+    
+    g.log_fh.write("\n")
+    g.log_fh.write("############################\n")
+    g.log_fh.write("EOS Calc\n")
+    g.log_fh.write("############################\n")
+    g.log_fh.write("\n")
     for n in range(s_points):
       cp = (1.0 + s_arr[n]) * r_cp
       f.set_cp(cp)
@@ -4365,10 +4423,36 @@ class calc_eos:
       nstr = str(n+1)
       while(len(nstr)<3):
         nstr = "0" + nstr
+             
+      f.save("eos_" + nstr + ".in", g.dirs['eos'])      
+      f_out_list.append(g.dirs['eos'] + '/' + "eos_" + nstr + ".out")
       
-      f.save("eos_" + nstr + ".in", g.dirs['eos'])  
-      runfile.append(g.dirs['eos'] + "/eos_" + nstr + ".in")
-      
+      run = True
+      if(g.inp['eos']['use_existing'] and os.path.exists(f_out_list[-1])):
+        fpo = pwscf_output(f_out_list[-1])
+        if(fpo.get_job_done()):
+          run = False
+          printout = "Existing Used - job done"
+        elif(fpo.get_job_almost_done()):
+          run = False
+          printout = "Existing Used - job almost done"
+        if(g.inp['eos']['always_use_existing']):
+          run = False            
+          printout = "Existing Used - forced"
+      if(run):
+        runfile = [g.dirs['eos'] + "/eos_" + nstr + ".in"]     
+        printout = "Skipped"   
+        if(g.inp['settings']['pwscf_run']):
+          files_out = pwscf_exec.execute(runfile)
+          if(pwscf_exec.data['cache_used']):
+            printout = "Cache Used"           
+          else:
+            printout = "PWscf Run"
+          
+      print(printout + str(" eos_" + nstr + ".in"))    
+          
+      g.log_fh.write("Strain (" + str(n) + "): " + str(s_arr[n]) + "\n")  
+    
 # Prepare array to store data
     g.eos = {
              'complete': False,  
@@ -4376,24 +4460,23 @@ class calc_eos:
             }
     for n in range(s_points):
       g.eos['data'][n, 0] = float(s_arr[n])
-      
-# RUN PWSCF
-    if(g.inp['settings']['pwscf_run']):
-      log, files_out, run_list = pwscf_exec.execute(runfile)
-    else: 
-      files_out = []
-      
-    try:
+
+#try:
+    if(True):
+      print("EOS")
       fh = open(g.dirs['results'] + '/eos.csv', 'w')
-      for n in range(len(files_out)):
-        fpo = pwscf_output(files_out[n]['file'])
-        g.eos['data'][n, 1] = fpo.get_volume_per_atom()
-        g.eos['data'][n, 2] = fpo.get_energy_per_atom()
-        fh.write(str(g.eos['data'][n, 0]) + ',' +  str(g.eos['data'][n, 1]) + ',' +  str(g.eos['data'][n, 2]) + '\n')
+      for n in range(len(f_out_list)):
+        if(os.path.exists(f_out_list[n])):
+          fpo = pwscf_output(f_out_list[n])
+          if((g.inp['job_done']['setting'] == 'done' and fpo.get_job_done()) or (g.inp['job_done']['setting'] == 'almost' and fpo.get_job_almost_done())):
+            g.eos['data'][n, 1] = fpo.get_volume_per_atom()
+            g.eos['data'][n, 2] = fpo.get_energy_per_atom()
+            fh.write(str(g.eos['data'][n, 0]) + ',' +  str(g.eos['data'][n, 1]) + ',' +  str(g.eos['data'][n, 2]) + '\n')
+            print(str(g.eos['data'][n, 0]) + ',' +  str(g.eos['data'][n, 1]) + ',' +  str(g.eos['data'][n, 2]))
       fh.close()
-    except:
-      pass
-      
+#except:
+#  pass
+
 # SAVE DATA
     g.eos['complete'] = True  
     save_load.save(g.eos, g.dirs['data'] + '/' + 'eos.dat')  
@@ -4432,11 +4515,21 @@ class calc_ec:
     s_points = g.inp['ec']['points']    
     s_arr = numpy.linspace(0.0, s_val, s_points)
     
+    g.log_fh.write("\n")
+    g.log_fh.write("############################\n")
+    g.log_fh.write("EC Calc\n")
+    g.log_fh.write("############################\n")
+    g.log_fh.write("\n")
+    
 # MAKE FILES
     f = pwscf_input()
     f.load("ec_template.in", g.dirs['templates'])
     runfile = []
+    f_out_list = []
     for dn in range(9):
+      g.log_fh.write("#############\n")
+      g.log_fh.write(str(dn) + "\n")
+      g.log_fh.write("#############\n")
       for j in range(s_points):
         sigma = s_arr[j]
         d = calc_ec.distortion(sigma, dn + 1)
@@ -4447,9 +4540,39 @@ class calc_ec:
         nstr = str(j+1)
         while(len(nstr)<3):
           nstr = "0" + nstr
+        
+        file_name_in = "ec_" + str(dn+1) + "_" + nstr + ".in"
+        file_name_out = "ec_" + str(dn+1) + "_" + nstr + ".out"
+        f.save(file_name_in, g.dirs['ec'])  
+        f_out_list.append(g.dirs['ec'] + '/' + file_name_out)
+                
+        run = True
+        if(g.inp['ec']['use_existing'] and os.path.exists(f_out_list[-1])):
+          fpo = pwscf_output(f_out_list[-1])
+          if(fpo.get_job_done()):
+            run = False
+            printout = "Existing Used - job done"
+          elif(fpo.get_job_almost_done()):
+            run = False
+            printout = "Existing Used - job almost done"
+          if(g.inp['ec']['always_use_existing']):
+            run = False            
+            printout = "Existing Used - forced"
+        if(run):
+          runfile = [g.dirs['ec'] + "/" + file_name_in]     
+          printout = "Skipped"   
+          if(g.inp['settings']['pwscf_run']):
+            files_out = pwscf_exec.execute(runfile)
+            if(pwscf_exec.data['cache_used']):
+              printout = "Cache Used"           
+            else:
+              printout = "PWscf Run"
           
-        f.save("ec_" + str(dn+1) + "_" + nstr + ".in", g.dirs['ec'])  
-        runfile.append(g.dirs['ec'] + "/" + "ec_" + str(dn+1) + "_" + nstr + ".in")
+        print(printout + str(file_name_in))       
+        
+        g.log_fh.write("Sigma: " + str(sigma) + "\n")
+      
+      g.log_fh.write("\n")  
         
 # Prepare arrays to store data
     g.ec = {'complete': False, }
@@ -4459,42 +4582,36 @@ class calc_ec:
       g.ec[key] = numpy.zeros((s_points, 4,),)
       for n in range(s_points):
         g.ec[key][n, 0] = float(s_arr[n])
-        
-# RUN PWSCF
-    if(g.inp['settings']['pwscf_run']):
-      log, files_out, run_list = pwscf_exec.execute(runfile)
-    else:
-      files_out = []
-      
+   
     try:
+      print("EC")
       fh = open(g.dirs['results'] + '/ec.csv', 'w')
       s = 0
-      for file in files_out:
-        fpo = pwscf_output(file['file'])
-        if(fpo.get_job_done() and fpo.get_job_converged()):        
+      for file in f_out_list:
+        fpo = pwscf_output(file)
+        if((g.inp['job_done']['setting'] == 'done' and fpo.get_job_done() and fpo.get_job_converged()) or (g.inp['job_done']['setting'] == 'almost' and fpo.get_job_almost_done())):
           dn = s // s_points
+          g.log_fh.write("#############\n")
+          g.log_fh.write(str(dn) + "\n")
+          g.log_fh.write("#############\n")
           key = str(dn)
           n = s % s_points
           g.ec[key][n, 1] = fpo.get_volume_per_atom()
           g.ec[key][n, 2] = fpo.get_energy_per_atom()
           g.ec[key][n, 3] = fpo.get_total_energy()
-          fh.write(str(s) + ',' + str(dn) + ',' + str(n) + ',' + str(g.eos['data'][n, 0]) + ',' +  str(g.eos['data'][n, 1]) + ',' +  str(g.eos['data'][n, 2]) + '\n')
+          fh.write(str(s) + ',' + str(dn) + ',' + str(n) + ',' + str(g.ec[key][n, 0]) + ',' + str(g.ec[key][n, 1]) + ',' +  str(g.ec[key][n, 2]) + ',' +  str(g.ec[key][n, 3]) + '\n')
+          g.log_fh.write(str(s) + ',' + str(dn) + ',' + str(n) + ',' + str(g.ec[key][n, 0]) + ',' + str(g.ec[key][n, 1]) + ',' +  str(g.ec[key][n, 2]) + ',' +  str(g.ec[key][n, 3]) + '\n')
+          print(s, g.ec[key][n, 0], g.ec[key][n, 1], g.ec[key][n, 2], g.ec[key][n, 3])
           s = s + 1  
       fh.close()
+      g.log_fh.write("\n") 
     except:
       pass
-      
-      for n in range(len(files_out)):
-        fpo = pwscf_output(files_out[n]['file'])
-        g.eos['data'][n, 1] = fpo.get_volume_per_atom()
-        g.eos['data'][n, 2] = fpo.get_energy_per_atom()
-        fh.write(str(g.eos['data'][n, 0]) + ',' +  str(g.eos['data'][n, 1]) + ',' +  str(g.eos['data'][n, 2]) + '\n')
-      fh.close()
       
 # SAVE DATA
     g.ec['complete'] = True
     save_load.save(g.ec, g.dirs['data'] + '/' + 'ec.dat') 
-    
+
   @staticmethod
   def distortion(sigma, dn):
     d = numpy.zeros((3,3),)
@@ -4605,6 +4722,7 @@ class process_results:
     g.log_fh.write("############################\n")
     g.log_fh.write("EOS Parameters\n")
     g.log_fh.write("############################\n")
+    g.log_fh.write("\n")
     g.log_fh.write("V0 " + str(p[0]) + " Bohr^3\n")
     g.log_fh.write("E0 " + str(p[1]) + " Ry\n")
     g.log_fh.write("B0 " + str(p[2]) + " Ry/Bohr^3\n")
@@ -4618,6 +4736,12 @@ class process_results:
 # EC RESULTS
 ######################
     
+    g.log_fh.write("\n")
+    g.log_fh.write("############################\n")
+    g.log_fh.write("EC Calculation\n")
+    g.log_fh.write("############################\n")
+    g.log_fh.write("\n")
+    
 # SAVE DATA POINTS
     g.ec_results = {'complete': False}
     for n in range(9):
@@ -4630,6 +4754,8 @@ class process_results:
       s = g.ec_results[key][:,0]
       E = g.ec_results[key][:,2]
       g.ec_results['fit'][n,:] = numpy.polyfit(s, E, 2)
+      g.log_fh.write("C2 " + str(n) + ": " + str(g.ec_results['fit'][n,0]) + "\n")
+    g.log_fh.write("\n")
       
 # FIT POINTS
     for n in range(9):
@@ -4645,7 +4771,9 @@ class process_results:
     for n in range(9):
       pf[n] = g.ec_results['fit'][n,0]
     
-    v = g.relaxed['volume']
+    v = g.relaxed['volume'] / float(g.relaxed['nat'])
+    g.log_fh.write("Volume: " + str(v) + "\n")
+    g.log_fh.write("\n")
     
     c11 = (2 / v) * pf[0]
     c22 = (2 / v) * pf[1]
@@ -4656,6 +4784,17 @@ class process_results:
     c12 = (c11 + c22) / 2 - pf[6] / v
     c13 = (c11 + c33) / 2 - pf[7] / v    
     c23 = (c22 + c33) / 2 - pf[8] / v
+    
+    g.log_fh.write("C11: " + str(c11) + "\n")
+    g.log_fh.write("C22: " + str(c22) + "\n")
+    g.log_fh.write("C33: " + str(c33) + "\n")
+    g.log_fh.write("C44: " + str(c44) + "\n")
+    g.log_fh.write("C55: " + str(c55) + "\n")
+    g.log_fh.write("C66: " + str(c66) + "\n")
+    g.log_fh.write("C12: " + str(c12) + "\n")
+    g.log_fh.write("C13: " + str(c13) + "\n")
+    g.log_fh.write("C23: " + str(c23) + "\n")
+    g.log_fh.write("\n")
     
     g.ec_results['stiffness'] = numpy.zeros((6,6,),)
     g.ec_results['stiffness_gpa'] = numpy.zeros((6,6,),)
@@ -4903,9 +5042,10 @@ class save_results:
     fh.write("\n")
     fh.write("Structure:                    " + str(g.inp['config']['structure']) + "\n")
     fh.write("Size:                         " + str(g.inp['config']['size']) + "\n")
-    fh.write("Alat:                         " + str(g.inp['config']['alat']) + "\n")
-    fh.write("Alat Units:                   " + str(g.inp['config']['alat_units']) + "\n")
-    fh.write("Alat/Bohr:                    " + str(g.data['alat_in_bohr']) + "\n")
+    fh.write("A0:                           " + str(g.inp['config']['alat']) + "\n")
+    fh.write("A0 Units:                     " + str(g.inp['config']['alat_units']) + "\n")
+    fh.write("A0 (Bohr):                    " + str(g.data['alat_in_bohr']) + "\n")
+    fh.write("A0 (Angs):                    " + str(float(g.data['alat_in_bohr']) * 0.529) + "\n")
     fh.write("\n")
     
     fh.write("Ecutwfc:                      " + str(g.inp['settings']['ecutwfc']) +"\n")
@@ -4945,6 +5085,10 @@ class save_results:
     fh.write("Energy per Atom/Ry:           " + str(g.relaxed['energy_per_atom']) + "\n")    
     fh.write("Total Force Ry/Bohr:          " + str(g.relaxed['total_force']) + "\n")    
     fh.write("Force per atom Ry/Bohr:       " + str(g.relaxed['force_per_atom']) + "\n")    
+    fh.write("\n")
+    fh.write("\n")
+    fh.write("a0 primitive (Bohr):          " + str((float(g.relaxed['alat']) / float(g.inp['config']['size']))) +"\n")
+    fh.write("a0 primitive (Ang):          " + str((float(g.relaxed['alat']) / float(g.inp['config']['size'])) * 0.529) +"\n")
     fh.write("\n")
     fh.write("\n")
     fh.close()
@@ -5024,6 +5168,68 @@ class save_results:
         std.float_padded(g.ec_results['compliance'][i,5], 10) + "\n" )    
     fh.write("\n")
     
+    c11 = g.ec_results['stiffness_gpa'][0,0]
+    c22 = g.ec_results['stiffness_gpa'][1,1]
+    c33 = g.ec_results['stiffness_gpa'][2,2]
+    c44 = g.ec_results['stiffness_gpa'][3,3]
+    c55 = g.ec_results['stiffness_gpa'][4,4]
+    c66 = g.ec_results['stiffness_gpa'][5,5]
+    c12 = g.ec_results['stiffness_gpa'][0,1]
+    c13 = g.ec_results['stiffness_gpa'][0,2]
+    c23 = g.ec_results['stiffness_gpa'][1,2]
+    
+    sa = c11
+    sb = (c11*c22)-(c12*c12)
+    sc = c11*c22*c33+2*c12*c13*c23-c11*c23*c23-c33*c12*c12
+    sd = c44
+    se = c55
+    sf = c66
+    
+    fh.write("Stability:\n")
+    
+    fh.write("C11:                                                " + str(sa) + " ")
+    if(sa < 0):
+      fh.write("(Unstable)")
+    else:
+      fh.write("(Stable)")
+    fh.write("\n")
+      
+    fh.write("C11C22 - C12C12:                                    " + str(sb) + " ")
+    if(sb < 0):
+      fh.write("(Unstable)")
+    else:
+      fh.write("(Stable)")
+    fh.write("\n")
+      
+    fh.write("C11*C22*C33+2*C12*C13*C23-C11*C23*C23-C33*C12*C12:  " + str(sc) + " ")
+    if(sc < 0):
+      fh.write("(Unstable)")
+    else:
+      fh.write("(Stable)")
+    fh.write("\n")
+      
+    fh.write("C44:                                                " + str(sd) + " ")
+    if(sd < 0):
+      fh.write("(Unstable)")
+    else:
+      fh.write("(Stable)")
+    fh.write("\n")
+      
+    fh.write("C55:                                                " + str(se) + " ")
+    if(se < 0):
+      fh.write("(Unstable)")
+    else:
+      fh.write("(Stable)")
+    fh.write("\n")
+      
+    fh.write("C66:                                                " + str(sf) + " ")
+    if(sf < 0):
+      fh.write("(Unstable)")
+    else:
+      fh.write("(Stable)")
+    fh.write("\n")
+    fh.write("\n")
+    
     fh.write("Bulk Modulus B (GPA):         " + str(g.material_properties['B']) + "\n")
     fh.write("BR (GPA):                     " + str(g.material_properties['BR']) + "\n")
     fh.write("BV (GPA):                     " + str(g.material_properties['BV']) + "\n")
@@ -5050,9 +5256,30 @@ class save_results:
     fh.write("\n")
     fh.write("\n")
     fh.write("\n")
-    fh.write("\n")    
+    fh.write("\n")   
+    fh.write("\n")
+    fh.write("\n")
+    fh.write("\n")  
+    fh.write("\n")
+    fh.write("References \n")
+    fh.write("=======================================\n")
+    fh.write("\n")
+    fh.write("First Principles Calculations of Elastic Properties of Metals\n")
+    fh.write("M. J. Mehl, B. M. Klein, D. A. Papaconstantopoulos\n")
+    fh.write("1994\n")  
+    fh.write("\n")
+    fh.write("Ab Initio Study of the Elastic and Mechanical Properties of B19 TiAl\n")  
+    fh.write("Y. Wen, L. Wang, H. Liu and L. Song\n")
+    fh.write("Crystals\n")
+    fh.write("2017\n")
+    fh.write("\n")
+    fh.write("Density functional theory for calculation of elastic properties of orthorhombic crystals - applications to TiSi2\n")  
+    fh.write("P. Ravindran, Lars Fast, P. A. Korzhavyi, B. Johansson\n")
+    fh.write("Journal of Applied Physics\n")
+    fh.write("1998\n")
+    fh.write("\n") 
     fh.close()
-
+    
 ###########################################
 #  CLASS eos_fi
 ###########################################

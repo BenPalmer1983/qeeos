@@ -1,16 +1,17 @@
 ################################################################
 #                        RESULTS                               #
 ################################################################
-Sat, 31 Oct 2020 02:14:27 +0000
+Tue, 03 Nov 2020 04:47:38 +0000
 
 INPUT SETTINGS
 ################################
 
 Structure:                    fcc
 Size:                         2
-Alat:                         3.4278156
-Alat Units:                   ang
-Alat/Bohr:                    12.957142968
+A0:                           3.4278156
+A0 Units:                     ang
+A0 (Bohr):                    12.957142968
+A0 (Angs):                    6.854328630072
 
 Ecutwfc:                      71
 Ecutrho:                      430
@@ -38,6 +39,10 @@ Total Energy/Ry:              -10536.25057837
 Energy per Atom/Ry:           -329.2578305740625
 Total Force Ry/Bohr:          5.1e-05
 Force per atom Ry/Bohr:       1.59375e-06
+
+
+a0 primitive (Bohr):          6.4690933498955
+a0 primitive (Ang):          3.4221503820947197
 
 
 EOS

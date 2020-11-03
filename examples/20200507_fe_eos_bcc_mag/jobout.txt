@@ -436,3 +436,1900 @@ Traceback (most recent call last):
   File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4908, in relaxed
     + str(g.relaxed['cp'][0,2]) + "\n")
 TypeError: 'NoneType' object is not subscriptable
+GCCcore/8.3.0
+zlib/1.2.11-GCCcore-8.3.0
+binutils/2.32-GCCcore-8.3.0
+iccifort/2019.5.281
+impi/2018.5.288-iccifort-2019.5.281
+iimpi/2019b
+imkl/2019.5.281-iimpi-2019b
+imkl/2019.5.281-iimpi-2019b(68):ERROR:105: Unable to locate a modulefile for '2019.5.281-gompi-2019b'
+bzip2/1.0.8-GCCcore-8.3.0
+ncurses/6.1-GCCcore-8.3.0
+libreadline/8.0-GCCcore-8.3.0
+Tcl/8.6.9-GCCcore-8.3.0
+SQLite/3.29.0-GCCcore-8.3.0
+XZ/5.2.4-GCCcore-8.3.0
+GMP/6.1.2-GCCcore-8.3.0
+libffi/3.2.1-GCCcore-8.3.0
+Python/3.7.4-GCCcore-8.3.0
+Python/3.7.4-GCCcore-8.3.0(66):ERROR:105: Unable to locate a modulefile for '3.7.4-GCCcore-8.3.0'
+GCC/8.3.0
+numactl/2.0.12-GCCcore-8.3.0
+libxml2/2.9.9-GCCcore-8.3.0
+libpciaccess/0.14-GCCcore-8.3.0
+hwloc/1.11.12-GCCcore-8.3.0
+OpenMPI/3.1.4-GCC-8.3.0
+OpenBLAS/0.3.7-GCC-8.3.0
+gompi/2019b
+FFTW/3.3.8-gompi-2019b
+ScaLAPACK/2.0.2-gompi-2019b
+foss/2019b
+SciPy-bundle/2019.10-foss-2019b-Python-3.7.4
+libpng/1.6.37-GCCcore-8.3.0
+freetype/2.10.1-GCCcore-8.3.0
+expat/2.2.7-GCCcore-8.3.0
+util-linux/2.34-GCCcore-8.3.0
+fontconfig/2.13.1-GCCcore-8.3.0
+X11/20190717-GCCcore-8.3.0
+Tk/8.6.9-GCCcore-8.3.0
+Tkinter/3.7.4-GCCcore-8.3.0
+matplotlib/3.1.1-foss-2019b-Python-3.7.4
+matplotlib/3.1.1-foss-2019b-Python-3.7.4(135):ERROR:105: Unable to locate a modulefile for '3.1.1-foss-2019b-Python-3.7.4'
+GCCcore/8.3.0
+zlib/1.2.11-GCCcore-8.3.0
+binutils/2.32-GCCcore-8.3.0
+iccifort/2019.5.281
+impi/2018.5.288-iccifort-2019.5.281
+iimpi/2019b
+imkl/2019.5.281-iimpi-2019b
+imkl/2019.5.281-iimpi-2019b(68):ERROR:105: Unable to locate a modulefile for '2019.5.281-gompi-2019b'
+bzip2/1.0.8-GCCcore-8.3.0
+ncurses/6.1-GCCcore-8.3.0
+libreadline/8.0-GCCcore-8.3.0
+Tcl/8.6.9-GCCcore-8.3.0
+SQLite/3.29.0-GCCcore-8.3.0
+XZ/5.2.4-GCCcore-8.3.0
+GMP/6.1.2-GCCcore-8.3.0
+libffi/3.2.1-GCCcore-8.3.0
+Python/3.7.4-GCCcore-8.3.0
+Python/3.7.4-GCCcore-8.3.0(66):ERROR:105: Unable to locate a modulefile for '3.7.4-GCCcore-8.3.0'
+GCC/8.3.0
+numactl/2.0.12-GCCcore-8.3.0
+libxml2/2.9.9-GCCcore-8.3.0
+libpciaccess/0.14-GCCcore-8.3.0
+hwloc/1.11.12-GCCcore-8.3.0
+OpenMPI/3.1.4-GCC-8.3.0
+OpenBLAS/0.3.7-GCC-8.3.0
+gompi/2019b
+FFTW/3.3.8-gompi-2019b
+ScaLAPACK/2.0.2-gompi-2019b
+foss/2019b
+SciPy-bundle/2019.10-foss-2019b-Python-3.7.4
+libpng/1.6.37-GCCcore-8.3.0
+freetype/2.10.1-GCCcore-8.3.0
+expat/2.2.7-GCCcore-8.3.0
+util-linux/2.34-GCCcore-8.3.0
+fontconfig/2.13.1-GCCcore-8.3.0
+X11/20190717-GCCcore-8.3.0
+Tk/8.6.9-GCCcore-8.3.0
+Tkinter/3.7.4-GCCcore-8.3.0
+matplotlib/3.1.1-foss-2019b-Python-3.7.4
+matplotlib/3.1.1-foss-2019b-Python-3.7.4(135):ERROR:105: Unable to locate a modulefile for '3.1.1-foss-2019b-Python-3.7.4'
+sh: 40: command not found
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5599, in <module>
+    main()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5579, in main
+    qeeos.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 601, in run
+    qeeos.run_all()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 611, in run_all
+    qeeos.ec()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 651, in ec
+    calc_ec.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4558, in run
+    files_out = pwscf_exec.execute(runfile)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 809, in execute
+    log, list_out, run_list = pwscf_exec.run_pwscf_list(run_list, log, allow_cache, True)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 915, in run_pwscf_list
+    pwo = pwscf_output(run_file['file_path_out'])
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2370, in __init__
+    self.load(file_in)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2463, in load
+    data_file = self.load_from_file(file_name)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2951, in load_from_file
+    fh = open(file_name, "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'wd/ec/ec_1_001.out'
+GCCcore/8.3.0
+zlib/1.2.11-GCCcore-8.3.0
+binutils/2.32-GCCcore-8.3.0
+iccifort/2019.5.281
+impi/2018.5.288-iccifort-2019.5.281
+iimpi/2019b
+imkl/2019.5.281-iimpi-2019b
+imkl/2019.5.281-iimpi-2019b(68):ERROR:105: Unable to locate a modulefile for '2019.5.281-gompi-2019b'
+bzip2/1.0.8-GCCcore-8.3.0
+ncurses/6.1-GCCcore-8.3.0
+libreadline/8.0-GCCcore-8.3.0
+Tcl/8.6.9-GCCcore-8.3.0
+SQLite/3.29.0-GCCcore-8.3.0
+XZ/5.2.4-GCCcore-8.3.0
+GMP/6.1.2-GCCcore-8.3.0
+libffi/3.2.1-GCCcore-8.3.0
+Python/3.7.4-GCCcore-8.3.0
+Python/3.7.4-GCCcore-8.3.0(66):ERROR:105: Unable to locate a modulefile for '3.7.4-GCCcore-8.3.0'
+GCC/8.3.0
+numactl/2.0.12-GCCcore-8.3.0
+libxml2/2.9.9-GCCcore-8.3.0
+libpciaccess/0.14-GCCcore-8.3.0
+hwloc/1.11.12-GCCcore-8.3.0
+OpenMPI/3.1.4-GCC-8.3.0
+OpenBLAS/0.3.7-GCC-8.3.0
+gompi/2019b
+FFTW/3.3.8-gompi-2019b
+ScaLAPACK/2.0.2-gompi-2019b
+foss/2019b
+SciPy-bundle/2019.10-foss-2019b-Python-3.7.4
+libpng/1.6.37-GCCcore-8.3.0
+freetype/2.10.1-GCCcore-8.3.0
+expat/2.2.7-GCCcore-8.3.0
+util-linux/2.34-GCCcore-8.3.0
+fontconfig/2.13.1-GCCcore-8.3.0
+X11/20190717-GCCcore-8.3.0
+Tk/8.6.9-GCCcore-8.3.0
+Tkinter/3.7.4-GCCcore-8.3.0
+matplotlib/3.1.1-foss-2019b-Python-3.7.4
+matplotlib/3.1.1-foss-2019b-Python-3.7.4(135):ERROR:105: Unable to locate a modulefile for '3.1.1-foss-2019b-Python-3.7.4'
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184113] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184115] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184133] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184107] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184110] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184112] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184117] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184120] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184121] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184122] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184125] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184126] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184127] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184128] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184129] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184131] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184134] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184135] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184137] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184140] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184142] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184143] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184144] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184145] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184146] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184148] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184111] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184149] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184114] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184118] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184119] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184123] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184124] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184130] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184132] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184136] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184138] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184139] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184141] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+*** An error occurred in MPI_Init_thread
+*** on a NULL communicator
+*** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+***    and potentially your MPI job)
+[bear-pg0211u10b.bear.cluster:184147] Local abort before MPI_INIT completed completed successfully, but am not able to aggregate error messages, and not able to guarantee that all other processes were killed!
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[35959,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5599, in <module>
+    main()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5579, in main
+    qeeos.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 601, in run
+    qeeos.run_all()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 611, in run_all
+    qeeos.ec()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 651, in ec
+    calc_ec.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4558, in run
+    files_out = pwscf_exec.execute(runfile)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 809, in execute
+    log, list_out, run_list = pwscf_exec.run_pwscf_list(run_list, log, allow_cache, True)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 915, in run_pwscf_list
+    pwo = pwscf_output(run_file['file_path_out'])
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2371, in __init__
+    self.calcs()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2902, in calcs
+    for l in self.data['crystals'][0]['atomic_labels']:
+IndexError: list index out of range
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iomkl/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * icc/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GCCcore/6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GCCcore/6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * binutils/2.28-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ifort/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iccifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * imkl/2018.1.163-iompi-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iompi/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Python/3.6.3-iomkl-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * bzip2/1.0.6-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+bzip2/1.0.6-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * zlib/1.2.11-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+zlib/1.2.11-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libreadline/7.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ncurses/6.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * SQLite/3.20.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Tcl/8.6.7-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GMP/6.1.2-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GMP/6.1.2-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * XZ/5.2.3-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+XZ/5.2.3-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libffi/3.2.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libpng/1.6.32-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libpng/1.6.32-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * freetype/2.8-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5599, in <module>
+    main()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5579, in main
+    qeeos.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 601, in run
+    qeeos.run_all()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 611, in run_all
+    qeeos.ec()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 651, in ec
+    calc_ec.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4544, in run
+    fpo = pwscf_output(f_out_list[-1])
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2371, in __init__
+    self.calcs()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2902, in calcs
+    for l in self.data['crystals'][0]['atomic_labels']:
+IndexError: list index out of range
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iomkl/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * icc/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GCCcore/6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GCCcore/6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * binutils/2.28-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ifort/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iccifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * imkl/2018.1.163-iompi-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iompi/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Python/3.6.3-iomkl-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * bzip2/1.0.6-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+bzip2/1.0.6-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * zlib/1.2.11-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+zlib/1.2.11-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libreadline/7.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ncurses/6.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * SQLite/3.20.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Tcl/8.6.7-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GMP/6.1.2-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GMP/6.1.2-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * XZ/5.2.3-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+XZ/5.2.3-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libffi/3.2.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libpng/1.6.32-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libpng/1.6.32-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * freetype/2.8-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5608, in <module>
+    main()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5588, in main
+    qeeos.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 601, in run
+    qeeos.run_all()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 611, in run_all
+    qeeos.ec()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 651, in ec
+    calc_ec.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4551, in run
+    fpo = pwscf_output(f_out_list[-1])
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2375, in __init__
+    self.calcs()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2906, in calcs
+    for l in self.data['crystals'][0]['atomic_labels']:
+IndexError: list index out of range
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iomkl/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * icc/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GCCcore/6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GCCcore/6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * binutils/2.28-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ifort/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iccifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * imkl/2018.1.163-iompi-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iompi/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Python/3.6.3-iomkl-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * bzip2/1.0.6-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+bzip2/1.0.6-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * zlib/1.2.11-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+zlib/1.2.11-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libreadline/7.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ncurses/6.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * SQLite/3.20.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Tcl/8.6.7-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GMP/6.1.2-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GMP/6.1.2-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * XZ/5.2.3-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+XZ/5.2.3-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libffi/3.2.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libpng/1.6.32-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libpng/1.6.32-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * freetype/2.8-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b7055e16480 valid_mask = 0x3)
+[bear-pg0206u37b][[38632,1],30][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u37b.bear.cluster:86122] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u37b.bear.cluster:86122] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u37b.bear.cluster:86122] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u37b.bear.cluster:97412] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u37b.bear.cluster:97412] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u37b.bear.cluster:97412] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x396c070 valid_mask = 0x3)
+[bear-pg0206u37b][[26009,1],31][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u37b.bear.cluster:107291] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u37b.bear.cluster:107291] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u37b.bear.cluster:107291] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0206u37b][[3224,1],17][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u37b.bear.cluster:117274] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u37b.bear.cluster:117274] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u37b.bear.cluster:117274] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+slurmstepd: error: *** JOB 23779185 ON bear-pg0206u37b CANCELLED AT 2020-11-02T03:49:24 DUE TO TIME LIMIT ***
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iomkl/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * icc/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GCCcore/6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GCCcore/6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * binutils/2.28-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ifort/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iccifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * imkl/2018.1.163-iompi-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iompi/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Python/3.6.3-iomkl-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * bzip2/1.0.6-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+bzip2/1.0.6-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * zlib/1.2.11-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+zlib/1.2.11-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libreadline/7.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ncurses/6.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * SQLite/3.20.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Tcl/8.6.7-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GMP/6.1.2-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GMP/6.1.2-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * XZ/5.2.3-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+XZ/5.2.3-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libffi/3.2.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libpng/1.6.32-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libpng/1.6.32-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * freetype/2.8-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b0dbc430480 valid_mask = 0x3)
+[bear-pg0206u26a][[7116,1],33][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2affc0a95480 valid_mask = 0x3)
+[bear-pg0206u26a][[7116,1],16][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:29206] 37 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:29206] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:29206] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b2b03643480 valid_mask = 0x3)
+[bear-pg0206u26a][[64695,1],14][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x1eb7610 valid_mask = 0x3)
+[bear-pg0206u26a][[64695,1],22][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:38253] 37 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:38253] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:38253] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:47355] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:47355] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:47355] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x1c45690 valid_mask = 0x3)
+[bear-pg0206u26a][[45282,1],28][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:55608] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:55608] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:55608] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2ba8d5621044 valid_mask = 0x3)
+[bear-pg0206u26a][[37045,1],7][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:63855] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:63855] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:63855] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2fb56d0 valid_mask = 0x3)
+[bear-pg0206u26a][[29393,1],38][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:72458] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:72458] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:72458] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x28c48f0 valid_mask = 0x3)
+[bear-pg0206u26a][[21243,1],30][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:80672] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:80672] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:80672] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x22e6bb0 valid_mask = 0x3)
+[bear-pg0206u26a][[12879,1],39][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:88980] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:88980] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:88980] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:97812] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:97812] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:97812] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:106878] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:106878] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:106878] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b8ff0231480 valid_mask = 0x3)
+[bear-pg0206u26a][[43766,1],24][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x33da7f0 valid_mask = 0x3)
+[bear-pg0206u26a][[43766,1],22][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:115501] 37 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:115501] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:115501] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b1a9e2e4480 valid_mask = 0x3)
+[bear-pg0206u26a][[35986,1],37][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:124233] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:124233] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:124233] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x1de66d0 valid_mask = 0x3)
+[bear-pg0206u26a][[24646,1],30][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:133534] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:133534] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:133534] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:148387] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:148387] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:148387] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:163369] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:163369] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:163369] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0206u26a][[53532,1],29][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:178372] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:178372] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:178372] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2ad1deb80044 valid_mask = 0x3)
+[bear-pg0206u26a][[39621,1],8][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2808970 valid_mask = 0x3)
+[bear-pg0206u26a][[39621,1],2][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0206u26a][[39621,1],17][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x1a5b690 valid_mask = 0x3)
+[bear-pg0206u26a][[39621,1],16][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:193309] 35 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:193309] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:193309] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2ae1daf43480 valid_mask = 0x3)
+[bear-pg0206u26a][[17975,1],31][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:208878] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:208878] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:208878] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b67802d2044 valid_mask = 0x3)
+[bear-pg0206u26a][[1015,1],38][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:223790] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:223790] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:223790] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x293b8b0 valid_mask = 0x3)
+[bear-pg0206u26a][[52431,1],0][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x31df870 valid_mask = 0x3)
+[bear-pg0206u26a][[52431,1],10][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:238870] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:238870] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:238870] 37 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x244f830 valid_mask = 0x3)
+[bear-pg0206u26a][[46996,1],14][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:253517] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:253517] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:253517] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:268755] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:268755] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:268755] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x1c65930 valid_mask = 0x3)
+[bear-pg0206u26a][[23808,1],6][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b06d10 valid_mask = 0x3)
+[bear-pg0206u26a][[23808,1],9][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x376edf0 valid_mask = 0x3)
+[bear-pg0206u26a][[23808,1],19][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2ac5aa880044 valid_mask = 0x3)
+[bear-pg0206u26a][[23808,1],22][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x27836d0 valid_mask = 0x3)
+[bear-pg0206u26a][[23808,1],28][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:13530] 34 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:13530] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:13530] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:28420] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:28420] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:28420] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:43363] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:43363] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:43363] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0206u26a][[46696,1],7][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x204ebd0 valid_mask = 0x3)
+[bear-pg0206u26a][[46696,1],25][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b9ea6f53044 valid_mask = 0x3)
+[bear-pg0206u26a][[46696,1],27][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0206u26a][[46696,1],37][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:57266] 35 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:57266] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:57266] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:71202] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:71202] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:71202] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:85251] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:85251] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:85251] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:100573] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:100573] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:100573] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x31a8f70 valid_mask = 0x3)
+[bear-pg0206u26a][[44801,1],5][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0206u26a][[44801,1],25][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x3428eb0 valid_mask = 0x3)
+[bear-pg0206u26a][[44801,1],33][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x28b0eb0 valid_mask = 0x3)
+[bear-pg0206u26a][[44801,1],23][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:116442] 35 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:116442] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:116442] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2aeefcf16480 valid_mask = 0x3)
+[bear-pg0206u26a][[27114,1],5][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b84d8e21044 valid_mask = 0x3)
+[bear-pg0206u26a][[27114,1],21][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b18c10 valid_mask = 0x3)
+[bear-pg0206u26a][[27114,1],11][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:131122] 36 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:131122] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:131122] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0206u26a][[21676,1],8][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:146804] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:146804] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:146804] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x1e19810 valid_mask = 0x3)
+[bear-pg0206u26a][[5090,1],30][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:162362] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:162362] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:162362] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0206u26a][[56456,1],8][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2641c10 valid_mask = 0x3)
+[bear-pg0206u26a][[56456,1],29][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:177488] 37 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:177488] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:177488] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2f87750 valid_mask = 0x3)
+[bear-pg0206u26a][[39240,1],6][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x39a6c10 valid_mask = 0x3)
+[bear-pg0206u26a][[39240,1],39][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2ba2ec830480 valid_mask = 0x3)
+[bear-pg0206u26a][[39240,1],15][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:192656] 36 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:192656] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:192656] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:208289] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:208289] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:208289] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:223956] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:223956] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:223956] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x34117f0 valid_mask = 0x3)
+[bear-pg0206u26a][[53202,1],16][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0206u26a][[53202,1],17][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x398b870 valid_mask = 0x3)
+[bear-pg0206u26a][[53202,1],26][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x21eb6d0 valid_mask = 0x3)
+[bear-pg0206u26a][[53202,1],34][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:239115] 35 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:239115] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:239115] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0206u26a][[47060,1],34][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:253453] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:253453] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:253453] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0206u26a.bear.cluster:269080] 39 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:269080] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:269080] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x369bbc0 valid_mask = 0x3)
+[bear-pg0206u26a][[24122,1],11][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:14304] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:14304] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:14304] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x3027d20 valid_mask = 0x3)
+[bear-pg0206u26a][[8067,1],1][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u26a.bear.cluster:30297] 38 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u26a.bear.cluster:30297] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u26a.bear.cluster:30297] 39 more processes have sent help message help-mpi-btl-openib.txt / error in device init

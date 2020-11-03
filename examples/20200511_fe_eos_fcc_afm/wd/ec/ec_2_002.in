@@ -1,4 +1,4 @@
-! Edited 2:14   31/10/2020
+! Edited 4:47   3/11/2020
 &CONTROL 
 calculation = "scf", 
 disk_io = 'low', 
@@ -6,7 +6,7 @@ etot_conv_thr = 1.0E-4,
 forc_conv_thr = 1.0D-3, 
 nstep = 40, 
 outdir = "/opt/scratch", 
-prefix = "ITKBvvHUkUJAXida", 
+prefix = "xbwLKQkTRJyJFLWL", 
 pseudo_dir = "/opt/pp", 
 restart_mode = 'from_scratch', 
 tprnfor = .true., 
