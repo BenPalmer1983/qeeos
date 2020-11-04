@@ -1,0 +1,986 @@
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+[bear-pg0211u38a.bear.cluster:245542] 2 more processes have sent help message help-mpi-api.txt / mpi-abort
+[bear-pg0211u38a.bear.cluster:245542] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5481, in <module>
+    new_run.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 172, in run
+    run_relax.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4299, in run
+    globals.log_fh.write("cell:      " + str(globals.d['relaxed_cp'][0,0]) + " " + str(globals.d['relaxed_cp'][0,1]) + " " + str(globals.d['relaxed_cp'][0,2])+ "\n")
+TypeError: 'NoneType' object is not subscriptable
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+[bber0501u13a.bb2.cluster:25787] 3 more processes have sent help message help-mpi-api.txt / mpi-abort
+[bber0501u13a.bb2.cluster:25787] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5481, in <module>
+    new_run.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 172, in run
+    run_relax.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4299, in run
+    globals.log_fh.write("cell:      " + str(globals.d['relaxed_cp'][0,0]) + " " + str(globals.d['relaxed_cp'][0,1]) + " " + str(globals.d['relaxed_cp'][0,2])+ "\n")
+TypeError: 'NoneType' object is not subscriptable
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b5cbf253040 valid_mask = 0x3)
+[bear-pg0211u08a][[37848,1],12][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u08a][[37848,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[37848,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2bda2f0 valid_mask = 0x3)
+[bear-pg0211u08a][[35939,1],2][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u08a][[35939,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[35939,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x27f22f0 valid_mask = 0x3)
+[bear-pg0211u08a][[42593,1],10][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u08a][[42593,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[42593,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2add54821040 valid_mask = 0x3)
+[bear-pg0211u08a][[18464,1],5][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u08a][[18464,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] [bear-pg0211u08a][[18464,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[18464,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x400000000 valid_mask = 0x3)
+[bear-pg0211u08a][[19964,1],1][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u08a][[19964,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[19964,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x37b0f70 valid_mask = 0x3)
+[bear-pg0211u08a][[28967,1],19][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u08a][[28967,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] [bear-pg0211u08a][[28967,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[28967,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b6dc28d2040 valid_mask = 0x3)
+[bear-pg0211u08a][[24817,1],11][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u08a][[24817,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[24817,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/SUnUcYdSeFIQngDA.save/wfc23.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AEB767AD505  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2d96f70 valid_mask = 0x3)
+[bear-pg0211u08a][[3422,1],1][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u08a][[3422,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] [bear-pg0211u08a][[3422,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[3422,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+forrtl: No space left on device
+forrtl: severe (30): open failure, unit 98, file /scratch/tmp_0.UPF
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D4E3C5  for_open              Unknown  Unknown
+pw.x               00000000009EA9FF  Unknown               Unknown  Unknown
+pw.x               00000000008878D0  Unknown               Unknown  Unknown
+pw.x               0000000000854FE1  Unknown               Unknown  Unknown
+pw.x               00000000004CE979  Unknown               Unknown  Unknown
+pw.x               000000000057E75E  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AD0A1774505  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5488, in <module>
+    new_run.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 186, in run
+    run_ec.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4671, in run
+    log, files_out, run_list = pwscf_exec.execute(runfile)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 3973, in execute
+    log, list_out, run_list = pwscf_exec.run_pwscf_list(run_list, log, allow_cache, True)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4075, in run_pwscf_list
+    pwo = pwscf_output(run_file['file_path_out'])
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2354, in __init__
+    self.calcs()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2832, in calcs
+    for l in self.data['crystals'][0]['atomic_labels']:
+IndexError: list index out of range
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x348a0b0 valid_mask = 0x3)
+[bear-pg0211u08a][[50436,1],9][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u08a][[50436,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] [bear-pg0211u08a][[50436,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create[bear-pg0211u08a][[50436,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+
+[bear-pg0211u08a][[50436,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[50436,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x22130b0 valid_mask = 0x3)
+[bear-pg0211u08a][[63637,1],18][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u08a][[63637,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] [bear-pg0211u08a][[63637,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] [bear-pg0211u08a][[63637,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u08a][[63637,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/GBRCvzSNjDbNTwHT.save/wfc71.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002BA4BFE28505  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+forrtl: No space left on device
+forrtl: severe (30): open failure, unit 98, file /scratch/tmp_0.UPF
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D4E3C5  for_open              Unknown  Unknown
+pw.x               00000000009EA9FF  Unknown               Unknown  Unknown
+pw.x               00000000008878D0  Unknown               Unknown  Unknown
+pw.x               0000000000854FE1  Unknown               Unknown  Unknown
+pw.x               00000000004CE979  Unknown               Unknown  Unknown
+pw.x               000000000057E75E  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002ADC98D80505  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5488, in <module>
+    new_run.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 186, in run
+    run_ec.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4671, in run
+    log, files_out, run_list = pwscf_exec.execute(runfile)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 3973, in execute
+    log, list_out, run_list = pwscf_exec.run_pwscf_list(run_list, log, allow_cache, True)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4075, in run_pwscf_list
+    pwo = pwscf_output(run_file['file_path_out'])
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2354, in __init__
+    self.calcs()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2832, in calcs
+    for l in self.data['crystals'][0]['atomic_labels']:
+IndexError: list index out of range
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+slurmstepd: error: *** JOB 10751303 ON bear-pg0207u05a CANCELLED AT 2020-03-25T09:43:25 DUE TO TIME LIMIT ***
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2464cf0 valid_mask = 0x3)
+[bear-pg0211u39b][[10829,1],10][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u39b][[10829,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[10829,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x1a10cb0 valid_mask = 0x3)
+[bear-pg0211u39b][[56265,1],11][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u39b][[56265,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] [bear-pg0211u39b][[56265,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+16: error exit from mca_btl_openib_proc_create[bear-pg0211u39b][[56265,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+
+[bear-pg0211u39b][[56265,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] [bear-pg0211u39b][[56265,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u39b][[56265,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/WuXBkfibWqOiBJRB.save/wfc8.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AD43EDB1505  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+forrtl: No space left on device
+forrtl: severe (30): open failure, unit 98, file /scratch/tmp_0.UPF
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D4E3C5  for_open              Unknown  Unknown
+pw.x               00000000009EA9FF  Unknown               Unknown  Unknown
+pw.x               00000000008878D0  Unknown               Unknown  Unknown
+pw.x               0000000000854FE1  Unknown               Unknown  Unknown
+pw.x               00000000004CE979  Unknown               Unknown  Unknown
+pw.x               000000000057E75E  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B57BBED3505  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5488, in <module>
+    new_run.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 186, in run
+    run_ec.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4671, in run
+    log, files_out, run_list = pwscf_exec.execute(runfile)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 3973, in execute
+    log, list_out, run_list = pwscf_exec.run_pwscf_list(run_list, log, allow_cache, True)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4075, in run_pwscf_list
+    pwo = pwscf_output(run_file['file_path_out'])
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2354, in __init__
+    self.calcs()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2832, in calcs
+    for l in self.data['crystals'][0]['atomic_labels']:
+IndexError: list index out of range
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+slurmstepd: error: *** JOB 10764101 ON bear-pg0207u03a CANCELLED AT 2020-03-25T15:41:31 DUE TO TIME LIMIT ***
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+slurmstepd: error: *** JOB 10769142 ON bber0501u14a CANCELLED AT 2020-03-25T19:50:30 DUE TO TIME LIMIT ***
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+[bear-pg0212u15b.bear.cluster:01409] 10 more processes have sent help message help-mpi-api.txt / mpi-abort
+[bear-pg0212u15b.bear.cluster:01409] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Traceback (most recent call last):
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 5488, in <module>
+    new_run.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 186, in run
+    run_ec.run()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4671, in run
+    log, files_out, run_list = pwscf_exec.execute(runfile)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 3973, in execute
+    log, list_out, run_list = pwscf_exec.run_pwscf_list(run_list, log, allow_cache, True)
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 4075, in run_pwscf_list
+    pwo = pwscf_output(run_file['file_path_out'])
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2354, in __init__
+    self.calcs()
+  File "/rds/homes/b/bxp912/apps/python/qeeos.py", line 2832, in calcs
+    for l in self.data['crystals'][0]['atomic_labels']:
+IndexError: list index out of range
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+slurmstepd: error: *** JOB 10774951 ON bear-pg0212u15b CANCELLED AT 2020-03-26T01:10:58 DUE TO TIME LIMIT ***
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+slurmstepd: error: *** JOB 10775131 ON bber0501u35b CANCELLED AT 2020-03-26T02:59:21 DUE TO TIME LIMIT ***
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+slurmstepd: error: *** JOB 10775163 ON bear-pg0212u17a CANCELLED AT 2020-03-26T04:45:36 DUE TO TIME LIMIT ***
+GCCcore/6.4.0
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+ifort/2018.1.163-GCC-6.4.0-2.28
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+bzip2/1.0.6-GCCcore-6.4.0
+zlib/1.2.11-GCCcore-6.4.0
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+GMP/6.1.2-GCCcore-6.4.0
+XZ/5.2.3-GCCcore-6.4.0
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+libpng/1.6.32-GCCcore-6.4.0
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3

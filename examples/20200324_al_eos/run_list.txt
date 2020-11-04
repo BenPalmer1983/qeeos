@@ -1,0 +1,108 @@
+File Name:                      ec_9_0
+Path:                           /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec
+File In:                        /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_0.in
+File Out:                       /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_0.out
+Hash:                           5bcdc5a07b260f26f7ee1934a556cb763a64e2c1a51e9b9561d41981f2f83ff763b3a7652c8997de8712c2a5c46aca9002e8d1eb4b8803f6a5673e65b450e7f5
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/5bcdc5a07b260f26f7ee1934a556cb763a64e2c1a51e9b9561d41981f2f83ff763b3a7652c8997de8712c2a5c46aca9002e8d1eb4b8803f6a5673e65b450e7f5.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/5bcdc5a07b260f26f7ee1934a556cb763a64e2c1a51e9b9561d41981f2f83ff763b3a7652c8997de8712c2a5c46aca9002e8d1eb4b8803f6a5673e65b450e7f5.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_0.in > /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_0.out
+
+
+File Name:                      ec_9_1
+Path:                           /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec
+File In:                        /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_1.in
+File Out:                       /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_1.out
+Hash:                           a9c3194f1b82d109a6a32d09b82c90e7d091a16e5d80220e33313c406806b566648f02a860315078295b0bfac4e59e25a44b7a67d85c242464cd21091d0770a1
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/a9c3194f1b82d109a6a32d09b82c90e7d091a16e5d80220e33313c406806b566648f02a860315078295b0bfac4e59e25a44b7a67d85c242464cd21091d0770a1.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/a9c3194f1b82d109a6a32d09b82c90e7d091a16e5d80220e33313c406806b566648f02a860315078295b0bfac4e59e25a44b7a67d85c242464cd21091d0770a1.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_1.in > /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_1.out
+
+
+File Name:                      ec_9_2
+Path:                           /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec
+File In:                        /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_2.in
+File Out:                       /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_2.out
+Hash:                           bac0135ff14a668c1235567f7342a26dcca1d5c76691dc2af70439c9a834d93db7a4d7f6b265543af2995b05fdbafe9652fe76f41eb4b97789544ca0c152c1f1
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/bac0135ff14a668c1235567f7342a26dcca1d5c76691dc2af70439c9a834d93db7a4d7f6b265543af2995b05fdbafe9652fe76f41eb4b97789544ca0c152c1f1.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/bac0135ff14a668c1235567f7342a26dcca1d5c76691dc2af70439c9a834d93db7a4d7f6b265543af2995b05fdbafe9652fe76f41eb4b97789544ca0c152c1f1.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_2.in > /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_2.out
+
+
+File Name:                      ec_9_3
+Path:                           /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec
+File In:                        /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_3.in
+File Out:                       /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_3.out
+Hash:                           279a0c411166108a6f1705bf407eb5ea7d82e3fb2966c2a29f0e381e7ddbf060cd35346416c55b3efa33dfeb2b0b516fdb7b6e777c43600e946470bbf684a1bf
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/279a0c411166108a6f1705bf407eb5ea7d82e3fb2966c2a29f0e381e7ddbf060cd35346416c55b3efa33dfeb2b0b516fdb7b6e777c43600e946470bbf684a1bf.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/279a0c411166108a6f1705bf407eb5ea7d82e3fb2966c2a29f0e381e7ddbf060cd35346416c55b3efa33dfeb2b0b516fdb7b6e777c43600e946470bbf684a1bf.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_3.in > /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_3.out
+
+
+File Name:                      ec_9_4
+Path:                           /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec
+File In:                        /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_4.in
+File Out:                       /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_4.out
+Hash:                           0ec63f5531b924bcf3583324502d063274170b02e206ba771c86119e0e0fbc37145acfbdf4c689a4a790f98dd99e0216b1a998186bc05c090fb6097c6f893d3e
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/0ec63f5531b924bcf3583324502d063274170b02e206ba771c86119e0e0fbc37145acfbdf4c689a4a790f98dd99e0216b1a998186bc05c090fb6097c6f893d3e.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/0ec63f5531b924bcf3583324502d063274170b02e206ba771c86119e0e0fbc37145acfbdf4c689a4a790f98dd99e0216b1a998186bc05c090fb6097c6f893d3e.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_4.in > /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_4.out
+
+
+File Name:                      ec_9_5
+Path:                           /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec
+File In:                        /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_5.in
+File Out:                       /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_5.out
+Hash:                           05ee85977f6d6f9330811d01e232fa9ed6ae8c70df586698add916bea606a68908bf270f1ea03e31c73b05dcb350092f1074570ce96e83a12d16138f923a3f12
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/05ee85977f6d6f9330811d01e232fa9ed6ae8c70df586698add916bea606a68908bf270f1ea03e31c73b05dcb350092f1074570ce96e83a12d16138f923a3f12.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/05ee85977f6d6f9330811d01e232fa9ed6ae8c70df586698add916bea606a68908bf270f1ea03e31c73b05dcb350092f1074570ce96e83a12d16138f923a3f12.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_5.in > /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_5.out
+
+
+File Name:                      ec_9_6
+Path:                           /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec
+File In:                        /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_6.in
+File Out:                       /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_6.out
+Hash:                           f54c5937b78d6c0988aa9b6bcc6a91832cc57e570f6890aeb7ef171d9ff1d05d35d454096201fb9f38323a9187270ca7c698f5c33c7e5c75b4449971afd1f718
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/f54c5937b78d6c0988aa9b6bcc6a91832cc57e570f6890aeb7ef171d9ff1d05d35d454096201fb9f38323a9187270ca7c698f5c33c7e5c75b4449971afd1f718.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/f54c5937b78d6c0988aa9b6bcc6a91832cc57e570f6890aeb7ef171d9ff1d05d35d454096201fb9f38323a9187270ca7c698f5c33c7e5c75b4449971afd1f718.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_6.in > /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_6.out
+
+
+File Name:                      ec_9_7
+Path:                           /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec
+File In:                        /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_7.in
+File Out:                       /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_7.out
+Hash:                           5a13436f1eec0f9da40e8e86d7ef9be431b8bbe9a921e7b35ba1f2c699680281d78ebcf9a5299da0fee9e596ff554375c3af78a4f1a9f76be8e5df87a0622592
+Use Cache?:                     True
+Cache Used:                     True
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/5a13436f1eec0f9da40e8e86d7ef9be431b8bbe9a921e7b35ba1f2c699680281d78ebcf9a5299da0fee9e596ff554375c3af78a4f1a9f76be8e5df87a0622592.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/5a13436f1eec0f9da40e8e86d7ef9be431b8bbe9a921e7b35ba1f2c699680281d78ebcf9a5299da0fee9e596ff554375c3af78a4f1a9f76be8e5df87a0622592.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_7.in > /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_7.out
+
+
+File Name:                      ec_9_8
+Path:                           /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec
+File In:                        /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_8.in
+File Out:                       /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_8.out
+Hash:                           19a687448f0af80621b7e1139e02cd879fbb67f4e0dfa782935f8169e4d71513abde08545f40d52d3e5628ae093798211f1f91eaf9360ecf367b2b8d6e97d6ea
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /rds/homes/b/bxp912/pwscf_cache/19a687448f0af80621b7e1139e02cd879fbb67f4e0dfa782935f8169e4d71513abde08545f40d52d3e5628ae093798211f1f91eaf9360ecf367b2b8d6e97d6ea.in
+Cache Out:                      /rds/homes/b/bxp912/pwscf_cache/19a687448f0af80621b7e1139e02cd879fbb67f4e0dfa782935f8169e4d71513abde08545f40d52d3e5628ae093798211f1f91eaf9360ecf367b2b8d6e97d6ea.out
+CMD:                            mpirun -n 20 /rds/homes/b/bxp912/apps/qe-6.3/bin/pw.x -i /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_8.in > /rds/homes/b/bxp912/jobs/20200324_al_eos_e/wd/pwscf_ec/ec_9_8.out
+
+
