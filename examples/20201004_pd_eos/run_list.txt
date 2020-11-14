@@ -1,0 +1,12 @@
+File Name:                      relax
+Path:                           wd/relax
+File In:                        wd/relax/relax.in
+File Out:                       wd/relax/relax.out
+Hash:                           ad2c36c6beb301bba48a18ad4aabf892efa6119c0248061f6e35efcfddf5ffb83bd0c4b9dfe127a91b07729655d5acccc231d6b92200947acf4727e7cdfc1f76
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /opt/pwscf_cache/ad2c36c6beb301bba48a18ad4aabf892efa6119c0248061f6e35efcfddf5ffb83bd0c4b9dfe127a91b07729655d5acccc231d6b92200947acf4727e7cdfc1f76.in
+Cache Out:                      /opt/pwscf_cache/ad2c36c6beb301bba48a18ad4aabf892efa6119c0248061f6e35efcfddf5ffb83bd0c4b9dfe127a91b07729655d5acccc231d6b92200947acf4727e7cdfc1f76.out
+CMD:                             1 wd/relax/relax.in wd/relax/relax.out
+
+

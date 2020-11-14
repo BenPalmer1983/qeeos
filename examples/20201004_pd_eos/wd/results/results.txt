@@ -1,0 +1,134 @@
+################################################################
+#                        RESULTS                               #
+################################################################
+Sat, 14 Nov 2020 21:59:18 +0000
+
+INPUT SETTINGS
+################################
+
+Structure:                    fcc
+Size:                         2
+A0:                           3.89
+A0 Units:                     ang
+A0 (Bohr):                    14.7042
+A0 (Angs):                    7.7785218
+
+Ecutwfc:                      71
+Ecutrho:                      430
+Degauss:                      0.04
+Kpoints:                      9 9 9 1 1 1
+Kpoints Type:                 automatic
+EOS Points:                   7
+EOS Strain:                   0.005
+EC Points:                    7
+EC Strain:                    0.005
+
+
+RELAXED
+################################
+
+a0 (Bohr):                    14.8394198232
+CP:                           1.0      0.0      0.0
+                              0.0      1.0      0.0
+                              0.0      0.0      1.0
+Volume (Bohr^3/unit cell):    3267.76460963
+Density KG/m^3:               11689.7296625
+AMU per crystal unit:         3405.4400000000014
+Atoms per crystal unit:       32
+Total Energy/Ry:              -16384.95810846
+Energy per Atom/Ry:           -512.029940889375
+Total Force Ry/Bohr:          0.000188
+Force per atom Ry/Bohr:       5.875e-06
+
+
+a0 primitive (Bohr):          7.4197099116
+a0 primitive (Ang):          3.9250265432364
+
+
+EOS
+################################
+
+V0 (Bohr^3 / atom):           103.055133214
+E0 (Ry / atom):               -512.029995887
+B0 (RY/BOHR3):                0.012538146479
+B0 (GPA):                     184.442403779
+B0P:                          4.7014295893
+
+
+EC
+################################
+
+Stiffness (RY/BOHR3):         0.0149806  0.010383   0.0103812  0.0        0.0        0.0       
+                              0.010383   0.0149801  0.0103722  0.0        0.0        0.0       
+                              0.0103812  0.0103722  0.0149778  0.0        0.0        0.0       
+                              0.0        0.0        0.0        0.0055032  0.0        0.0       
+                              0.0        0.0        0.0        0.0        0.0055036  0.0       
+                              0.0        0.0        0.0        0.0        0.0        0.0055024 
+
+Stiffness (GPA):              218.471929 151.422406 151.395627 0.0        0.0        0.0       
+                              151.422406 218.464281 151.264808 0.0        0.0        0.0       
+                              151.395627 151.264808 218.430622 0.0        0.0        0.0       
+                              0.0        0.0        0.0        80.2564574 0.0        0.0       
+                              0.0        0.0        0.0        0.0        80.2629605 0.0       
+                              0.0        0.0        0.0        0.0        0.0        80.2449828
+
+Compliance (1/GPA):           0.0105867  -0.0043366 -0.0043346 0.0        0.0        0.0       
+                              -0.0043366 0.0105705  -0.0043144 0.0        0.0        0.0       
+                              -0.0043346 -0.0043144 0.0105702  0.0        0.0        0.0       
+                              0.0        0.0        0.0        0.0124601  0.0        0.0       
+                              0.0        0.0        0.0        0.0        0.012459   0.0       
+                              0.0        0.0        0.0        0.0        0.0        0.0124618 
+
+Stability:
+C11:                                                218.471929458 (Stable)
+C11C22 - C12C12:                                    24799.5680651 (Stable)
+C11*C22*C33+2*C12*C13*C23-C11*C23*C23-C33*C12*C12:  7353517.38556 (Stable)
+C44:                                                80.256457365 (Stable)
+C55:                                                80.262960524 (Stable)
+C66:                                                80.244982752 (Stable)
+
+Bulk Modulus B (GPA):         173.725818131
+BR (GPA):                     173.725800894
+BV (GPA):                     173.725835369
+
+Shear Modulus G (GPA):        56.5595512391
+GR:                           51.5472895795
+GV:                           61.5718128987
+
+Young's Modulus E (GPA):      153.067378318
+
+Poisson's Ratio v:            0.35315234089
+
+
+L Elastic Wave V:             0.145988361768
+T Elastic Wave V:             0.0695585857774
+M Elastic Wave V:             0.0782389075958
+
+Debye Temperature:            0.000471028127273
+
+Melting Point:                1910.0K 
+
+
+
+
+
+
+
+
+References 
+=======================================
+
+First Principles Calculations of Elastic Properties of Metals
+M. J. Mehl, B. M. Klein, D. A. Papaconstantopoulos
+1994
+
+Ab Initio Study of the Elastic and Mechanical Properties of B19 TiAl
+Y. Wen, L. Wang, H. Liu and L. Song
+Crystals
+2017
+
+Density functional theory for calculation of elastic properties of orthorhombic crystals - applications to TiSi2
+P. Ravindran, Lars Fast, P. A. Korzhavyi, B. Johansson
+Journal of Applied Physics
+1998
+

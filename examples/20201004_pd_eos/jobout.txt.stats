@@ -1,0 +1,64 @@
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Wed Nov 11 06:20:43 2020 for bxp912(5629)
+| Identity jobid 24506442 jobname pdeos
+| Running against project readmsd02 and in partition cascadelake-hdr-shared
+| Requested cpu=20,mem=60G,node=1,billing=20 - 20:00:00 walltime
+| Assigned to nodes bear-pg0206u14b
+| Command /rds/homes/b/bxp912/jobs/20201004_pd_eos/batch.sh
+| WorkDir /rds/homes/b/bxp912/jobs/20201004_pd_eos
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Thu Nov 12 02:20:54 2020 for bxp912(5629) on the BlueBEAR Cluster
+| Required (19:37:10 cputime, 29098608K memory used) - 20:00:11 walltime
+| JobState COMPLETING - Reason TimeLimit
+| Exitcode 0:15
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Thu Nov 12 06:17:55 2020 for bxp912(5629)
+| Identity jobid 24566666 jobname pdeos
+| Running against project readmsd02 and in partition cascadelake-shared
+| Requested cpu=20,mem=60G,node=1,billing=20 - 10:00:00 walltime
+| Assigned to nodes bear-pg0211u04a
+| Command /rds/homes/b/bxp912/jobs/20201004_pd_eos/batch.sh
+| WorkDir /rds/homes/b/bxp912/jobs/20201004_pd_eos
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Thu Nov 12 16:18:00 2020 for bxp912(5629) on the BlueBEAR Cluster
+| Required (21:10:37 cputime, 29489044K memory used) - 10:00:05 walltime
+| JobState COMPLETING - Reason TimeLimit
+| Exitcode 0:15
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Thu Nov 12 22:25:00 2020 for bxp912(5629)
+| Identity jobid 24637408 jobname pdeos
+| Running against project readmsd02 and in partition cascadelake-shared
+| Requested cpu=20,mem=60G,node=1,billing=20 - 15:00:00 walltime
+| Assigned to nodes bear-pg0211u10b
+| Command /rds/homes/b/bxp912/jobs/20201004_pd_eos/batch.sh
+| WorkDir /rds/homes/b/bxp912/jobs/20201004_pd_eos
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Fri Nov 13 13:25:50 2020 for bxp912(5629) on the BlueBEAR Cluster
+| Required (07:46:56 cputime, 29744368K memory used) - 15:00:53 walltime
+| JobState COMPLETING - Reason TimeLimit
+| Exitcode 0:15
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Job on the BlueBEAR cluster:
+| Starting at Fri Nov 13 19:49:45 2020 for bxp912(5629)
+| Identity jobid 24697095 jobname pdeos
+| Running against project readmsd02 and in partition cascadelake-hdr-shared
+| Requested cpu=20,mem=60G,node=1,billing=20 - 1-06:00:00 walltime
+| Assigned to nodes bear-pg0206u15a
+| Command /rds/homes/b/bxp912/jobs/20201004_pd_eos/batch.sh
+| WorkDir /rds/homes/b/bxp912/jobs/20201004_pd_eos
++--------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+| Finished at Sat Nov 14 11:12:10 2020 for bxp912(5629) on the BlueBEAR Cluster
+| Required (14:55:34 cputime, 28989956K memory used) - 15:22:28 walltime
+| JobState COMPLETING - Reason None
+| Exitcode 0:0
++--------------------------------------------------------------------------+

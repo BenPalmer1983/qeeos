@@ -1,0 +1,10 @@
+# The template pwscf file
+pwscf_template file=pdfcc.in
+settings ecutwfc=71 ecutrho=430 kpoints='9 9 9 1 1 1' kpointstype='automatic' degauss=0.04 
+
+config structure=fcc size=2 alat=3.89 alat_units=ang
+job_done setting=almost
+
+ec run=true points=7 strain=0.005
+eos run=true points=7 strain=0.005
+

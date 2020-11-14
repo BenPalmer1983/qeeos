@@ -1,0 +1,2425 @@
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iomkl/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * icc/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GCCcore/6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GCCcore/6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * binutils/2.28-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ifort/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iccifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * imkl/2018.1.163-iompi-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iompi/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Python/3.6.3-iomkl-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * bzip2/1.0.6-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+bzip2/1.0.6-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * zlib/1.2.11-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+zlib/1.2.11-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libreadline/7.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ncurses/6.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * SQLite/3.20.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Tcl/8.6.7-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GMP/6.1.2-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GMP/6.1.2-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * XZ/5.2.3-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+XZ/5.2.3-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libffi/3.2.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libpng/1.6.32-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libpng/1.6.32-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * freetype/2.8-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/baragmhh’: Operation not permitted
+rm: cannot remove ‘/scratch/branfosj’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:249663] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:249663] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:249663] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/baragmhh’: Operation not permitted
+rm: cannot remove ‘/scratch/branfosj’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:36165] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:36165] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:36165] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/baragmhh’: Operation not permitted
+rm: cannot remove ‘/scratch/branfosj’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:53799] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:53799] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:53799] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/baragmhh’: Operation not permitted
+rm: cannot remove ‘/scratch/branfosj’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:68974] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:68974] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:68974] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/baragmhh’: Operation not permitted
+rm: cannot remove ‘/scratch/branfosj’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:81936] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:81936] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:81936] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/baragmhh’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:93860] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:93860] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:93860] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/baragmhh’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0206u14b][[31715,1],4][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u14b.bear.cluster:104478] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:104478] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:104478] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/baragmhh’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x1e22630 valid_mask = 0x3)
+[bear-pg0206u14b][[23910,1],3][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u14b.bear.cluster:114331] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:114331] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:114331] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/baragmhh’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:126452] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:126452] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:126452] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/baragmhh’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:148813] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:148813] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:148813] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/axt367’: Operation not permitted
+rm: cannot remove ‘/scratch/baragmhh’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:174373] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:174373] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:174373] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/axt367’: Operation not permitted
+rm: cannot remove ‘/scratch/baragmhh’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:210086] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:210086] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:210086] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/axt367’: Operation not permitted
+rm: cannot remove ‘/scratch/baragmhh’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b69d8ad2044 valid_mask = 0x3)
+[bear-pg0206u14b][[22573,1],15][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u14b.bear.cluster:244690] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:244690] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:244690] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/axt367’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:08754] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:08754] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:08754] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:41076] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:41076] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:41076] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x276b110 valid_mask = 0x3)
+[bear-pg0206u14b][[58565,1],13][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u14b.bear.cluster:67384] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:67384] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:67384] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/galavots’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:115533] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:115533] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:115533] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/galavots’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:140301] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:140301] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:140301] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/galavots’: Operation not permitted
+rm: cannot remove ‘/scratch/keanep’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b9298953044 valid_mask = 0x3)
+[bear-pg0206u14b][[28269,1],17][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u14b.bear.cluster:167315] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:167315] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:167315] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/galavots’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:193493] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:193493] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:193493] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2afe4d253044 valid_mask = 0x3)
+[bear-pg0206u14b][[47650,1],13][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u14b.bear.cluster:219613] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:219613] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:219613] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/galavots’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b8e5cf80044 valid_mask = 0x3)
+[bear-pg0206u14b][[8219,1],12][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0206u14b][[8219,1],13][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u14b.bear.cluster:246756] 17 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:246756] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:246756] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x29f7b10 valid_mask = 0x3)
+[bear-pg0206u14b][[64040,1],12][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u14b.bear.cluster:268752] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:268752] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:268752] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:19877] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:19877] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:19877] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:41414] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:41414] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:41414] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:63025] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:63025] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:63025] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0206u14b][[43285,1],0][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u14b.bear.cluster:84712] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:84712] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:84712] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/OaSHLwkhJrvGvlrR.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B18CE558555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:120605] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:120605] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:120605] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/AdDJADDpKlBvzWDH.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B8F243E5555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:155978] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:155978] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:155978] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/BYvsdxrGjLBEjhYs.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B98106A3555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/ets796’: Operation not permitted
+rm: cannot remove ‘/scratch/wxf415’: Operation not permitted
+rm: cannot remove ‘/scratch/xxs972’: Operation not permitted
+[bear-pg0206u14b.bear.cluster:192003] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u14b.bear.cluster:192003] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u14b.bear.cluster:192003] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+slurmstepd: error: *** JOB 24506442 ON bear-pg0206u14b CANCELLED AT 2020-11-12T02:20:54 DUE TO TIME LIMIT ***
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iomkl/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * icc/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GCCcore/6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GCCcore/6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * binutils/2.28-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ifort/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iccifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * imkl/2018.1.163-iompi-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iompi/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Python/3.6.3-iomkl-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * bzip2/1.0.6-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+bzip2/1.0.6-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * zlib/1.2.11-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+zlib/1.2.11-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libreadline/7.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ncurses/6.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * SQLite/3.20.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Tcl/8.6.7-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GMP/6.1.2-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GMP/6.1.2-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * XZ/5.2.3-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+XZ/5.2.3-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libffi/3.2.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libpng/1.6.32-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libpng/1.6.32-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * freetype/2.8-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+rm: cannot remove ‘/scratch/aslanm’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/sxk1008’: Operation not permitted
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/XepBpYuMmphxTLhm.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B1041666555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/aslanm’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/sxk1008’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b08e0830480 valid_mask = 0x3)
+[bear-pg0211u04a][[51566,1],18][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x1a4a670 valid_mask = 0x3)
+[bear-pg0211u04a][[51566,1],7][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u04a][[51566,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[51566,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a.bear.cluster:215507] 1 more process has sent help message help-mpi-btl-openib.txt / error in device init
+[bear-pg0211u04a.bear.cluster:215507] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/LKEKYQxNqsofoDII.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B2CA53DD555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/aslanm’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/rajur’: Operation not permitted
+rm: cannot remove ‘/scratch/sxk1008’: Operation not permitted
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/iFSRwqKtnSzcYeti.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B909C329555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/aslanm’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/rajur’: Operation not permitted
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/mSNMWyDiyOQCEXfT.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AF0D45F3555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/aslanm’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/rajur’: Operation not permitted
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/oJULugWmRfxXWvWK.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AD7A8B50555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/aslanm’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dmc795’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x3347bf0 valid_mask = 0x3)
+[bear-pg0211u04a][[7907,1],6][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u04a][[7907,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u04a][[7907,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/XEDCfxhqJEbiveFD.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B3EA3200555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/aslanm’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dmc795’: Operation not permitted
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/kyJVXcLLgOocvLBm.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B2E927F6555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axt367’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dmc795’: Operation not permitted
+rm: cannot remove ‘/scratch/rajur’: Operation not permitted
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/WkVagQtlXiiXBpfh.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002AD5993E0555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axt367’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dmc795’: Operation not permitted
+rm: cannot remove ‘/scratch/rajur’: Operation not permitted
+slurmstepd: error: *** JOB 24566666 ON bear-pg0211u04a CANCELLED AT 2020-11-12T16:18:01 DUE TO TIME LIMIT ***
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iomkl/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * icc/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GCCcore/6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GCCcore/6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * binutils/2.28-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ifort/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iccifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * imkl/2018.1.163-iompi-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iompi/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Python/3.6.3-iomkl-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * bzip2/1.0.6-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+bzip2/1.0.6-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * zlib/1.2.11-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+zlib/1.2.11-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libreadline/7.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ncurses/6.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * SQLite/3.20.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Tcl/8.6.7-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GMP/6.1.2-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GMP/6.1.2-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * XZ/5.2.3-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+XZ/5.2.3-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libffi/3.2.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libpng/1.6.32-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libpng/1.6.32-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * freetype/2.8-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dxm237’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2bcd850 valid_mask = 0x3)
+[bear-pg0211u10b][[26253,1],13][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u10b][[26253,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[26253,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/fNmlrDlxtjOgmhJS.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002BA586C70555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dxm237’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0211u10b][[61676,1],11][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u10b][[61676,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[61676,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/DOuvNbmaATpwzoJH.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B3338094555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dxm237’: Operation not permitted
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/kVyMXXKVfayRAhzK.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002ACF901CA555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dxm237’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x1ab4c70 valid_mask = 0x3)
+[bear-pg0211u10b][[36658,1],5][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u10b][[36658,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],18][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 18: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[36658,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/bgUCFXMGxMGidzpp.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B22CE26E555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dxm237’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x100000000 valid_mask = 0x3)
+[bear-pg0211u10b][[31823,1],18][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0211u10b][[31823,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],19][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 19: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],12][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 12: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],3][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 3: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],13][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 13: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],11][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 11: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],1][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 1: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],7][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 7: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],5][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 5: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],6][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 6: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],8][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 8: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],16][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 16: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],14][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 14: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],2][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 2: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],4][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 4: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],10][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 10: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],0][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 0: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],17][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 17: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],15][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 15: error exit from mca_btl_openib_proc_create
+[bear-pg0211u10b][[31823,1],9][btl_openib_proc.c:330:mca_btl_openib_proc_get_locked] 9: error exit from mca_btl_openib_proc_create
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/KrnUtBTOsdHothgh.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B1D5E2D9555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dxm237’: Operation not permitted
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/vGdAlXtywLRQFJIv.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B055BF43555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dxm237’: Operation not permitted
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/dpSHXFeWvMxldWmY.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B1A583A4555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dxm237’: Operation not permitted
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/evtNMxDQxAhRwCAe.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9214357555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dxm237’: Operation not permitted
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/LbDynGcGOpLIRwMz.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B721D7AE555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dxm237’: Operation not permitted
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/xgirDvqqvneRgRXn.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B73A52FD555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dxm237’: Operation not permitted
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/UHkwLMeLkspXpoMu.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B2D5C0A2555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/dmc795’: Operation not permitted
+rm: cannot remove ‘/scratch/dxm237’: Operation not permitted
+slurmstepd: error: *** JOB 24637408 ON bear-pg0211u10b CANCELLED AT 2020-11-13T13:25:50 DUE TO TIME LIMIT ***
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iomkl/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * icc/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GCCcore/6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GCCcore/6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * binutils/2.28-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+binutils/2.28-GCCcore-6.4.0
+icc/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ifort/2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iccifort/2018.1.163-GCC-6.4.0-2.28
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iccifort/2018.1.163-GCC-6.4.0-2.28
+OpenMPI/2.1.2-iccifort-2018.1.163-GCC-6.4.0-2.28
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * imkl/2018.1.163-iompi-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * iompi/2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+iompi/2018a
+imkl/2018.1.163-iompi-2018a
+iomkl/2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Python/3.6.3-iomkl-2018a
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * bzip2/1.0.6-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+bzip2/1.0.6-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * zlib/1.2.11-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+zlib/1.2.11-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libreadline/7.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * ncurses/6.0-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+ncurses/6.0-GCCcore-6.4.0
+libreadline/7.0-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * SQLite/3.20.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * Tcl/8.6.7-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+Tcl/8.6.7-GCCcore-6.4.0
+SQLite/3.20.1-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * GMP/6.1.2-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+GMP/6.1.2-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * XZ/5.2.3-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+XZ/5.2.3-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libffi/3.2.1-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libffi/3.2.1-GCCcore-6.4.0
+Python/3.6.3-iomkl-2018a
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * libpng/1.6.32-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+libpng/1.6.32-GCCcore-6.4.0
+
+----------------------------- WARNING -------------------------------
+This module is deprecated:
+ * freetype/2.8-GCCcore-6.4.0
+
+Please see https://intranet.birmingham.ac.uk/bear-apps-versions for
+details of the 2020 OS upgrade for BEAR systems.
+
+This module will NOT be available after the OS upgrade.
+
+Please see https://bear-apps.bham.ac.uk for alternative versions.
+---------------------------------------------------------------------
+
+freetype/2.8-GCCcore-6.4.0
+matplotlib/2.1.1-iomkl-2018a-Python-3.6.3
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/axt367’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/drummonj’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+[bear-pg0206u15a.bear.cluster:260958] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:260958] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:260958] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/xwtObqBUkEnvHLWu.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B261DEDB555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+rm: cannot remove ‘/scratch/rab285’: Operation not permitted
+[bear-pg0206u15a.bear.cluster:84469] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:84469] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:84469] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/KeyqhzIjFgVsxShR.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B3C9556C555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+rm: cannot remove ‘/scratch/rab285’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x1aa0cd0 valid_mask = 0x3)
+[bear-pg0206u15a][[3440,1],3][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x26b0cd0 valid_mask = 0x3)
+[bear-pg0206u15a][[3440,1],14][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u15a.bear.cluster:121462] 17 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:121462] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:121462] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/QoVbaHlrAmnKXQrC.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B370B07F555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+rm: cannot remove ‘/scratch/rab285’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2ae99a686480 valid_mask = 0x3)
+[bear-pg0206u15a][[48404,1],9][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2614d70 valid_mask = 0x3)
+[bear-pg0206u15a][[48404,1],7][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u15a.bear.cluster:158225] 17 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:158225] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:158225] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/KUiCkUGOGRFjNgYX.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B308DE8E555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+rm: cannot remove ‘/scratch/rab285’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x2b5f19788480 valid_mask = 0x3)
+[bear-pg0206u15a][[9608,1],18][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u15a.bear.cluster:193165] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:193165] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:193165] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/VsfITovsITQnRgIS.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B8789E2F555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+[bear-pg0206u15a.bear.cluster:229666] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:229666] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:229666] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/BbxKiFAemJyRxJAA.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B9012EBB555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x203bd70 valid_mask = 0x3)
+[bear-pg0206u15a][[54509,1],2][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u15a.bear.cluster:263150] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:263150] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:263150] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/kIFdAnBIvymlLJEB.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B689506B555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+[bear-pg0206u15a.bear.cluster:26839] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:26839] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:26839] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/wgaycTwjQJaglork.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B6E4FBF8555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+[bear-pg0206u15a.bear.cluster:62826] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:62826] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:62826] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/yzNvmLQiGtdQBCgY.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B310E9F8555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+[bear-pg0206u15a.bear.cluster:96557] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:96557] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:96557] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/qLGKBofEkFHAqCmX.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B31AF424555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+ibv_exp_query_device: invalid comp_mask !!! (comp_mask = 0x1f76e70 valid_mask = 0x3)
+[bear-pg0206u15a][[54293,1],13][btl_openib_component.c:1648:init_one_device] error obtaining device attributes for mlx5_0 errno says Invalid argument
+[bear-pg0206u15a.bear.cluster:131856] 18 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:131856] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:131856] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/hQzjVyQpOcfXtLuC.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B558AB85555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+[bear-pg0206u15a.bear.cluster:167811] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:167811] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:167811] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/LoqjwEFKIKchnbQl.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B27686AB555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+[bear-pg0206u15a.bear.cluster:202838] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:202838] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:202838] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/RMYXMywoiynkqvEA.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B381DCA3555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
+rm: cannot remove ‘/scratch/axn241’: Operation not permitted
+rm: cannot remove ‘/scratch/cxa244’: Operation not permitted
+rm: cannot remove ‘/scratch/gxg833’: Operation not permitted
+rm: cannot remove ‘/scratch/nxt794’: Operation not permitted
+[bear-pg0206u15a.bear.cluster:236031] 19 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[bear-pg0206u15a.bear.cluster:236031] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[bear-pg0206u15a.bear.cluster:236031] 19 more processes have sent help message help-mpi-btl-openib.txt / error in device init
+forrtl: No space left on device
+forrtl: severe (38): error during write, unit 4, file /scratch/YiTrrfeqkhFhHFAb.save/wfc96.dat
+Image              PC                Routine            Line        Source             
+pw.x               0000000000D3190E  for__io_return        Unknown  Unknown
+pw.x               0000000000D8AD58  for_write_seq_xmi     Unknown  Unknown
+pw.x               0000000000D87B45  for_write_seq         Unknown  Unknown
+pw.x               00000000008C093E  Unknown               Unknown  Unknown
+pw.x               000000000054CA84  Unknown               Unknown  Unknown
+pw.x               0000000000547C6B  Unknown               Unknown  Unknown
+pw.x               000000000057EA77  Unknown               Unknown  Unknown
+pw.x               000000000040F2B0  Unknown               Unknown  Unknown
+pw.x               000000000040F12E  Unknown               Unknown  Unknown
+libc-2.17.so       00002B766B234555  __libc_start_main     Unknown  Unknown
+pw.x               000000000040F029  Unknown               Unknown  Unknown
