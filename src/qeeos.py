@@ -110,6 +110,8 @@ class qeeos:
       plot.run()
     
   def load_input_defaults():
+    print("Load input defaults")
+   
     g.inp = {}
     
     g.inp['pwscf_template'] = {

@@ -1,0 +1,12 @@
+File Name:                      ec_9_009
+Path:                           /cloud/Code/python/qeeos/examples/aluminium/wd/ec
+File In:                        /cloud/Code/python/qeeos/examples/aluminium/wd/ec/ec_9_009.in
+File Out:                       /cloud/Code/python/qeeos/examples/aluminium/wd/ec/ec_9_009.out
+Hash:                           91617523b3b76d19781dc9ce0e370fa1c9c9b8668a9c8a199d7dccd46a49ad9c3ff12e625658472659d2694013a892e81f304823c3742e482fa0c3bc714777a7
+Use Cache?:                     False
+Cache Used:                     False
+Cache In:                       /opt/pwscf_cache/91617523b3b76d19781dc9ce0e370fa1c9c9b8668a9c8a199d7dccd46a49ad9c3ff12e625658472659d2694013a892e81f304823c3742e482fa0c3bc714777a7.in
+Cache Out:                      /opt/pwscf_cache/91617523b3b76d19781dc9ce0e370fa1c9c9b8668a9c8a199d7dccd46a49ad9c3ff12e625658472659d2694013a892e81f304823c3742e482fa0c3bc714777a7.out
+CMD:                            mpirun -n 1 /opt/qe/bin/pw.x -i /cloud/Code/python/qeeos/examples/aluminium/wd/ec/ec_9_009.in > /cloud/Code/python/qeeos/examples/aluminium/wd/ec/ec_9_009.out
+
+

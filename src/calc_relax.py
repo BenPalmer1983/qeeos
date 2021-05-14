@@ -32,12 +32,11 @@ class calc_relax:
     # RUN PWSCF
     runfile = []
     runfile.append(g.dirs['relax'] + '/relax.in')
-    
     if(g.inp['settings']['pwscf_run']):
       files_out = pwscf_exec.execute(runfile)
     else:
       files_out = []
-
+    
     if(files_out[0]['status'] == 'complete'):     
       relaxed_file = pwscf_output(files_out[0]['file'])   
       g.relaxed['complete'] = True 

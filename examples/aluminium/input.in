@@ -1,0 +1,13 @@
+# The template pwscf file
+pwscf_template file=alfcc.in
+
+
+config type=fcc size=2 alat=6.9
+job_done setting=almost
+
+settings ecutwfc=50 ecutrho=200 kpoints='11 11 11 1 1 1' kpointstype='automatic' degauss=0.04
+
+eos points=11 strain=0.005
+ec points=9 strain=0.005
+#line name=a
+#line name=b

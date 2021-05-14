@@ -1,0 +1,161 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{quantumespresso}{article}{}
+    \name{author}{17}{}{%
+      {{hash=GP}{%
+         family={Giannozzi},
+         familyi={G\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+      {{hash=AO}{%
+         family={Andreussi},
+         familyi={A\bibinitperiod},
+         given={O},
+         giveni={O},
+      }}%
+      {{hash=BT}{%
+         family={Brumme},
+         familyi={B\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=BO}{%
+         family={Bunau},
+         familyi={B\bibinitperiod},
+         given={O},
+         giveni={O},
+      }}%
+      {{hash=NMB}{%
+         family={Nardelli},
+         familyi={N\bibinitperiod},
+         given={M\bibnamedelima Buongiorno},
+         giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Calandra},
+         familyi={C\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=CR}{%
+         family={Car},
+         familyi={C\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+  {{hash=CCMCNCICADCSdGPDRADJAFAFGFGFRGUGFGTGJJMKHYKAKEKMLMMNMFMNLNHVNAOdlRLPSPDRRSBSDC}{%
+         family={C\bibnamedelima Cavazzoni},
+         familyi={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+         suffix={D\bibnamedelima Ceresoli},
+         suffixi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={M\bibnamedelima Cococcioni N Colonna I Carnimeo A Dal Corso S
+  de Gironcoli P Delugas R A DiStasio Jr A Ferretti A Floris G Fratesi G
+  Fugallo R Gebauer U Gerstmann F Giustino T Gorni J Jia M Kawamura H-Y Ko A
+  Kokalj E Küçükbenli M Lazzeri M Marsili N Marzari F Mauri N L Nguyen H-V
+  Nguyen A Otero-de-la-Roza L Paulatto S Poncé D Rocca R Sabatini
+  B\bibnamedelima Santra},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod N\bibinitperiod
+  C\bibinitperiod I\bibinitperiod C\bibinitperiod A\bibinitperiod
+  D\bibinitperiod C\bibinitperiod S\bibinitperiod d\bibinitperiod
+  G\bibinitperiod P\bibinitperiod D\bibinitperiod R\bibinitperiod
+  A\bibinitperiod D\bibinitperiod J\bibinitperiod A\bibinitperiod
+  F\bibinitperiod A\bibinitperiod F\bibinitperiod G\bibinitperiod
+  F\bibinitperiod G\bibinitperiod F\bibinitperiod R\bibinitperiod
+  G\bibinitperiod U\bibinitperiod G\bibinitperiod F\bibinitperiod
+  G\bibinitperiod T\bibinitperiod G\bibinitperiod J\bibinitperiod
+  J\bibinitperiod M\bibinitperiod K\bibinitperiod
+  H\bibinitperiod-Y\bibinitperiod K\bibinitperiod A\bibinitperiod
+  K\bibinitperiod E\bibinitperiod K\bibinitperiod M\bibinitperiod
+  L\bibinitperiod M\bibinitperiod M\bibinitperiod N\bibinitperiod
+  M\bibinitperiod F\bibinitperiod M\bibinitperiod N\bibinitperiod
+  L\bibinitperiod N\bibinitperiod H\bibinitperiod-V\bibinitperiod
+  N\bibinitperiod A\bibinitperiod
+  O\bibinitperiod-d\bibinitperiod-l\bibinitperiod-R\bibinitperiod
+  L\bibinitperiod P\bibinitperiod S\bibinitperiod P\bibinitperiod
+  D\bibinitperiod R\bibinitperiod R\bibinitperiod S\bibinitperiod
+  B\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schlipf},
+         familyi={S\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+      {{hash=SAP}{%
+         family={Seitsonen},
+         familyi={S\bibinitperiod},
+         given={A\bibnamedelima P},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Smogunov},
+         familyi={S\bibinitperiod},
+         given={A},
+         giveni={A},
+      }}%
+      {{hash=TI}{%
+         family={Timrov},
+         familyi={T\bibinitperiod},
+         given={I},
+         giveni={I},
+      }}%
+      {{hash=TT}{%
+         family={Thonhauser},
+         familyi={T\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=UP}{%
+         family={Umari},
+         familyi={U\bibinitperiod},
+         given={P},
+         giveni={P},
+      }}%
+      {{hash=VN}{%
+         family={Vast},
+         familyi={V\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+      {{hash=WX}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={X},
+         giveni={X},
+      }}%
+      {{hash=BS}{%
+         family={Baroni},
+         familyi={B\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+    }
+    \strng{namehash}{GP+1}
+  \strng{fullhash}{GPAOBTBONMBCMCRCCDCMCNCICADCSdGPDRADJAFAFGFGFRGUGFGTGJJMKHYKAKEKMLMMNMFMNLNHVNAOdlRLPSPDRRSBSSMSAPSATITTUPVNWXBS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Modern Nuclear Data Evaluation With The TALYS Code System}
+    \field{volume}{29}
+    \field{journaltitle}{J.Phys.:Condens.Matter}
+    \field{year}{2017}
+  \endentry
+\enddatalist
+\endinput

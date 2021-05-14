@@ -1,0 +1,83 @@
+
+\usepackage{listings}
+\lstloadlanguages{Fortran,Bash,Python,C++}
+\lstloadlanguages{Matlab}
+
+\lstdefinestyle{inputfile}
+{
+  breaklines=true,
+  numbers=left,
+  stepnumber=1,
+  tabsize=4,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve}
+}
+
+\lstdefinestyle{spython}
+{
+	language=Python,
+  breaklines=true,
+  numbers=left,
+  stepnumber=1,
+  tabsize=4,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve}
+}
+
+\lstdefinestyle{pseudocode}
+{
+  breaklines=true,
+  numbers=left,
+  stepnumber=1,
+  tabsize=4,
+  keywordstyle=\color{blue}
+}
+
+
+
+\definecolor{col_336699}{RGB}{51,102,153}
+\definecolor{col_333333}{RGB}{51,51,51}
+\definecolor{col_111111}{RGB}{17,17,17}
+\definecolor{col_555555}{RGB}{85,85,85}
+\definecolor{col_666666}{RGB}{102,102,102}
+\definecolor{col_777777}{RGB}{119,119,119}
+\definecolor{col_000022}{RGB}{0,0,34}
+\definecolor{col_000000}{RGB}{0,0,0}
+
+
+ 
+%% DRAW LINE
+\newcommand{\tikzdrawline}[7]{
+\draw[#1] (#2,#4,#3) -- (#5,#7,#6);  
+}
+%% DRAW BALL
+\newcommand{\tikzdrawatom}[5]{%
+\filldraw[ball color=#1] (#2,#3,#4) circle[radius=#5];
+}  
+
+%% DRAW ARROW
+\newcommand{\tikzdrawarrow}[9]{
+\draw[#1, thick, ->] (#2,#4,#3) -- (#5,#7,#6) node[midway,#8]{#9};  
+}
+
+\newcommand{\tikzdrawlinethick}[7]{
+\draw[#1, line width=0.5mm] (#2,#4,#3) -- (#5,#7,#6);  
+} 
+
+\newcommand{\tikzdrawlinedotted}[7]{
+\draw[#1, dotted] (#2,#4,#3) -- (#5,#7,#6);  
+}
+
+%% DRAW COORD GRID
+\newcommand{\tikzcoordgrid}[6]{%
+\fill[col_336699!10,opacity=1.0] (0.0,0.0,0.0) -- (0.0,0.0,#1) -- (0.0,#3,#1) -- (0.0,#3,0.0) -- cycle;
+\fill[col_336699!15,opacity=1.0] (0.0,0.0,0.0) -- (0.0,#3,0.0) -- (#2,#3,0.0) -- (#2,0.0,0.0) -- cycle;
+\fill[col_336699!30,opacity=1.0] (0.0,0.0,0.0) -- (#2,0.0,0.0) -- (#2,0.0,#1) -- (0.0,0.0,#1) -- cycle;
+\tikzdrawarrow{col_000000}{0.0}{0.0}{0.0}{0.0}{1.05*#1}{0.0}{above}{#4};
+\tikzdrawarrow{col_000000}{0.0}{0.0}{0.0}{1.05*#1}{0.0}{0.0}{above}{#5};
+\tikzdrawarrow{col_000000}{0.0}{0.0}{0.0}{0.0}{0.0}{1.05*#1}{left}{#6};
+}  

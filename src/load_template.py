@@ -3,7 +3,8 @@ class load_template:
   
   @staticmethod
   def run():
-  
+    print("Load Template")
+    
   
     # SAVE INPUT TEMPLATE
     template = pwscf_input()

@@ -34,7 +34,7 @@ def main():
   date_time = now.strftime("%m/%d/%Y, %H:%M:%S")
   #print(date_time)	
   #wd_prefix = now.strftime('wd/%Y%m%d_%H%M%S')
-  wd_prefix = 'wd'
+  wd_prefix =  os.getcwd() + '/wd'
   
   
   # Set wd

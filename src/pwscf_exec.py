@@ -56,6 +56,8 @@ class pwscf_exec:
 
   @staticmethod
   def execute(files_in, log=None, set_dirs=True, allow_cache=True):
+    print("Run PWscf")
+    
     files = []
     if type(files_in) is str:
       files.append(files_in)
@@ -100,7 +102,6 @@ class pwscf_exec:
       pw_in.load(file_path)
       pw_in.set_dirs(pwscf_scratch, pwscf_pp)
       pw_in.save()
-
       
       sig = pw_in.signature()
       cache_file = None
@@ -116,12 +117,33 @@ class pwscf_exec:
         if (not os.path.exists(cache_file_out)):
           use_cache = False
       
-      #if(s['pwscf_script'] == ''):
+      script = False
+      bin = False
+      if(s['pwscf_script'] != '' and os.path.isfile(s['pwscf_script'])):
+        script = True
+      if(s['pwscf_bin'] != '' and os.path.isfile(s['pwscf_bin'])):
+        bin = True
+
+      if(script):
+        print("Using PW Script")
+        print(s['pwscf_script'])
+        cmd = s['pwscf_script'] + ' ' + str(s['proc_count']) + ' ' + file_path + ' ' + path + '/' + file_name + '.out'
+      elif(bin):
+        print("Using PW Bin")
+        print(s['pwscf_bin'])
+        cmd = 'mpirun -n ' + s['proc_count'] + ' ' + s['pwscf_bin'] + ' -i ' + file_path + ' > ' + path + '/' + file_name + '.out'
+      else:
+        print("=================================================================")
+        print("Error: exiting")
+        print("Please specify either:")
+        print("PWSCF_SCRIPT      e.g. export PWSCF_SCRIPT=/opt/qe/bin/pw.sh")
+        print("PWSCF_BIN         e.g. export PWSCF_SCRIPT=/opt/qe/bin/pw.x")
+        print("=================================================================")
+        exit()
       #  cmd = 'mpirun -n ' + s['proc_count'] + ' ' + s['pwscf_bin'] + ' -i ' + file_path + ' > ' + path + '/' + file_name + '.out'
       #else:
       #  cmd = s['pwscf_script'] + ' ' + s['proc_count'] + ' ' + file_path + ' ' + path + '/' + file_name + '.out'
-      cmd = s['pwscf_script'] + ' ' + str(s['proc_count']) + ' ' + file_path + ' ' + path + '/' + file_name + '.out'
-      
+
       run_list.append({
         'file_name': file_name, 
         'path': path, 
