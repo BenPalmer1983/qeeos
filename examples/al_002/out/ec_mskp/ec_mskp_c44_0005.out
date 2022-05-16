@@ -1,0 +1,1214 @@
+
+     Program PWSCF v.6.6 starts on 14May2022 at 23:40: 6 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      72 processor cores
+     Number of MPI processes:                72
+     Threads/MPI process:                     1
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      72
+     Fft bands division:     nmany     =       1
+     Reading input from /rds/homes/b/bxp912/jobs/20220514_al_eos/out/ec_mskp/ec_mskp_c44_0005.in
+Warning: card &CELL ignored
+Warning: card CELL_DYNAMICS = 'BFGS', ignored
+Warning: card CELL_FACTOR = 2.0, ignored
+Warning: card PRESS = 0.0, ignored
+Warning: card / ignored
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+     Message from routine emend_upf/check:
+     BEWARE !!! Possible out of bounds while fixing pseudo
+     Message from routine emend_upf/check:
+     BEWARE !!! Possible out of bounds while fixing pseudo
+     Message from routine read_upf:
+     Pseudo file Al.pbe-nl-kjpaw_psl.1.0.0.UPF has been fixed on the fly.
+     To avoid this message in the future, permanently fix 
+     your pseudo files following these instructions: 
+     https://gitlab.com/QEF/q-e/blob/master/upftools/how_to_fix_upf.md
+     file Al.pbe-nl-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P renormalized
+
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     one sub-group per band group will be used
+     ELPA distributed-memory algorithm (size of sub-group:  8*  8 procs)
+
+     Found symmetry operation: I + (  0.1250  0.1250  0.0000)
+     This is a supercell, fractional translations are disabled
+     Message from routine setup:
+     using ibrav=0 with symmetry is DISCOURAGED, use correct ibrav instead
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         206     206     54                18899    18899    2542
+     Max         208     208     55                18904    18904    2547
+     Sum       14841   14841   3901              1360905  1360905  183239
+
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      30.5424  a.u.
+     unit-cell volume          =   28491.1174 (a.u.)^3
+     number of atoms/cell      =          256
+     number of atomic types    =            1
+     number of electrons       =       768.00
+     number of Kohn-Sham states=          461
+     kinetic-energy cutoff     =      50.0000  Ry
+     charge density cutoff     =     200.0000  Ry
+     convergence threshold     =      1.0E-06
+     mixing beta               =       0.1000
+     number of iterations used =           10  plain     mixing
+     Exchange-correlation= SLA PW PBX PBC
+                           (   1   4   3   4   0   0   0)
+     nstep                     =           50
+
+
+     celldm(1)=  30.542400  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.002857   0.000000 )  
+               a(2) = (   0.002857   1.000000   0.000000 )  
+               a(3) = (   0.000000   0.000000   1.000008 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000008 -0.002857  0.000000 )  
+               b(2) = ( -0.002857  1.000008  0.000000 )  
+               b(3) = (  0.000000  0.000000  0.999992 )  
+
+
+     PseudoPot. # 1 for Al read from file:
+     /rds/homes/b/bxp912/pp/Al.pbe-nl-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 339dbea23cf3ab9a065ad45c0f9085d7
+     Pseudo is Projector augmented-wave + core cor, Zval =  3.0
+     Generated using "atomic" code by A. Dal Corso v.5.1
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1135 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+        Al             3.00    26.98200     Al( 1.00)
+
+      8 Sym. Ops., with inversion, found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Al  tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+         2           Al  tau(   2) = (   0.1253571   0.1253571   0.0000000  )
+         3           Al  tau(   3) = (   0.1250000   0.0003571   0.1250010  )
+         4           Al  tau(   4) = (   0.0003571   0.1250000   0.1250010  )
+         5           Al  tau(   5) = (   0.0000000   0.0000000   0.2500020  )
+         6           Al  tau(   6) = (   0.1253571   0.1253571   0.2500020  )
+         7           Al  tau(   7) = (   0.1250000   0.0003571   0.3750031  )
+         8           Al  tau(   8) = (   0.0003571   0.1250000   0.3750031  )
+         9           Al  tau(   9) = (   0.0000000   0.0000000   0.5000041  )
+        10           Al  tau(  10) = (   0.1253571   0.1253571   0.5000041  )
+        11           Al  tau(  11) = (   0.1250000   0.0003571   0.6250051  )
+        12           Al  tau(  12) = (   0.0003571   0.1250000   0.6250051  )
+        13           Al  tau(  13) = (   0.0000000   0.0000000   0.7500061  )
+        14           Al  tau(  14) = (   0.1253571   0.1253571   0.7500061  )
+        15           Al  tau(  15) = (   0.1250000   0.0003571   0.8750071  )
+        16           Al  tau(  16) = (   0.0003571   0.1250000   0.8750071  )
+        17           Al  tau(  17) = (   0.0007143   0.2500000   0.0000000  )
+        18           Al  tau(  18) = (   0.1260714   0.3753571   0.0000000  )
+        19           Al  tau(  19) = (   0.1257143   0.2503571   0.1250010  )
+        20           Al  tau(  20) = (   0.0010714   0.3750000   0.1250010  )
+        21           Al  tau(  21) = (   0.0007143   0.2500000   0.2500020  )
+        22           Al  tau(  22) = (   0.1260714   0.3753571   0.2500020  )
+        23           Al  tau(  23) = (   0.1257143   0.2503571   0.3750031  )
+        24           Al  tau(  24) = (   0.0010714   0.3750000   0.3750031  )
+        25           Al  tau(  25) = (   0.0007143   0.2500000   0.5000041  )
+        26           Al  tau(  26) = (   0.1260714   0.3753571   0.5000041  )
+        27           Al  tau(  27) = (   0.1257143   0.2503571   0.6250051  )
+        28           Al  tau(  28) = (   0.0010714   0.3750000   0.6250051  )
+        29           Al  tau(  29) = (   0.0007143   0.2500000   0.7500061  )
+        30           Al  tau(  30) = (   0.1260714   0.3753571   0.7500061  )
+        31           Al  tau(  31) = (   0.1257143   0.2503571   0.8750071  )
+        32           Al  tau(  32) = (   0.0010714   0.3750000   0.8750071  )
+        33           Al  tau(  33) = (   0.0014286   0.5000000   0.0000000  )
+        34           Al  tau(  34) = (   0.1267857   0.6253571   0.0000000  )
+        35           Al  tau(  35) = (   0.1264286   0.5003571   0.1250010  )
+        36           Al  tau(  36) = (   0.0017857   0.6250000   0.1250010  )
+        37           Al  tau(  37) = (   0.0014286   0.5000000   0.2500020  )
+        38           Al  tau(  38) = (   0.1267857   0.6253571   0.2500020  )
+        39           Al  tau(  39) = (   0.1264286   0.5003571   0.3750031  )
+        40           Al  tau(  40) = (   0.0017857   0.6250000   0.3750031  )
+        41           Al  tau(  41) = (   0.0014286   0.5000000   0.5000041  )
+        42           Al  tau(  42) = (   0.1267857   0.6253571   0.5000041  )
+        43           Al  tau(  43) = (   0.1264286   0.5003571   0.6250051  )
+        44           Al  tau(  44) = (   0.0017857   0.6250000   0.6250051  )
+        45           Al  tau(  45) = (   0.0014286   0.5000000   0.7500061  )
+        46           Al  tau(  46) = (   0.1267857   0.6253571   0.7500061  )
+        47           Al  tau(  47) = (   0.1264286   0.5003571   0.8750071  )
+        48           Al  tau(  48) = (   0.0017857   0.6250000   0.8750071  )
+        49           Al  tau(  49) = (   0.0021429   0.7500000   0.0000000  )
+        50           Al  tau(  50) = (   0.1275000   0.8753571   0.0000000  )
+        51           Al  tau(  51) = (   0.1271429   0.7503571   0.1250010  )
+        52           Al  tau(  52) = (   0.0025000   0.8750000   0.1250010  )
+        53           Al  tau(  53) = (   0.0021429   0.7500000   0.2500020  )
+        54           Al  tau(  54) = (   0.1275000   0.8753571   0.2500020  )
+        55           Al  tau(  55) = (   0.1271429   0.7503571   0.3750031  )
+        56           Al  tau(  56) = (   0.0025000   0.8750000   0.3750031  )
+        57           Al  tau(  57) = (   0.0021429   0.7500000   0.5000041  )
+        58           Al  tau(  58) = (   0.1275000   0.8753571   0.5000041  )
+        59           Al  tau(  59) = (   0.1271429   0.7503571   0.6250051  )
+        60           Al  tau(  60) = (   0.0025000   0.8750000   0.6250051  )
+        61           Al  tau(  61) = (   0.0021429   0.7500000   0.7500061  )
+        62           Al  tau(  62) = (   0.1275000   0.8753571   0.7500061  )
+        63           Al  tau(  63) = (   0.1271429   0.7503571   0.8750071  )
+        64           Al  tau(  64) = (   0.0025000   0.8750000   0.8750071  )
+        65           Al  tau(  65) = (   0.2500000   0.0007143   0.0000000  )
+        66           Al  tau(  66) = (   0.3753571   0.1260714   0.0000000  )
+        67           Al  tau(  67) = (   0.3750000   0.0010714   0.1250010  )
+        68           Al  tau(  68) = (   0.2503571   0.1257143   0.1250010  )
+        69           Al  tau(  69) = (   0.2500000   0.0007143   0.2500020  )
+        70           Al  tau(  70) = (   0.3753571   0.1260714   0.2500020  )
+        71           Al  tau(  71) = (   0.3750000   0.0010714   0.3750031  )
+        72           Al  tau(  72) = (   0.2503571   0.1257143   0.3750031  )
+        73           Al  tau(  73) = (   0.2500000   0.0007143   0.5000041  )
+        74           Al  tau(  74) = (   0.3753571   0.1260714   0.5000041  )
+        75           Al  tau(  75) = (   0.3750000   0.0010714   0.6250051  )
+        76           Al  tau(  76) = (   0.2503571   0.1257143   0.6250051  )
+        77           Al  tau(  77) = (   0.2500000   0.0007143   0.7500061  )
+        78           Al  tau(  78) = (   0.3753571   0.1260714   0.7500061  )
+        79           Al  tau(  79) = (   0.3750000   0.0010714   0.8750071  )
+        80           Al  tau(  80) = (   0.2503571   0.1257143   0.8750071  )
+        81           Al  tau(  81) = (   0.2507143   0.2507143   0.0000000  )
+        82           Al  tau(  82) = (   0.3760714   0.3760714   0.0000000  )
+        83           Al  tau(  83) = (   0.3757143   0.2510714   0.1250010  )
+        84           Al  tau(  84) = (   0.2510714   0.3757143   0.1250010  )
+        85           Al  tau(  85) = (   0.2507143   0.2507143   0.2500020  )
+        86           Al  tau(  86) = (   0.3760714   0.3760714   0.2500020  )
+        87           Al  tau(  87) = (   0.3757143   0.2510714   0.3750031  )
+        88           Al  tau(  88) = (   0.2510714   0.3757143   0.3750031  )
+        89           Al  tau(  89) = (   0.2507143   0.2507143   0.5000041  )
+        90           Al  tau(  90) = (   0.3760714   0.3760714   0.5000041  )
+        91           Al  tau(  91) = (   0.3757143   0.2510714   0.6250051  )
+        92           Al  tau(  92) = (   0.2510714   0.3757143   0.6250051  )
+        93           Al  tau(  93) = (   0.2507143   0.2507143   0.7500061  )
+        94           Al  tau(  94) = (   0.3760714   0.3760714   0.7500061  )
+        95           Al  tau(  95) = (   0.3757143   0.2510714   0.8750071  )
+        96           Al  tau(  96) = (   0.2510714   0.3757143   0.8750071  )
+        97           Al  tau(  97) = (   0.2514286   0.5007143   0.0000000  )
+        98           Al  tau(  98) = (   0.3767857   0.6260714   0.0000000  )
+        99           Al  tau(  99) = (   0.3764286   0.5010714   0.1250010  )
+       100           Al  tau( 100) = (   0.2517857   0.6257143   0.1250010  )
+       101           Al  tau( 101) = (   0.2514286   0.5007143   0.2500020  )
+       102           Al  tau( 102) = (   0.3767857   0.6260714   0.2500020  )
+       103           Al  tau( 103) = (   0.3764286   0.5010714   0.3750031  )
+       104           Al  tau( 104) = (   0.2517857   0.6257143   0.3750031  )
+       105           Al  tau( 105) = (   0.2514286   0.5007143   0.5000041  )
+       106           Al  tau( 106) = (   0.3767857   0.6260714   0.5000041  )
+       107           Al  tau( 107) = (   0.3764286   0.5010714   0.6250051  )
+       108           Al  tau( 108) = (   0.2517857   0.6257143   0.6250051  )
+       109           Al  tau( 109) = (   0.2514286   0.5007143   0.7500061  )
+       110           Al  tau( 110) = (   0.3767857   0.6260714   0.7500061  )
+       111           Al  tau( 111) = (   0.3764286   0.5010714   0.8750071  )
+       112           Al  tau( 112) = (   0.2517857   0.6257143   0.8750071  )
+       113           Al  tau( 113) = (   0.2521429   0.7507143   0.0000000  )
+       114           Al  tau( 114) = (   0.3775000   0.8760714   0.0000000  )
+       115           Al  tau( 115) = (   0.3771429   0.7510714   0.1250010  )
+       116           Al  tau( 116) = (   0.2525000   0.8757143   0.1250010  )
+       117           Al  tau( 117) = (   0.2521429   0.7507143   0.2500020  )
+       118           Al  tau( 118) = (   0.3775000   0.8760714   0.2500020  )
+       119           Al  tau( 119) = (   0.3771429   0.7510714   0.3750031  )
+       120           Al  tau( 120) = (   0.2525000   0.8757143   0.3750031  )
+       121           Al  tau( 121) = (   0.2521429   0.7507143   0.5000041  )
+       122           Al  tau( 122) = (   0.3775000   0.8760714   0.5000041  )
+       123           Al  tau( 123) = (   0.3771429   0.7510714   0.6250051  )
+       124           Al  tau( 124) = (   0.2525000   0.8757143   0.6250051  )
+       125           Al  tau( 125) = (   0.2521429   0.7507143   0.7500061  )
+       126           Al  tau( 126) = (   0.3775000   0.8760714   0.7500061  )
+       127           Al  tau( 127) = (   0.3771429   0.7510714   0.8750071  )
+       128           Al  tau( 128) = (   0.2525000   0.8757143   0.8750071  )
+       129           Al  tau( 129) = (   0.5000000   0.0014286   0.0000000  )
+       130           Al  tau( 130) = (   0.6253571   0.1267857   0.0000000  )
+       131           Al  tau( 131) = (   0.6250000   0.0017857   0.1250010  )
+       132           Al  tau( 132) = (   0.5003571   0.1264286   0.1250010  )
+       133           Al  tau( 133) = (   0.5000000   0.0014286   0.2500020  )
+       134           Al  tau( 134) = (   0.6253571   0.1267857   0.2500020  )
+       135           Al  tau( 135) = (   0.6250000   0.0017857   0.3750031  )
+       136           Al  tau( 136) = (   0.5003571   0.1264286   0.3750031  )
+       137           Al  tau( 137) = (   0.5000000   0.0014286   0.5000041  )
+       138           Al  tau( 138) = (   0.6253571   0.1267857   0.5000041  )
+       139           Al  tau( 139) = (   0.6250000   0.0017857   0.6250051  )
+       140           Al  tau( 140) = (   0.5003571   0.1264286   0.6250051  )
+       141           Al  tau( 141) = (   0.5000000   0.0014286   0.7500061  )
+       142           Al  tau( 142) = (   0.6253571   0.1267857   0.7500061  )
+       143           Al  tau( 143) = (   0.6250000   0.0017857   0.8750071  )
+       144           Al  tau( 144) = (   0.5003571   0.1264286   0.8750071  )
+       145           Al  tau( 145) = (   0.5007143   0.2514286   0.0000000  )
+       146           Al  tau( 146) = (   0.6260714   0.3767857   0.0000000  )
+       147           Al  tau( 147) = (   0.6257143   0.2517857   0.1250010  )
+       148           Al  tau( 148) = (   0.5010714   0.3764286   0.1250010  )
+       149           Al  tau( 149) = (   0.5007143   0.2514286   0.2500020  )
+       150           Al  tau( 150) = (   0.6260714   0.3767857   0.2500020  )
+       151           Al  tau( 151) = (   0.6257143   0.2517857   0.3750031  )
+       152           Al  tau( 152) = (   0.5010714   0.3764286   0.3750031  )
+       153           Al  tau( 153) = (   0.5007143   0.2514286   0.5000041  )
+       154           Al  tau( 154) = (   0.6260714   0.3767857   0.5000041  )
+       155           Al  tau( 155) = (   0.6257143   0.2517857   0.6250051  )
+       156           Al  tau( 156) = (   0.5010714   0.3764286   0.6250051  )
+       157           Al  tau( 157) = (   0.5007143   0.2514286   0.7500061  )
+       158           Al  tau( 158) = (   0.6260714   0.3767857   0.7500061  )
+       159           Al  tau( 159) = (   0.6257143   0.2517857   0.8750071  )
+       160           Al  tau( 160) = (   0.5010714   0.3764286   0.8750071  )
+       161           Al  tau( 161) = (   0.5014286   0.5014286   0.0000000  )
+       162           Al  tau( 162) = (   0.6267857   0.6267857   0.0000000  )
+       163           Al  tau( 163) = (   0.6264286   0.5017857   0.1250010  )
+       164           Al  tau( 164) = (   0.5017857   0.6264286   0.1250010  )
+       165           Al  tau( 165) = (   0.5014286   0.5014286   0.2500020  )
+       166           Al  tau( 166) = (   0.6267857   0.6267857   0.2500020  )
+       167           Al  tau( 167) = (   0.6264286   0.5017857   0.3750031  )
+       168           Al  tau( 168) = (   0.5017857   0.6264286   0.3750031  )
+       169           Al  tau( 169) = (   0.5014286   0.5014286   0.5000041  )
+       170           Al  tau( 170) = (   0.6267857   0.6267857   0.5000041  )
+       171           Al  tau( 171) = (   0.6264286   0.5017857   0.6250051  )
+       172           Al  tau( 172) = (   0.5017857   0.6264286   0.6250051  )
+       173           Al  tau( 173) = (   0.5014286   0.5014286   0.7500061  )
+       174           Al  tau( 174) = (   0.6267857   0.6267857   0.7500061  )
+       175           Al  tau( 175) = (   0.6264286   0.5017857   0.8750071  )
+       176           Al  tau( 176) = (   0.5017857   0.6264286   0.8750071  )
+       177           Al  tau( 177) = (   0.5021429   0.7514286   0.0000000  )
+       178           Al  tau( 178) = (   0.6275000   0.8767857   0.0000000  )
+       179           Al  tau( 179) = (   0.6271429   0.7517857   0.1250010  )
+       180           Al  tau( 180) = (   0.5025000   0.8764286   0.1250010  )
+       181           Al  tau( 181) = (   0.5021429   0.7514286   0.2500020  )
+       182           Al  tau( 182) = (   0.6275000   0.8767857   0.2500020  )
+       183           Al  tau( 183) = (   0.6271429   0.7517857   0.3750031  )
+       184           Al  tau( 184) = (   0.5025000   0.8764286   0.3750031  )
+       185           Al  tau( 185) = (   0.5021429   0.7514286   0.5000041  )
+       186           Al  tau( 186) = (   0.6275000   0.8767857   0.5000041  )
+       187           Al  tau( 187) = (   0.6271429   0.7517857   0.6250051  )
+       188           Al  tau( 188) = (   0.5025000   0.8764286   0.6250051  )
+       189           Al  tau( 189) = (   0.5021429   0.7514286   0.7500061  )
+       190           Al  tau( 190) = (   0.6275000   0.8767857   0.7500061  )
+       191           Al  tau( 191) = (   0.6271429   0.7517857   0.8750071  )
+       192           Al  tau( 192) = (   0.5025000   0.8764286   0.8750071  )
+       193           Al  tau( 193) = (   0.7500000   0.0021429   0.0000000  )
+       194           Al  tau( 194) = (   0.8753571   0.1275000   0.0000000  )
+       195           Al  tau( 195) = (   0.8750000   0.0025000   0.1250010  )
+       196           Al  tau( 196) = (   0.7503571   0.1271429   0.1250010  )
+       197           Al  tau( 197) = (   0.7500000   0.0021429   0.2500020  )
+       198           Al  tau( 198) = (   0.8753571   0.1275000   0.2500020  )
+       199           Al  tau( 199) = (   0.8750000   0.0025000   0.3750031  )
+       200           Al  tau( 200) = (   0.7503571   0.1271429   0.3750031  )
+       201           Al  tau( 201) = (   0.7500000   0.0021429   0.5000041  )
+       202           Al  tau( 202) = (   0.8753571   0.1275000   0.5000041  )
+       203           Al  tau( 203) = (   0.8750000   0.0025000   0.6250051  )
+       204           Al  tau( 204) = (   0.7503571   0.1271429   0.6250051  )
+       205           Al  tau( 205) = (   0.7500000   0.0021429   0.7500061  )
+       206           Al  tau( 206) = (   0.8753571   0.1275000   0.7500061  )
+       207           Al  tau( 207) = (   0.8750000   0.0025000   0.8750071  )
+       208           Al  tau( 208) = (   0.7503571   0.1271429   0.8750071  )
+       209           Al  tau( 209) = (   0.7507143   0.2521429   0.0000000  )
+       210           Al  tau( 210) = (   0.8760714   0.3775000   0.0000000  )
+       211           Al  tau( 211) = (   0.8757143   0.2525000   0.1250010  )
+       212           Al  tau( 212) = (   0.7510714   0.3771429   0.1250010  )
+       213           Al  tau( 213) = (   0.7507143   0.2521429   0.2500020  )
+       214           Al  tau( 214) = (   0.8760714   0.3775000   0.2500020  )
+       215           Al  tau( 215) = (   0.8757143   0.2525000   0.3750031  )
+       216           Al  tau( 216) = (   0.7510714   0.3771429   0.3750031  )
+       217           Al  tau( 217) = (   0.7507143   0.2521429   0.5000041  )
+       218           Al  tau( 218) = (   0.8760714   0.3775000   0.5000041  )
+       219           Al  tau( 219) = (   0.8757143   0.2525000   0.6250051  )
+       220           Al  tau( 220) = (   0.7510714   0.3771429   0.6250051  )
+       221           Al  tau( 221) = (   0.7507143   0.2521429   0.7500061  )
+       222           Al  tau( 222) = (   0.8760714   0.3775000   0.7500061  )
+       223           Al  tau( 223) = (   0.8757143   0.2525000   0.8750071  )
+       224           Al  tau( 224) = (   0.7510714   0.3771429   0.8750071  )
+       225           Al  tau( 225) = (   0.7514286   0.5021429   0.0000000  )
+       226           Al  tau( 226) = (   0.8767857   0.6275000   0.0000000  )
+       227           Al  tau( 227) = (   0.8764286   0.5025000   0.1250010  )
+       228           Al  tau( 228) = (   0.7517857   0.6271429   0.1250010  )
+       229           Al  tau( 229) = (   0.7514286   0.5021429   0.2500020  )
+       230           Al  tau( 230) = (   0.8767857   0.6275000   0.2500020  )
+       231           Al  tau( 231) = (   0.8764286   0.5025000   0.3750031  )
+       232           Al  tau( 232) = (   0.7517857   0.6271429   0.3750031  )
+       233           Al  tau( 233) = (   0.7514286   0.5021429   0.5000041  )
+       234           Al  tau( 234) = (   0.8767857   0.6275000   0.5000041  )
+       235           Al  tau( 235) = (   0.8764286   0.5025000   0.6250051  )
+       236           Al  tau( 236) = (   0.7517857   0.6271429   0.6250051  )
+       237           Al  tau( 237) = (   0.7514286   0.5021429   0.7500061  )
+       238           Al  tau( 238) = (   0.8767857   0.6275000   0.7500061  )
+       239           Al  tau( 239) = (   0.8764286   0.5025000   0.8750071  )
+       240           Al  tau( 240) = (   0.7517857   0.6271429   0.8750071  )
+       241           Al  tau( 241) = (   0.7521429   0.7521429   0.0000000  )
+       242           Al  tau( 242) = (   0.8775000   0.8775000   0.0000000  )
+       243           Al  tau( 243) = (   0.8771429   0.7525000   0.1250010  )
+       244           Al  tau( 244) = (   0.7525000   0.8771429   0.1250010  )
+       245           Al  tau( 245) = (   0.7521429   0.7521429   0.2500020  )
+       246           Al  tau( 246) = (   0.8775000   0.8775000   0.2500020  )
+       247           Al  tau( 247) = (   0.8771429   0.7525000   0.3750031  )
+       248           Al  tau( 248) = (   0.7525000   0.8771429   0.3750031  )
+       249           Al  tau( 249) = (   0.7521429   0.7521429   0.5000041  )
+       250           Al  tau( 250) = (   0.8775000   0.8775000   0.5000041  )
+       251           Al  tau( 251) = (   0.8771429   0.7525000   0.6250051  )
+       252           Al  tau( 252) = (   0.7525000   0.8771429   0.6250051  )
+       253           Al  tau( 253) = (   0.7521429   0.7521429   0.7500061  )
+       254           Al  tau( 254) = (   0.8775000   0.8775000   0.7500061  )
+       255           Al  tau( 255) = (   0.8771429   0.7525000   0.8750071  )
+       256           Al  tau( 256) = (   0.7525000   0.8771429   0.8750071  )
+
+     number of k points=     1  Marzari-Vanderbilt smearing, width (Ry)=  0.0100
+                       cart. coord. in units 2pi/alat
+        k(    1) = (  -0.4985755  -0.4985755  -0.4999959), wk =   2.0000000
+
+     Dense  grid:  1360905 G-vectors     FFT dimensions: ( 144, 144, 144)
+
+     Estimated max dynamical RAM per process >     336.30 MB
+
+     Estimated total dynamical RAM >      23.65 GB
+
+     Initial potential from superposition of free atoms
+
+     starting charge  767.41370, renormalised to  768.00000
+     Starting wfcs are 1024 randomized atomic wfcs
+     Checking if some PAW data can be deallocated... 
+
+     total cpu time spent up to now is       10.8 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  1.00E-02,  avg # of iterations =  4.0
+
+     Threshold (ethr) on eigenvalues was too large:
+     Diagonalizing with lowered threshold
+
+     Davidson diagonalization with overlap
+     ethr =  1.85E-04,  avg # of iterations =  5.0
+
+     total cpu time spent up to now is       39.1 secs
+
+     total energy              =  -10112.01176616 Ry
+     estimated scf accuracy    <       1.44536981 Ry
+
+     iteration #  2     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  1.88E-04,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is       48.7 secs
+
+     total energy              =  -10111.71519981 Ry
+     estimated scf accuracy    <       1.17081517 Ry
+
+     iteration #  3     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  1.52E-04,  avg # of iterations =  1.0
+
+     total cpu time spent up to now is       56.8 secs
+
+     total energy              =  -10111.74466585 Ry
+     estimated scf accuracy    <       0.00697590 Ry
+
+     iteration #  4     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  9.08E-07,  avg # of iterations =  9.0
+
+     total cpu time spent up to now is       80.5 secs
+
+     total energy              =  -10111.75586697 Ry
+     estimated scf accuracy    <       0.00313004 Ry
+
+     iteration #  5     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  4.08E-07,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is       89.7 secs
+
+     total energy              =  -10111.75543471 Ry
+     estimated scf accuracy    <       0.00431589 Ry
+
+     iteration #  6     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  4.08E-07,  avg # of iterations =  1.0
+
+     total cpu time spent up to now is       98.1 secs
+
+     total energy              =  -10111.75478427 Ry
+     estimated scf accuracy    <       0.00299548 Ry
+
+     iteration #  7     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  3.90E-07,  avg # of iterations =  1.0
+
+     total cpu time spent up to now is      106.3 secs
+
+     total energy              =  -10111.75444051 Ry
+     estimated scf accuracy    <       0.00103566 Ry
+
+     iteration #  8     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  1.35E-07,  avg # of iterations =  1.0
+
+     total cpu time spent up to now is      114.5 secs
+
+     total energy              =  -10111.75445012 Ry
+     estimated scf accuracy    <       0.00008476 Ry
+
+     iteration #  9     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  1.10E-08,  avg # of iterations =  5.0
+
+     total cpu time spent up to now is      128.7 secs
+
+     total energy              =  -10111.75447046 Ry
+     estimated scf accuracy    <       0.00002849 Ry
+
+     iteration # 10     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  3.71E-09,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is      138.9 secs
+
+     total energy              =  -10111.75447701 Ry
+     estimated scf accuracy    <       0.00001156 Ry
+
+     iteration # 11     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  1.51E-09,  avg # of iterations =  5.0
+
+     total cpu time spent up to now is      148.7 secs
+
+     total energy              =  -10111.75447358 Ry
+     estimated scf accuracy    <       0.00001542 Ry
+
+     iteration # 12     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  1.51E-09,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is      158.0 secs
+
+     total energy              =  -10111.75447322 Ry
+     estimated scf accuracy    <       0.00000401 Ry
+
+     iteration # 13     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     c_bands:  2 eigenvalues not converged
+     ethr =  5.23E-10,  avg # of iterations = 20.0
+
+     total cpu time spent up to now is      172.5 secs
+
+     total energy              =  -10111.75447427 Ry
+     estimated scf accuracy    <       0.00000178 Ry
+
+     iteration # 14     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  2.32E-10,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is      182.2 secs
+
+     total energy              =  -10111.75447364 Ry
+     estimated scf accuracy    <       0.00000288 Ry
+
+     iteration # 15     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  2.32E-10,  avg # of iterations =  3.0
+
+     total cpu time spent up to now is      192.5 secs
+
+     total energy              =  -10111.75447335 Ry
+     estimated scf accuracy    <       0.00000440 Ry
+
+     iteration # 16     ecut=    50.00 Ry     beta= 0.10
+     Davidson diagonalization with overlap
+     ethr =  2.32E-10,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is      202.0 secs
+
+     End of self-consistent calculation
+
+          k =-0.4986-0.4986-0.5000 (170156 PWs)   bands (ev):
+
+    -2.8085  -2.8084  -2.8084  -2.8084  -2.8052  -2.8052  -2.8052  -2.8052
+    -1.6856  -1.6856  -1.6856  -1.6856  -1.6856  -1.6856  -1.6856  -1.6856
+    -1.6825  -1.6825  -1.6825  -1.6824  -1.6793  -1.6793  -1.6792  -1.6792
+    -1.6760  -1.6760  -1.6760  -1.6760  -1.6760  -1.6760  -1.6760  -1.6760
+    -0.5778  -0.5778  -0.5778  -0.5777  -0.5683  -0.5683  -0.5683  -0.5683
+    -0.5683  -0.5683  -0.5683  -0.5683  -0.5588  -0.5588  -0.5588  -0.5588
+    -0.5588  -0.5588  -0.5588  -0.5588  -0.5493  -0.5493  -0.5493  -0.5492
+     0.5312   0.5312   0.5312   0.5312   0.5359   0.5359   0.5359   0.5359
+     0.5359   0.5359   0.5360   0.5360   0.5420   0.5421   0.5421   0.5421
+     0.5452   0.5452   0.5452   0.5452   0.5515   0.5515   0.5516   0.5516
+     0.5516   0.5516   0.5516   0.5516   0.5594   0.5594   0.5595   0.5595
+     1.6207   1.6207   1.6207   1.6207   1.6207   1.6207   1.6207   1.6207
+     1.6361   1.6361   1.6361   1.6361   1.6361   1.6361   1.6361   1.6361
+     1.6391   1.6391   1.6391   1.6391   1.6391   1.6391   1.6391   1.6391
+     1.6484   1.6484   1.6484   1.6484   1.6484   1.6484   1.6484   1.6484
+     1.6515   1.6515   1.6515   1.6515   1.6516   1.6516   1.6516   1.6516
+     1.6670   1.6670   1.6670   1.6670   1.6670   1.6670   1.6671   1.6671
+     2.7117   2.7117   2.7117   2.7117   2.7117   2.7117   2.7117   2.7117
+     2.7207   2.7207   2.7207   2.7207   2.7474   2.7474   2.7474   2.7474
+     2.7566   2.7566   2.7566   2.7566   2.7566   2.7566   2.7566   2.7566
+     3.7694   3.7694   3.7694   3.7694   3.7694   3.7694   3.7694   3.7694
+     3.7773   3.7773   3.7773   3.7773   3.7778   3.7778   3.7778   3.7778
+     3.7807   3.7808   3.7808   3.7808   3.7896   3.7896   3.7896   3.7896
+     3.7896   3.7896   3.7897   3.7897   3.8071   3.8071   3.8071   3.8071
+     3.8071   3.8071   3.8071   3.8071   3.8212   3.8212   3.8212   3.8212
+     3.8212   3.8212   3.8212   3.8212   3.8512   3.8512   3.8512   3.8512
+     4.8179   4.8179   4.8179   4.8179   4.8179   4.8179   4.8179   4.8179
+     4.8378   4.8378   4.8378   4.8378   4.8379   4.8379   4.8379   4.8379
+     4.8430   4.8430   4.8430   4.8430   4.8430   4.8430   4.8430   4.8430
+     4.8511   4.8511   4.8511   4.8511   4.8511   4.8511   4.8511   4.8511
+     4.8565   4.8565   4.8565   4.8565   4.8565   4.8565   4.8566   4.8566
+     4.8718   4.8718   4.8718   4.8718   4.8765   4.8765   4.8765   4.8765
+     4.8765   4.8765   4.8765   4.8765   4.8865   4.8865   4.8865   4.8865
+     4.8865   4.8865   4.8865   4.8865   4.9355   4.9355   4.9355   4.9355
+     4.9355   4.9355   4.9355   4.9355   4.9504   4.9504   4.9504   4.9504
+     5.9023   5.9023   5.9023   5.9023   5.9023   5.9023   5.9023   5.9023
+     5.9187   5.9187   5.9187   5.9187   5.9493   5.9493   5.9494   5.9494
+     5.9660   5.9660   5.9660   5.9660   5.9660   5.9660   5.9660   5.9660
+     6.9332   6.9332   6.9332   6.9332   6.9332   6.9332   6.9332   6.9332
+     6.9695   6.9695   6.9695   6.9695   6.9695   6.9695   6.9695   6.9695
+     6.9726   6.9726   6.9726   6.9726   6.9726   6.9726   6.9726   6.9726
+     6.9919   6.9919   6.9919   6.9919   6.9919   6.9919   6.9919   6.9919
+     6.9952   6.9952   6.9952   6.9952   6.9952   6.9952   6.9952   6.9952
+     7.0067   7.0067   7.0067   7.0067   7.0312   7.0312   7.0313   7.0313
+     7.0313   7.0313   7.0313   7.0313   7.0836   7.0836   7.0836   7.0836
+     7.9977   7.9977   7.9977   7.9977   7.9977   7.9977   7.9977   7.9977
+     8.0168   8.0168   8.0168   8.0168   8.0168   8.0168   8.0168   8.0168
+     8.0241   8.0241   8.0241   8.0241   8.0242   8.0242   8.0242   8.0242
+     8.0711   8.0711   8.0711   8.0711   8.0711   8.0711   8.0712   8.0712
+     8.0787   8.0787   8.0787   8.0787   8.0787   8.0787   8.0787   8.0787
+     8.0977   8.0977   8.0977   8.0977   8.0977   8.0977   8.0977   8.0977
+     8.2739   8.2739   8.2739   8.2739   8.2739   8.2739   8.2739   8.2739
+     8.2844   8.2844   8.2844   8.2844   8.2854   8.2855   8.2855   8.2855
+     8.2967   8.2967   8.2967   8.2967   8.2968   8.2968   8.2968   8.2968
+     9.3337   9.3337   9.3337   9.3338   9.3338   9.3339   9.3340   9.3342
+     9.3546   9.3546   9.3547   9.3548   9.3549   9.3551   9.3554   9.3559
+     9.3622   9.3622   9.3623   9.3625   9.3626   9.3628   9.3642   9.3650
+     9.3793   9.3793   9.3794   9.3796   9.3800
+
+     the Fermi energy is     8.0647 ev
+
+!    total energy              =  -10111.75447253 Ry
+
+     total all-electron energy =   -124324.306648 Ry
+     estimated scf accuracy    <       0.00000085 Ry
+     smearing contrib. (-TS)   =      -0.13589034 Ry
+     internal energy E=F+TS    =  -10111.61858220 Ry
+
+     The total energy is F=E-TS. E is the sum of the following terms:
+     one-electron contribution =     811.03453337 Ry
+     hartree contribution      =       1.71584122 Ry
+     xc contribution           =    -663.43857845 Ry
+     ewald contribution        =   -1383.45205936 Ry
+     one-center paw contrib.   =   -8877.47831898 Ry
+
+     convergence has been achieved in  16 iterations
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom    2 type  1   force =     0.00000648    0.00000648    0.00000000
+     atom    3 type  1   force =     0.00000026    0.00000081    0.00000462
+     atom    4 type  1   force =     0.00000081    0.00000026    0.00000462
+     atom    5 type  1   force =     0.00000000    0.00000000   -0.00000399
+     atom    6 type  1   force =    -0.00000552   -0.00000552   -0.00000034
+     atom    7 type  1   force =    -0.00000234    0.00000415   -0.00001771
+     atom    8 type  1   force =     0.00000415   -0.00000234   -0.00001771
+     atom    9 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom   10 type  1   force =     0.00000034    0.00000034    0.00000000
+     atom   11 type  1   force =    -0.00000234    0.00000415    0.00001771
+     atom   12 type  1   force =     0.00000415   -0.00000234    0.00001771
+     atom   13 type  1   force =     0.00000000    0.00000000    0.00000399
+     atom   14 type  1   force =    -0.00000552   -0.00000552    0.00000034
+     atom   15 type  1   force =     0.00000026    0.00000081   -0.00000462
+     atom   16 type  1   force =     0.00000081    0.00000026   -0.00000462
+     atom   17 type  1   force =     0.00000224   -0.00000095   -0.00000000
+     atom   18 type  1   force =     0.00000484   -0.00000898    0.00000000
+     atom   19 type  1   force =     0.00000454   -0.00000567   -0.00000356
+     atom   20 type  1   force =    -0.00000292   -0.00000269    0.00000564
+     atom   21 type  1   force =     0.00000113    0.00000070   -0.00000213
+     atom   22 type  1   force =    -0.00000387    0.00000080    0.00000143
+     atom   23 type  1   force =    -0.00000470    0.00000342   -0.00001141
+     atom   24 type  1   force =    -0.00000172    0.00000408   -0.00000484
+     atom   25 type  1   force =     0.00001038    0.00001234    0.00000000
+     atom   26 type  1   force =    -0.00000336    0.00000554    0.00000000
+     atom   27 type  1   force =    -0.00000470    0.00000342    0.00001141
+     atom   28 type  1   force =    -0.00000172    0.00000408    0.00000484
+     atom   29 type  1   force =     0.00000113    0.00000070    0.00000213
+     atom   30 type  1   force =    -0.00000387    0.00000080   -0.00000143
+     atom   31 type  1   force =     0.00000454   -0.00000567    0.00000356
+     atom   32 type  1   force =    -0.00000292   -0.00000269   -0.00000564
+     atom   33 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom   34 type  1   force =     0.00000174   -0.00000035    0.00000000
+     atom   35 type  1   force =     0.00000177   -0.00000029    0.00000436
+     atom   36 type  1   force =     0.00000292    0.00000269    0.00000564
+     atom   37 type  1   force =     0.00000000    0.00000000    0.00000329
+     atom   38 type  1   force =    -0.00000650    0.00000221   -0.00000191
+     atom   39 type  1   force =    -0.00000631   -0.00000076   -0.00000451
+     atom   40 type  1   force =     0.00000172   -0.00000408   -0.00000484
+     atom   41 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom   42 type  1   force =    -0.00001229   -0.00001275    0.00000000
+     atom   43 type  1   force =    -0.00000631   -0.00000076    0.00000451
+     atom   44 type  1   force =     0.00000172   -0.00000408    0.00000484
+     atom   45 type  1   force =     0.00000000    0.00000000   -0.00000329
+     atom   46 type  1   force =    -0.00000650    0.00000221    0.00000191
+     atom   47 type  1   force =     0.00000177   -0.00000029   -0.00000436
+     atom   48 type  1   force =     0.00000292    0.00000269   -0.00000564
+     atom   49 type  1   force =    -0.00000224    0.00000095   -0.00000000
+     atom   50 type  1   force =    -0.00000525    0.00000525    0.00000000
+     atom   51 type  1   force =    -0.00000281    0.00000127    0.00000438
+     atom   52 type  1   force =    -0.00000081   -0.00000026    0.00000462
+     atom   53 type  1   force =    -0.00000113   -0.00000070   -0.00000213
+     atom   54 type  1   force =    -0.00000273    0.00000273   -0.00000295
+     atom   55 type  1   force =    -0.00000770   -0.00000588   -0.00001840
+     atom   56 type  1   force =    -0.00000415    0.00000234   -0.00001771
+     atom   57 type  1   force =    -0.00001038   -0.00001234    0.00000000
+     atom   58 type  1   force =    -0.00000975    0.00000975    0.00000000
+     atom   59 type  1   force =    -0.00000770   -0.00000588    0.00001840
+     atom   60 type  1   force =    -0.00000415    0.00000234    0.00001771
+     atom   61 type  1   force =    -0.00000113   -0.00000070    0.00000213
+     atom   62 type  1   force =    -0.00000273    0.00000273    0.00000295
+     atom   63 type  1   force =    -0.00000281    0.00000127   -0.00000438
+     atom   64 type  1   force =    -0.00000081   -0.00000026   -0.00000462
+     atom   65 type  1   force =    -0.00000095    0.00000224    0.00000000
+     atom   66 type  1   force =    -0.00000898    0.00000484    0.00000000
+     atom   67 type  1   force =    -0.00000269   -0.00000292    0.00000564
+     atom   68 type  1   force =    -0.00000567    0.00000454   -0.00000356
+     atom   69 type  1   force =     0.00000070    0.00000113   -0.00000213
+     atom   70 type  1   force =     0.00000080   -0.00000387    0.00000143
+     atom   71 type  1   force =     0.00000408   -0.00000172   -0.00000484
+     atom   72 type  1   force =     0.00000342   -0.00000470   -0.00001141
+     atom   73 type  1   force =     0.00001234    0.00001038    0.00000000
+     atom   74 type  1   force =     0.00000554   -0.00000336    0.00000000
+     atom   75 type  1   force =     0.00000408   -0.00000172    0.00000484
+     atom   76 type  1   force =     0.00000342   -0.00000470    0.00001141
+     atom   77 type  1   force =     0.00000070    0.00000113    0.00000213
+     atom   78 type  1   force =     0.00000080   -0.00000387   -0.00000143
+     atom   79 type  1   force =    -0.00000269   -0.00000292   -0.00000564
+     atom   80 type  1   force =    -0.00000567    0.00000454    0.00000356
+     atom   81 type  1   force =     0.00000005    0.00000005   -0.00000000
+     atom   82 type  1   force =    -0.00000125   -0.00000125    0.00000000
+     atom   83 type  1   force =    -0.00000124    0.00000778   -0.00000385
+     atom   84 type  1   force =     0.00000778   -0.00000124   -0.00000385
+     atom   85 type  1   force =    -0.00000023   -0.00000023   -0.00000297
+     atom   86 type  1   force =    -0.00000283   -0.00000283   -0.00000559
+     atom   87 type  1   force =     0.00000063    0.00000124   -0.00000585
+     atom   88 type  1   force =     0.00000124    0.00000063   -0.00000585
+     atom   89 type  1   force =     0.00000694    0.00000694    0.00000000
+     atom   90 type  1   force =     0.00000369    0.00000369   -0.00000000
+     atom   91 type  1   force =     0.00000063    0.00000124    0.00000585
+     atom   92 type  1   force =     0.00000124    0.00000063    0.00000585
+     atom   93 type  1   force =    -0.00000023   -0.00000023    0.00000297
+     atom   94 type  1   force =    -0.00000283   -0.00000283    0.00000559
+     atom   95 type  1   force =    -0.00000124    0.00000778    0.00000385
+     atom   96 type  1   force =     0.00000778   -0.00000124    0.00000385
+     atom   97 type  1   force =     0.00001044    0.00000184    0.00000000
+     atom   98 type  1   force =     0.00000325   -0.00000325   -0.00000000
+     atom   99 type  1   force =     0.00000037    0.00000077    0.00000065
+     atom  100 type  1   force =     0.00000721   -0.00000196   -0.00000090
+     atom  101 type  1   force =     0.00000557   -0.00000130   -0.00000366
+     atom  102 type  1   force =     0.00000004   -0.00000004   -0.00000208
+     atom  103 type  1   force =     0.00000352   -0.00000068   -0.00000334
+     atom  104 type  1   force =     0.00000557   -0.00000751   -0.00000913
+     atom  105 type  1   force =    -0.00000010   -0.00000553    0.00000000
+     atom  106 type  1   force =     0.00000581   -0.00000581    0.00000000
+     atom  107 type  1   force =     0.00000352   -0.00000068    0.00000334
+     atom  108 type  1   force =     0.00000557   -0.00000751    0.00000913
+     atom  109 type  1   force =     0.00000557   -0.00000130    0.00000366
+     atom  110 type  1   force =     0.00000004   -0.00000004    0.00000208
+     atom  111 type  1   force =     0.00000037    0.00000077   -0.00000065
+     atom  112 type  1   force =     0.00000721   -0.00000196    0.00000090
+     atom  113 type  1   force =     0.00000587   -0.00000587   -0.00000000
+     atom  114 type  1   force =     0.00000035   -0.00000174    0.00000000
+     atom  115 type  1   force =     0.00000196   -0.00000721   -0.00000090
+     atom  116 type  1   force =    -0.00000127    0.00000281    0.00000438
+     atom  117 type  1   force =     0.00000018   -0.00000018   -0.00000797
+     atom  118 type  1   force =    -0.00000221    0.00000650   -0.00000191
+     atom  119 type  1   force =     0.00000751   -0.00000557   -0.00000913
+     atom  120 type  1   force =     0.00000588    0.00000770   -0.00001840
+     atom  121 type  1   force =     0.00001324   -0.00001324    0.00000000
+     atom  122 type  1   force =     0.00001275    0.00001229    0.00000000
+     atom  123 type  1   force =     0.00000751   -0.00000557    0.00000913
+     atom  124 type  1   force =     0.00000588    0.00000770    0.00001840
+     atom  125 type  1   force =     0.00000018   -0.00000018    0.00000797
+     atom  126 type  1   force =    -0.00000221    0.00000650    0.00000191
+     atom  127 type  1   force =     0.00000196   -0.00000721    0.00000090
+     atom  128 type  1   force =    -0.00000127    0.00000281   -0.00000438
+     atom  129 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom  130 type  1   force =    -0.00000035    0.00000174    0.00000000
+     atom  131 type  1   force =     0.00000269    0.00000292    0.00000564
+     atom  132 type  1   force =    -0.00000029    0.00000177    0.00000436
+     atom  133 type  1   force =     0.00000000    0.00000000    0.00000329
+     atom  134 type  1   force =     0.00000221   -0.00000650   -0.00000191
+     atom  135 type  1   force =    -0.00000408    0.00000172   -0.00000484
+     atom  136 type  1   force =    -0.00000076   -0.00000631   -0.00000451
+     atom  137 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom  138 type  1   force =    -0.00001275   -0.00001229    0.00000000
+     atom  139 type  1   force =    -0.00000408    0.00000172    0.00000484
+     atom  140 type  1   force =    -0.00000076   -0.00000631    0.00000451
+     atom  141 type  1   force =     0.00000000    0.00000000   -0.00000329
+     atom  142 type  1   force =     0.00000221   -0.00000650    0.00000191
+     atom  143 type  1   force =     0.00000269    0.00000292   -0.00000564
+     atom  144 type  1   force =    -0.00000029    0.00000177   -0.00000436
+     atom  145 type  1   force =     0.00000184    0.00001044    0.00000000
+     atom  146 type  1   force =    -0.00000325    0.00000325   -0.00000000
+     atom  147 type  1   force =    -0.00000196    0.00000721   -0.00000090
+     atom  148 type  1   force =     0.00000077    0.00000037    0.00000065
+     atom  149 type  1   force =    -0.00000130    0.00000557   -0.00000366
+     atom  150 type  1   force =    -0.00000004    0.00000004   -0.00000208
+     atom  151 type  1   force =    -0.00000751    0.00000557   -0.00000913
+     atom  152 type  1   force =    -0.00000068    0.00000352   -0.00000334
+     atom  153 type  1   force =    -0.00000553   -0.00000010    0.00000000
+     atom  154 type  1   force =    -0.00000581    0.00000581    0.00000000
+     atom  155 type  1   force =    -0.00000751    0.00000557    0.00000913
+     atom  156 type  1   force =    -0.00000068    0.00000352    0.00000334
+     atom  157 type  1   force =    -0.00000130    0.00000557    0.00000366
+     atom  158 type  1   force =    -0.00000004    0.00000004    0.00000208
+     atom  159 type  1   force =    -0.00000196    0.00000721    0.00000090
+     atom  160 type  1   force =     0.00000077    0.00000037   -0.00000065
+     atom  161 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom  162 type  1   force =     0.00000125    0.00000125    0.00000000
+     atom  163 type  1   force =    -0.00000037   -0.00000077    0.00000065
+     atom  164 type  1   force =    -0.00000077   -0.00000037    0.00000065
+     atom  165 type  1   force =     0.00000000    0.00000000   -0.00001298
+     atom  166 type  1   force =     0.00000283    0.00000283   -0.00000559
+     atom  167 type  1   force =    -0.00000352    0.00000068   -0.00000334
+     atom  168 type  1   force =     0.00000068   -0.00000352   -0.00000334
+     atom  169 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom  170 type  1   force =    -0.00000369   -0.00000369   -0.00000000
+     atom  171 type  1   force =    -0.00000352    0.00000068    0.00000334
+     atom  172 type  1   force =     0.00000068   -0.00000352    0.00000334
+     atom  173 type  1   force =     0.00000000    0.00000000    0.00001298
+     atom  174 type  1   force =     0.00000283    0.00000283    0.00000559
+     atom  175 type  1   force =    -0.00000037   -0.00000077   -0.00000065
+     atom  176 type  1   force =    -0.00000077   -0.00000037   -0.00000065
+     atom  177 type  1   force =    -0.00000184   -0.00001044    0.00000000
+     atom  178 type  1   force =     0.00000898   -0.00000484    0.00000000
+     atom  179 type  1   force =     0.00000124   -0.00000778   -0.00000385
+     atom  180 type  1   force =     0.00000029   -0.00000177    0.00000436
+     atom  181 type  1   force =     0.00000130   -0.00000557   -0.00000366
+     atom  182 type  1   force =    -0.00000080    0.00000387    0.00000143
+     atom  183 type  1   force =    -0.00000063   -0.00000124   -0.00000585
+     atom  184 type  1   force =     0.00000076    0.00000631   -0.00000451
+     atom  185 type  1   force =     0.00000553    0.00000010    0.00000000
+     atom  186 type  1   force =    -0.00000554    0.00000336   -0.00000000
+     atom  187 type  1   force =    -0.00000063   -0.00000124    0.00000585
+     atom  188 type  1   force =     0.00000076    0.00000631    0.00000451
+     atom  189 type  1   force =     0.00000130   -0.00000557    0.00000366
+     atom  190 type  1   force =    -0.00000080    0.00000387   -0.00000143
+     atom  191 type  1   force =     0.00000124   -0.00000778    0.00000385
+     atom  192 type  1   force =     0.00000029   -0.00000177   -0.00000436
+     atom  193 type  1   force =     0.00000095   -0.00000224    0.00000000
+     atom  194 type  1   force =     0.00000525   -0.00000525    0.00000000
+     atom  195 type  1   force =    -0.00000026   -0.00000081    0.00000462
+     atom  196 type  1   force =     0.00000127   -0.00000281    0.00000438
+     atom  197 type  1   force =    -0.00000070   -0.00000113   -0.00000213
+     atom  198 type  1   force =     0.00000273   -0.00000273   -0.00000295
+     atom  199 type  1   force =     0.00000234   -0.00000415   -0.00001771
+     atom  200 type  1   force =    -0.00000588   -0.00000770   -0.00001840
+     atom  201 type  1   force =    -0.00001234   -0.00001038    0.00000000
+     atom  202 type  1   force =     0.00000975   -0.00000975    0.00000000
+     atom  203 type  1   force =     0.00000234   -0.00000415    0.00001771
+     atom  204 type  1   force =    -0.00000588   -0.00000770    0.00001840
+     atom  205 type  1   force =    -0.00000070   -0.00000113    0.00000213
+     atom  206 type  1   force =     0.00000273   -0.00000273    0.00000295
+     atom  207 type  1   force =    -0.00000026   -0.00000081   -0.00000462
+     atom  208 type  1   force =     0.00000127   -0.00000281   -0.00000438
+     atom  209 type  1   force =    -0.00000587    0.00000587   -0.00000000
+     atom  210 type  1   force =    -0.00000174    0.00000035    0.00000000
+     atom  211 type  1   force =     0.00000281   -0.00000127    0.00000438
+     atom  212 type  1   force =    -0.00000721    0.00000196   -0.00000090
+     atom  213 type  1   force =    -0.00000018    0.00000018   -0.00000797
+     atom  214 type  1   force =     0.00000650   -0.00000221   -0.00000191
+     atom  215 type  1   force =     0.00000770    0.00000588   -0.00001840
+     atom  216 type  1   force =    -0.00000557    0.00000751   -0.00000913
+     atom  217 type  1   force =    -0.00001324    0.00001324   -0.00000000
+     atom  218 type  1   force =     0.00001229    0.00001275    0.00000000
+     atom  219 type  1   force =     0.00000770    0.00000588    0.00001840
+     atom  220 type  1   force =    -0.00000557    0.00000751    0.00000913
+     atom  221 type  1   force =    -0.00000018    0.00000018    0.00000797
+     atom  222 type  1   force =     0.00000650   -0.00000221    0.00000191
+     atom  223 type  1   force =     0.00000281   -0.00000127   -0.00000438
+     atom  224 type  1   force =    -0.00000721    0.00000196    0.00000090
+     atom  225 type  1   force =    -0.00001044   -0.00000184    0.00000000
+     atom  226 type  1   force =    -0.00000484    0.00000898    0.00000000
+     atom  227 type  1   force =    -0.00000177    0.00000029    0.00000436
+     atom  228 type  1   force =    -0.00000778    0.00000124   -0.00000385
+     atom  229 type  1   force =    -0.00000557    0.00000130   -0.00000366
+     atom  230 type  1   force =     0.00000387   -0.00000080    0.00000143
+     atom  231 type  1   force =     0.00000631    0.00000076   -0.00000451
+     atom  232 type  1   force =    -0.00000124   -0.00000063   -0.00000585
+     atom  233 type  1   force =     0.00000010    0.00000553    0.00000000
+     atom  234 type  1   force =     0.00000336   -0.00000554    0.00000000
+     atom  235 type  1   force =     0.00000631    0.00000076    0.00000451
+     atom  236 type  1   force =    -0.00000124   -0.00000063    0.00000585
+     atom  237 type  1   force =    -0.00000557    0.00000130    0.00000366
+     atom  238 type  1   force =     0.00000387   -0.00000080   -0.00000143
+     atom  239 type  1   force =    -0.00000177    0.00000029   -0.00000436
+     atom  240 type  1   force =    -0.00000778    0.00000124    0.00000385
+     atom  241 type  1   force =    -0.00000005   -0.00000005   -0.00000000
+     atom  242 type  1   force =    -0.00000648   -0.00000648    0.00000000
+     atom  243 type  1   force =    -0.00000454    0.00000567   -0.00000356
+     atom  244 type  1   force =     0.00000567   -0.00000454   -0.00000356
+     atom  245 type  1   force =     0.00000023    0.00000023   -0.00000297
+     atom  246 type  1   force =     0.00000552    0.00000552   -0.00000034
+     atom  247 type  1   force =     0.00000470   -0.00000342   -0.00001141
+     atom  248 type  1   force =    -0.00000342    0.00000470   -0.00001141
+     atom  249 type  1   force =    -0.00000694   -0.00000694    0.00000000
+     atom  250 type  1   force =    -0.00000034   -0.00000034   -0.00000000
+     atom  251 type  1   force =     0.00000470   -0.00000342    0.00001141
+     atom  252 type  1   force =    -0.00000342    0.00000470    0.00001141
+     atom  253 type  1   force =     0.00000023    0.00000023    0.00000297
+     atom  254 type  1   force =     0.00000552    0.00000552    0.00000034
+     atom  255 type  1   force =    -0.00000454    0.00000567    0.00000356
+     atom  256 type  1   force =     0.00000567   -0.00000454    0.00000356
+
+     Total force =     0.000143     Total SCF correction =     0.001211
+     SCF correction compared to forces is large: reduce conv_thr to get better values
+
+
+     Computing stress (Cartesian axis) and pressure
+
+          total   stress  (Ry/bohr**3)                   (kbar)     P=        2.26
+   0.00001770   0.00024253   0.00000000            2.60       35.68        0.00
+   0.00024253   0.00001770   0.00000000           35.68        2.60        0.00
+   0.00000000   0.00000000   0.00001075            0.00        0.00        1.58
+
+
+     BFGS Geometry Optimization
+
+     bfgs converged in   1 scf cycles and   0 bfgs steps
+     (criteria: energy <  1.0E-04 Ry, force <  1.0E-03 Ry/Bohr)
+
+     End of BFGS Geometry Optimization
+
+     Final energy   =  -10111.7544725314 Ry
+Begin final coordinates
+
+ATOMIC_POSITIONS (crystal)
+Al            0.0000000000        0.0000000000        0.0000000000
+Al            0.1250000000        0.1250000000        0.0000000000
+Al            0.1250000000        0.0000000000        0.1250000000
+Al           -0.0000000000        0.1250000000        0.1250000000
+Al            0.0000000000        0.0000000000        0.2500000000
+Al            0.1250000000        0.1250000000        0.2500000000
+Al            0.1250000000        0.0000000000        0.3750000000
+Al           -0.0000000000        0.1250000000        0.3750000000
+Al            0.0000000000        0.0000000000        0.5000000000
+Al            0.1250000000        0.1250000000        0.5000000000
+Al            0.1250000000        0.0000000000        0.6250000000
+Al           -0.0000000000        0.1250000000        0.6250000000
+Al            0.0000000000        0.0000000000        0.7500000000
+Al            0.1250000000        0.1250000000        0.7500000000
+Al            0.1250000000        0.0000000000        0.8750000000
+Al           -0.0000000000        0.1250000000        0.8750000000
+Al           -0.0000000000        0.2500000000        0.0000000000
+Al            0.1250000000        0.3750000000        0.0000000000
+Al            0.1250000000        0.2500000000        0.1250000000
+Al           -0.0000000000        0.3750000000        0.1250000000
+Al           -0.0000000000        0.2500000000        0.2500000000
+Al            0.1250000000        0.3750000000        0.2500000000
+Al            0.1250000000        0.2500000000        0.3750000000
+Al           -0.0000000000        0.3750000000        0.3750000000
+Al           -0.0000000000        0.2500000000        0.5000000000
+Al            0.1250000000        0.3750000000        0.5000000000
+Al            0.1250000000        0.2500000000        0.6250000000
+Al           -0.0000000000        0.3750000000        0.6250000000
+Al           -0.0000000000        0.2500000000        0.7500000000
+Al            0.1250000000        0.3750000000        0.7500000000
+Al            0.1250000000        0.2500000000        0.8750000000
+Al           -0.0000000000        0.3750000000        0.8750000000
+Al           -0.0000000000        0.5000000000        0.0000000000
+Al            0.1250000000        0.6250000000        0.0000000000
+Al            0.1250000000        0.5000000000        0.1250000000
+Al           -0.0000000000        0.6250000000        0.1250000000
+Al           -0.0000000000        0.5000000000        0.2500000000
+Al            0.1250000000        0.6250000000        0.2500000000
+Al            0.1250000000        0.5000000000        0.3750000000
+Al           -0.0000000000        0.6250000000        0.3750000000
+Al           -0.0000000000        0.5000000000        0.5000000000
+Al            0.1250000000        0.6250000000        0.5000000000
+Al            0.1250000000        0.5000000000        0.6250000000
+Al           -0.0000000000        0.6250000000        0.6250000000
+Al           -0.0000000000        0.5000000000        0.7500000000
+Al            0.1250000000        0.6250000000        0.7500000000
+Al            0.1250000000        0.5000000000        0.8750000000
+Al           -0.0000000000        0.6250000000        0.8750000000
+Al           -0.0000000000        0.7500000000        0.0000000000
+Al            0.1250000000        0.8750000000        0.0000000000
+Al            0.1250000000        0.7500000000        0.1250000000
+Al            0.0000000000        0.8750000000        0.1250000000
+Al           -0.0000000000        0.7500000000        0.2500000000
+Al            0.1250000000        0.8750000000        0.2500000000
+Al            0.1250000000        0.7500000000        0.3750000000
+Al            0.0000000000        0.8750000000        0.3750000000
+Al           -0.0000000000        0.7500000000        0.5000000000
+Al            0.1250000000        0.8750000000        0.5000000000
+Al            0.1250000000        0.7500000000        0.6250000000
+Al            0.0000000000        0.8750000000        0.6250000000
+Al           -0.0000000000        0.7500000000        0.7500000000
+Al            0.1250000000        0.8750000000        0.7500000000
+Al            0.1250000000        0.7500000000        0.8750000000
+Al            0.0000000000        0.8750000000        0.8750000000
+Al            0.2500000000        0.0000000000        0.0000000000
+Al            0.3750000000        0.1250000000        0.0000000000
+Al            0.3750000000        0.0000000000        0.1250000000
+Al            0.2500000000        0.1250000000        0.1250000000
+Al            0.2500000000        0.0000000000        0.2500000000
+Al            0.3750000000        0.1250000000        0.2500000000
+Al            0.3750000000        0.0000000000        0.3750000000
+Al            0.2500000000        0.1250000000        0.3750000000
+Al            0.2500000000        0.0000000000        0.5000000000
+Al            0.3750000000        0.1250000000        0.5000000000
+Al            0.3750000000        0.0000000000        0.6250000000
+Al            0.2500000000        0.1250000000        0.6250000000
+Al            0.2500000000        0.0000000000        0.7500000000
+Al            0.3750000000        0.1250000000        0.7500000000
+Al            0.3750000000        0.0000000000        0.8750000000
+Al            0.2500000000        0.1250000000        0.8750000000
+Al            0.2500000000        0.2500000000        0.0000000000
+Al            0.3750000000        0.3750000000        0.0000000000
+Al            0.3750000000        0.2500000000        0.1250000000
+Al            0.2500000000        0.3750000000        0.1250000000
+Al            0.2500000000        0.2500000000        0.2500000000
+Al            0.3750000000        0.3750000000        0.2500000000
+Al            0.3750000000        0.2500000000        0.3750000000
+Al            0.2500000000        0.3750000000        0.3750000000
+Al            0.2500000000        0.2500000000        0.5000000000
+Al            0.3750000000        0.3750000000        0.5000000000
+Al            0.3750000000        0.2500000000        0.6250000000
+Al            0.2500000000        0.3750000000        0.6250000000
+Al            0.2500000000        0.2500000000        0.7500000000
+Al            0.3750000000        0.3750000000        0.7500000000
+Al            0.3750000000        0.2500000000        0.8750000000
+Al            0.2500000000        0.3750000000        0.8750000000
+Al            0.2500000000        0.5000000000        0.0000000000
+Al            0.3750000000        0.6250000000        0.0000000000
+Al            0.3750000000        0.5000000000        0.1250000000
+Al            0.2500000000        0.6250000000        0.1250000000
+Al            0.2500000000        0.5000000000        0.2500000000
+Al            0.3750000000        0.6250000000        0.2500000000
+Al            0.3750000000        0.5000000000        0.3750000000
+Al            0.2500000000        0.6250000000        0.3750000000
+Al            0.2500000000        0.5000000000        0.5000000000
+Al            0.3750000000        0.6250000000        0.5000000000
+Al            0.3750000000        0.5000000000        0.6250000000
+Al            0.2500000000        0.6250000000        0.6250000000
+Al            0.2500000000        0.5000000000        0.7500000000
+Al            0.3750000000        0.6250000000        0.7500000000
+Al            0.3750000000        0.5000000000        0.8750000000
+Al            0.2500000000        0.6250000000        0.8750000000
+Al            0.2500000000        0.7500000000        0.0000000000
+Al            0.3750000000        0.8750000000        0.0000000000
+Al            0.3750000000        0.7500000000        0.1250000000
+Al            0.2500000000        0.8750000000        0.1250000000
+Al            0.2500000000        0.7500000000        0.2500000000
+Al            0.3750000000        0.8750000000        0.2500000000
+Al            0.3750000000        0.7500000000        0.3750000000
+Al            0.2500000000        0.8750000000        0.3750000000
+Al            0.2500000000        0.7500000000        0.5000000000
+Al            0.3750000000        0.8750000000        0.5000000000
+Al            0.3750000000        0.7500000000        0.6250000000
+Al            0.2500000000        0.8750000000        0.6250000000
+Al            0.2500000000        0.7500000000        0.7500000000
+Al            0.3750000000        0.8750000000        0.7500000000
+Al            0.3750000000        0.7500000000        0.8750000000
+Al            0.2500000000        0.8750000000        0.8750000000
+Al            0.5000000000        0.0000000000        0.0000000000
+Al            0.6250000000        0.1250000000        0.0000000000
+Al            0.6250000000       -0.0000000000        0.1250000000
+Al            0.5000000000        0.1250000000        0.1250000000
+Al            0.5000000000        0.0000000000        0.2500000000
+Al            0.6250000000        0.1250000000        0.2500000000
+Al            0.6250000000       -0.0000000000        0.3750000000
+Al            0.5000000000        0.1250000000        0.3750000000
+Al            0.5000000000        0.0000000000        0.5000000000
+Al            0.6250000000        0.1250000000        0.5000000000
+Al            0.6250000000       -0.0000000000        0.6250000000
+Al            0.5000000000        0.1250000000        0.6250000000
+Al            0.5000000000        0.0000000000        0.7500000000
+Al            0.6250000000        0.1250000000        0.7500000000
+Al            0.6250000000       -0.0000000000        0.8750000000
+Al            0.5000000000        0.1250000000        0.8750000000
+Al            0.5000000000        0.2500000000        0.0000000000
+Al            0.6250000000        0.3750000000        0.0000000000
+Al            0.6250000000        0.2500000000        0.1250000000
+Al            0.5000000000        0.3750000000        0.1250000000
+Al            0.5000000000        0.2500000000        0.2500000000
+Al            0.6250000000        0.3750000000        0.2500000000
+Al            0.6250000000        0.2500000000        0.3750000000
+Al            0.5000000000        0.3750000000        0.3750000000
+Al            0.5000000000        0.2500000000        0.5000000000
+Al            0.6250000000        0.3750000000        0.5000000000
+Al            0.6250000000        0.2500000000        0.6250000000
+Al            0.5000000000        0.3750000000        0.6250000000
+Al            0.5000000000        0.2500000000        0.7500000000
+Al            0.6250000000        0.3750000000        0.7500000000
+Al            0.6250000000        0.2500000000        0.8750000000
+Al            0.5000000000        0.3750000000        0.8750000000
+Al            0.5000000000        0.5000000000        0.0000000000
+Al            0.6250000000        0.6250000000        0.0000000000
+Al            0.6250000000        0.5000000000        0.1250000000
+Al            0.5000000000        0.6250000000        0.1250000000
+Al            0.5000000000        0.5000000000        0.2500000000
+Al            0.6250000000        0.6250000000        0.2500000000
+Al            0.6250000000        0.5000000000        0.3750000000
+Al            0.5000000000        0.6250000000        0.3750000000
+Al            0.5000000000        0.5000000000        0.5000000000
+Al            0.6250000000        0.6250000000        0.5000000000
+Al            0.6250000000        0.5000000000        0.6250000000
+Al            0.5000000000        0.6250000000        0.6250000000
+Al            0.5000000000        0.5000000000        0.7500000000
+Al            0.6250000000        0.6250000000        0.7500000000
+Al            0.6250000000        0.5000000000        0.8750000000
+Al            0.5000000000        0.6250000000        0.8750000000
+Al            0.5000000000        0.7500000000        0.0000000000
+Al            0.6250000000        0.8750000000        0.0000000000
+Al            0.6250000000        0.7500000000        0.1250000000
+Al            0.5000000000        0.8750000000        0.1250000000
+Al            0.5000000000        0.7500000000        0.2500000000
+Al            0.6250000000        0.8750000000        0.2500000000
+Al            0.6250000000        0.7500000000        0.3750000000
+Al            0.5000000000        0.8750000000        0.3750000000
+Al            0.5000000000        0.7500000000        0.5000000000
+Al            0.6250000000        0.8750000000        0.5000000000
+Al            0.6250000000        0.7500000000        0.6250000000
+Al            0.5000000000        0.8750000000        0.6250000000
+Al            0.5000000000        0.7500000000        0.7500000000
+Al            0.6250000000        0.8750000000        0.7500000000
+Al            0.6250000000        0.7500000000        0.8750000000
+Al            0.5000000000        0.8750000000        0.8750000000
+Al            0.7500000000        0.0000000000        0.0000000000
+Al            0.8750000000        0.1250000000        0.0000000000
+Al            0.8750000000       -0.0000000000        0.1250000000
+Al            0.7500000000        0.1250000000        0.1250000000
+Al            0.7500000000        0.0000000000        0.2500000000
+Al            0.8750000000        0.1250000000        0.2500000000
+Al            0.8750000000       -0.0000000000        0.3750000000
+Al            0.7500000000        0.1250000000        0.3750000000
+Al            0.7500000000        0.0000000000        0.5000000000
+Al            0.8750000000        0.1250000000        0.5000000000
+Al            0.8750000000       -0.0000000000        0.6250000000
+Al            0.7500000000        0.1250000000        0.6250000000
+Al            0.7500000000        0.0000000000        0.7500000000
+Al            0.8750000000        0.1250000000        0.7500000000
+Al            0.8750000000       -0.0000000000        0.8750000000
+Al            0.7500000000        0.1250000000        0.8750000000
+Al            0.7500000000        0.2500000000        0.0000000000
+Al            0.8750000000        0.3750000000        0.0000000000
+Al            0.8750000000        0.2500000000        0.1250000000
+Al            0.7500000000        0.3750000000        0.1250000000
+Al            0.7500000000        0.2500000000        0.2500000000
+Al            0.8750000000        0.3750000000        0.2500000000
+Al            0.8750000000        0.2500000000        0.3750000000
+Al            0.7500000000        0.3750000000        0.3750000000
+Al            0.7500000000        0.2500000000        0.5000000000
+Al            0.8750000000        0.3750000000        0.5000000000
+Al            0.8750000000        0.2500000000        0.6250000000
+Al            0.7500000000        0.3750000000        0.6250000000
+Al            0.7500000000        0.2500000000        0.7500000000
+Al            0.8750000000        0.3750000000        0.7500000000
+Al            0.8750000000        0.2500000000        0.8750000000
+Al            0.7500000000        0.3750000000        0.8750000000
+Al            0.7500000000        0.5000000000        0.0000000000
+Al            0.8750000000        0.6250000000        0.0000000000
+Al            0.8750000000        0.5000000000        0.1250000000
+Al            0.7500000000        0.6250000000        0.1250000000
+Al            0.7500000000        0.5000000000        0.2500000000
+Al            0.8750000000        0.6250000000        0.2500000000
+Al            0.8750000000        0.5000000000        0.3750000000
+Al            0.7500000000        0.6250000000        0.3750000000
+Al            0.7500000000        0.5000000000        0.5000000000
+Al            0.8750000000        0.6250000000        0.5000000000
+Al            0.8750000000        0.5000000000        0.6250000000
+Al            0.7500000000        0.6250000000        0.6250000000
+Al            0.7500000000        0.5000000000        0.7500000000
+Al            0.8750000000        0.6250000000        0.7500000000
+Al            0.8750000000        0.5000000000        0.8750000000
+Al            0.7500000000        0.6250000000        0.8750000000
+Al            0.7500000000        0.7500000000        0.0000000000
+Al            0.8750000000        0.8750000000        0.0000000000
+Al            0.8750000000        0.7500000000        0.1250000000
+Al            0.7500000000        0.8750000000        0.1250000000
+Al            0.7500000000        0.7500000000        0.2500000000
+Al            0.8750000000        0.8750000000        0.2500000000
+Al            0.8750000000        0.7500000000        0.3750000000
+Al            0.7500000000        0.8750000000        0.3750000000
+Al            0.7500000000        0.7500000000        0.5000000000
+Al            0.8750000000        0.8750000000        0.5000000000
+Al            0.8750000000        0.7500000000        0.6250000000
+Al            0.7500000000        0.8750000000        0.6250000000
+Al            0.7500000000        0.7500000000        0.7500000000
+Al            0.8750000000        0.8750000000        0.7500000000
+Al            0.8750000000        0.7500000000        0.8750000000
+Al            0.7500000000        0.8750000000        0.8750000000
+End final coordinates
+
+
+
+     Writing output data file /scratch/sUTZlMqqQwHGiXlQ.save/
+
+     init_run     :      8.52s CPU      8.83s WALL (       1 calls)
+     electrons    :    187.68s CPU    191.24s WALL (       1 calls)
+     forces       :      4.04s CPU      4.21s WALL (       1 calls)
+     stress       :     37.16s CPU     37.37s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      7.16s CPU      7.37s WALL (       1 calls)
+     potinit      :      0.30s CPU      0.32s WALL (       1 calls)
+     hinit0       :      0.27s CPU      0.28s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :    163.15s CPU    165.31s WALL (      17 calls)
+     sum_band     :     19.79s CPU     20.59s WALL (      17 calls)
+     v_of_rho     :      0.68s CPU      0.70s WALL (      17 calls)
+     newd         :      1.31s CPU      1.89s WALL (      17 calls)
+     PAW_pot      :      2.61s CPU      2.63s WALL (      17 calls)
+     mix_rho      :      0.29s CPU      0.30s WALL (      17 calls)
+
+     Called by c_bands:
+     init_us_2    :      1.55s CPU      1.61s WALL (      35 calls)
+     cegterg      :    161.54s CPU    163.60s WALL (      17 calls)
+
+     Called by *egterg:
+     cdiaghg      :      5.37s CPU      5.48s WALL (      83 calls)
+     h_psi        :     86.85s CPU     87.90s WALL (      85 calls)
+     s_psi        :     26.09s CPU     26.23s WALL (      85 calls)
+     g_psi        :      0.21s CPU      0.21s WALL (      67 calls)
+
+     Called by h_psi:
+     h_psi:calbec :     29.86s CPU     30.00s WALL (      85 calls)
+     vloc_psi     :     30.40s CPU     30.77s WALL (      85 calls)
+     add_vuspsi   :     26.23s CPU     26.49s WALL (      85 calls)
+
+     General routines
+     calbec       :     44.20s CPU     44.42s WALL (     107 calls)
+     fft          :      0.49s CPU      0.51s WALL (     213 calls)
+     ffts         :      0.05s CPU      0.05s WALL (      17 calls)
+     fftw         :     34.36s CPU     34.76s WALL (   48805 calls)
+
+     Parallel routines
+     fft_scatt_xy :      2.64s CPU      2.67s WALL (   49035 calls)
+     fft_scatt_yz :     15.10s CPU     15.30s WALL (   49035 calls)
+
+     PWSCF        :   4m 0.08s CPU   4m 5.01s WALL
+
+
+   This run was terminated on:  23:44:11  14May2022            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

@@ -1,0 +1,612 @@
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0001.in
+6mEpWxvGN_-7LYy-WbHE
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0001.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0001.out
+time to complete: 1.7376580238342285
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0002.in
+kz5iollx9msB5OknJhmR
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0002.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0002.out
+time to complete: 1.7753009796142578
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0003.in
+dFcSkPJjqRlH5mwlO1H8
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0003.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0003.out
+time to complete: 1.8899614810943604
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0004.in
+QfjgRd3kcdQMXj-Jz_if
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0004.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0004.out
+time to complete: 1.9474263191223145
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0005.in
+kGZiHRiL5agk91AAqidF
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0005.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0005.out
+time to complete: 1.7036426067352295
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0006.in
+kdpg5BQmXhfJc_8PIzmO
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0006.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0006.out
+time to complete: 1.8207621574401855
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0007.in
+VHrCpKFCKCWWnHtuZRLT
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0007.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0007.out
+time to complete: 1.7699017524719238
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0008.in
+N7n4ZsTRPvndxsi5V8nA
+CACHE USED
+/opt/pwscf_cache/N7n4ZsTRPvndxsi5V8nA.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0009.in
+K0OUzb6cQoHhKJOWfb0Y
+CACHE USED
+/opt/pwscf_cache/K0OUzb6cQoHhKJOWfb0Y.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0010.in
+ULHySK3q4d4gsh1N874w
+CACHE USED
+/opt/pwscf_cache/ULHySK3q4d4gsh1N874w.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0011.in
+6h4pQhLhyZGbCEGq_F3W
+CACHE USED
+/opt/pwscf_cache/6h4pQhLhyZGbCEGq_F3W.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0012.in
+tihRZ7rQJLKSCXOrv91Y
+CACHE USED
+/opt/pwscf_cache/tihRZ7rQJLKSCXOrv91Y.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0013.in
+RrXlTJPuPdLc6YcrwNG3
+CACHE USED
+/opt/pwscf_cache/RrXlTJPuPdLc6YcrwNG3.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0014.in
+BcakoFlyVmHByKCaSobp
+CACHE USED
+/opt/pwscf_cache/BcakoFlyVmHByKCaSobp.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0015.in
+0pA1KgaV0HY2fMA-_j3V
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0015.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d1_0015.out
+time to complete: 1.812936782836914
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0001.in
+u1hU97cAIOePQXjj1dE4
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0001.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0001.out
+time to complete: 1.7241675853729248
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0002.in
+6HMqX1fIs_5Pgnl1BkWl
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0002.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0002.out
+time to complete: 1.8085105419158936
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0003.in
+lcNkH5OIXaTIfuYZfPg-
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0003.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0003.out
+time to complete: 1.798633098602295
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0004.in
+dOMTD32sc9QMnjptxBq6
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0004.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0004.out
+time to complete: 1.7085084915161133
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0005.in
+CoupxV_7fU0-E3Gw6GIq
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0005.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0005.out
+time to complete: 1.85239577293396
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0006.in
+Pnnd5sElOxTaDs_tHVOL
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0006.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0006.out
+time to complete: 1.8934776782989502
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0007.in
+91UA3yIeyMubFUmDJq6R
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0007.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0007.out
+time to complete: 1.9274799823760986
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0008.in
+N7n4ZsTRPvndxsi5V8nA
+CACHE USED
+/opt/pwscf_cache/N7n4ZsTRPvndxsi5V8nA.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0009.in
+SWTrTtTt3tIdWM-HD_qv
+CACHE USED
+/opt/pwscf_cache/SWTrTtTt3tIdWM-HD_qv.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0010.in
+_zLW_-LXW-DHeuQVfj8Z
+CACHE USED
+/opt/pwscf_cache/_zLW_-LXW-DHeuQVfj8Z.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0011.in
+kKtilR9noB5y8mYxHOeL
+CACHE USED
+/opt/pwscf_cache/kKtilR9noB5y8mYxHOeL.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0012.in
+00I0GMGHWGnG1uw5q09E
+CACHE USED
+/opt/pwscf_cache/00I0GMGHWGnG1uw5q09E.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0013.in
+Zi3Rwfa0wE2288kwBiWl
+CACHE USED
+/opt/pwscf_cache/Zi3Rwfa0wE2288kwBiWl.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0014.in
+0l81kwViHB2KUazwaecE
+CACHE USED
+/opt/pwscf_cache/0l81kwViHB2KUazwaecE.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0015.in
+VznC5uAlqhhFx6_4fU4-
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0015.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d2_0015.out
+time to complete: 1.8475878238677979
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0001.in
+pndBES6zMq71Ys3NUffw
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0001.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0001.out
+time to complete: 1.9057915210723877
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0002.in
+6t8pExmypqRBrmxJO6f8
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0002.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0002.out
+time to complete: 1.7541649341583252
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0003.in
+bTMLb24I8iwxy2e8UUjz
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0003.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0003.out
+time to complete: 1.7691740989685059
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0004.in
+YCvO5-knVh3BIeWMvHh_
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0004.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0004.out
+time to complete: 1.9754226207733154
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0005.in
+2h09o09w0CQ23ggdx064
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0005.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0005.out
+time to complete: 1.8242077827453613
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0006.in
+8tgx52ckoNlz5molNxr6
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0006.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0006.out
+time to complete: 1.815474033355713
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0007.in
+C5Sojpxd_4PUTfLsGZGH
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0007.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0007.out
+time to complete: 1.7593178749084473
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0008.in
+N7n4ZsTRPvndxsi5V8nA
+CACHE USED
+/opt/pwscf_cache/N7n4ZsTRPvndxsi5V8nA.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0009.in
+Lr6ZsrxN67koRhLlKZ2X
+CACHE USED
+/opt/pwscf_cache/Lr6ZsrxN67koRhLlKZ2X.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0010.in
+xDG6uEBWWnnFBuulVVTD
+CACHE USED
+/opt/pwscf_cache/xDG6uEBWWnnFBuulVVTD.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0011.in
+bgoJVyjClepkFB2C8aYw
+CACHE USED
+/opt/pwscf_cache/bgoJVyjClepkFB2C8aYw.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0012.in
+1FE66woqZxLSW-bHAKyi
+CACHE USED
+/opt/pwscf_cache/1FE66woqZxLSW-bHAKyi.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0013.in
+HdqI5GAmmhdp4RAj6h8p
+CACHE USED
+/opt/pwscf_cache/HdqI5GAmmhdp4RAj6h8p.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0014.in
+_vXVTLnutthR1704o09w
+CACHE USED
+/opt/pwscf_cache/_vXVTLnutthR1704o09w.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0015.in
+GeiEFaGA6GsqhNt71QU7
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0015.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d3_0015.out
+time to complete: 1.890584945678711
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0001.in
+XvXJ3Kgel0Bkylm95oEl
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0001.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0001.out
+time to complete: 2.4511802196502686
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0002.in
+Pjfd0Yc3AMOj79Is2Nob
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0002.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0002.out
+time to complete: 2.6946604251861572
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0003.in
+y9C8uoBVinZ97QUvfxg_
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0003.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0003.out
+time to complete: 2.520362138748169
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0004.in
+0js15MInONvbRYLneZoX
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0004.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0004.out
+time to complete: 2.6085970401763916
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0005.in
+eZcXsPRPrndJsS5PQnPh
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0005.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0005.out
+time to complete: 2.722271203994751
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0006.in
+6iQpbhYJnOFvOBDa2sw9
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0006.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0006.out
+time to complete: 2.481696844100952
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0007.in
+avIFmOFrSBnqxtu5RUnn
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0007.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0007.out
+time to complete: 2.5239782333374023
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0008.in
+N7n4ZsTRPvndxsi5V8nA
+CACHE USED
+/opt/pwscf_cache/N7n4ZsTRPvndxsi5V8nA.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0009.in
+Ot79YsfNs-1P87ww62Eo
+CACHE USED
+/opt/pwscf_cache/Ot79YsfNs-1P87ww62Eo.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0010.in
+vn9ZAD2i49EgyxOav8xY
+CACHE USED
+/opt/pwscf_cache/vn9ZAD2i49EgyxOav8xY.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0011.in
+RbHkWJDG2uk9RgTljttd
+CACHE USED
+/opt/pwscf_cache/RbHkWJDG2uk9RgTljttd.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0012.in
+YZ-PP-PfvcFYiDJaCQyr
+CACHE USED
+/opt/pwscf_cache/YZ-PP-PfvcFYiDJaCQyr.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0013.in
+smtN1TI7CMerEV_zfWo-
+CACHE USED
+/opt/pwscf_cache/smtN1TI7CMerEV_zfWo-.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0014.in
+WYvHJ_iTNbL4OY-bbYEL
+CACHE USED
+/opt/pwscf_cache/WYvHJ_iTNbL4OY-bbYEL.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0015.in
+rI5Komlx9msBtOJTCTir
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0015.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d4_0015.out
+time to complete: 2.449948310852051
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0001.in
+IOOP-bDYGvWFLGG_yH_a
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0001.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0001.out
+time to complete: 2.559669017791748
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0002.in
+BN6n8pgxV2-Ab_AL2iE9
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0002.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0002.out
+time to complete: 2.5191845893859863
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0003.in
+lq1lY5DMCvmpJpGRKHeW
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0003.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0003.out
+time to complete: 2.6314642429351807
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0004.in
+B4ekMVP3Dcysi9Z8zQOf
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0004.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0004.out
+time to complete: 2.4961049556732178
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0005.in
+3t4dwgO1r8RIrmtJlSxn
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0005.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0005.out
+time to complete: 2.507326602935791
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0006.in
+3nsdBMCnWpzFyeO8H8aI
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0006.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0006.out
+time to complete: 2.7605602741241455
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0007.in
+taFQqDZG-ST-LvWZHHKK
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0007.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0007.out
+time to complete: 2.5544610023498535
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0008.in
+N7n4ZsTRPvndxsi5V8nA
+CACHE USED
+/opt/pwscf_cache/N7n4ZsTRPvndxsi5V8nA.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0009.in
+UJPyveZY-TP-TfbskJBi
+CACHE USED
+/opt/pwscf_cache/UJPyveZY-TP-TfbskJBi.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0010.in
+WTnH5uElmxRq-lrZtL1S
+CACHE USED
+/opt/pwscf_cache/WTnH5uElmxRq-lrZtL1S.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0011.in
+-5bY0LY2HMmLhqd58Qgz
+CACHE USED
+/opt/pwscf_cache/-5bY0LY2HMmLhqd58Qgz.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0012.in
+WxfGI_uPNXX73IoedwwS
+CACHE USED
+/opt/pwscf_cache/WxfGI_uPNXX73IoedwwS.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0013.in
+xY67QonhltZlTRjvZd-Q
+CACHE USED
+/opt/pwscf_cache/xY67QonhltZlTRjvZd-Q.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0014.in
+9EkC5i0lE1WwbGwKS2Ho
+CACHE USED
+/opt/pwscf_cache/9EkC5i0lE1WwbGwKS2Ho.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0015.in
+dGwSu39UQDjitdZQvTl-
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0015.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d5_0015.out
+time to complete: 2.9253604412078857
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0001.in
+zDmeho95gAV2bAEK_yjW
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0001.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0001.out
+time to complete: 2.593247890472412
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0002.in
+E5awUG7ygud1EQuz5WMn
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0002.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0002.out
+time to complete: 2.505582809448242
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0003.in
+8nUxjyleJkORXbnIpupB
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0003.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0003.out
+time to complete: 2.6482338905334473
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0004.in
+WrXFfKo_ZzHS6LEq2xYa
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0004.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0004.out
+time to complete: 2.4522228240966797
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0005.in
+iC9akAJiuRpX9DECWyDG
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0005.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0005.out
+time to complete: 2.443495512008667
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0006.in
+-SD-2vU9vwB_enAVijd9
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0006.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0006.out
+time to complete: 2.749484062194824
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0007.in
+4AEi_xjWtfpQhDB6qkBF
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0007.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0007.out
+time to complete: 2.4765188694000244
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0008.in
+N7n4ZsTRPvndxsi5V8nA
+CACHE USED
+/opt/pwscf_cache/N7n4ZsTRPvndxsi5V8nA.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0009.in
+_2fUU--zf_4-IjeN0Xo3
+CACHE USED
+/opt/pwscf_cache/_2fUU--zf_4-IjeN0Xo3.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0010.in
+TUPvjd9c8AwyS2TojtVd
+CACHE USED
+/opt/pwscf_cache/TUPvjd9c8AwyS2TojtVd.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0011.in
+i7J8KQmXNrH5CImq9p8B
+CACHE USED
+/opt/pwscf_cache/i7J8KQmXNrH5CImq9p8B.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0012.in
+EFayoGFyCCmqxpi598kA
+CACHE USED
+/opt/pwscf_cache/EFayoGFyCCmqxpi598kA.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0013.in
+WwbGwKG2eE4W8jUx3yQe
+CACHE USED
+/opt/pwscf_cache/WwbGwKG2eE4W8jUx3yQe.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0014.in
+tsFRiD5ackANmjJpWR7H
+CACHE USED
+/opt/pwscf_cache/tsFRiD5ackANmjJpWR7H.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0015.in
+ODvaRYfnsZVPbDkKdi4R
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0015.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d6_0015.out
+time to complete: 3.152078151702881
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0001.in
+0as0FMaDwGG26EUqrxlK
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0001.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0001.out
+time to complete: 2.050128936767578
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0002.in
+d3sQFPqDdGAS_j-VX-3L
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0002.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0002.out
+time to complete: 2.206512689590454
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0003.in
+XO7LAuyh29I8mMNrz5uc
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0003.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0003.out
+time to complete: 2.274531602859497
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0004.in
+YULPq-VHPC3eMcH0mIlq
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0004.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0004.out
+time to complete: 2.0772221088409424
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0005.in
+oytyhSB7akEFqyhGB6ak
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0005.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0005.out
+time to complete: 2.301818370819092
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0006.in
+D56sEpuxtWlTNnX5fIQ_
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0006.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0006.out
+time to complete: 2.2390356063842773
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0007.in
+hnx5a4ME32kc5gklhhp5
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0007.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0007.out
+time to complete: 2.1600165367126465
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0008.in
+N7n4ZsTRPvndxsi5V8nA
+CACHE USED
+/opt/pwscf_cache/N7n4ZsTRPvndxsi5V8nA.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0009.in
+yMabkEBiOlP9rcZIrStL
+CACHE USED
+/opt/pwscf_cache/yMabkEBiOlP9rcZIrStL.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0010.in
+4Tcj4NgjZ1zQKfqUZHbS
+CACHE USED
+/opt/pwscf_cache/4Tcj4NgjZ1zQKfqUZHbS.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0011.in
+89IwOOPbzc6c4oEhOxDa
+CACHE USED
+/opt/pwscf_cache/89IwOOPbzc6c4oEhOxDa.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0012.in
+LM6-Qr-hvZt-VTfDA_ij
+CACHE USED
+/opt/pwscf_cache/LM6-Qr-hvZt-VTfDA_ij.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0013.in
+Dq2tw960woy1a80Ec2AM
+CACHE USED
+/opt/pwscf_cache/Dq2tw960woy1a80Ec2AM.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0014.in
+xZq7dEESezsW9PUD3y0e
+CACHE USED
+/opt/pwscf_cache/xZq7dEESezsW9PUD3y0e.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0015.in
+3Vofhwd68Q0zI2_MLXO-
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0015.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d7_0015.out
+time to complete: 2.8217720985412598
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0001.in
+y_WbzEWenEluplNBH6WI
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0001.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0001.out
+time to complete: 2.1856987476348877
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0002.in
+qYBHKmmVJrWRvH9_0Do2
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0002.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0002.out
+time to complete: 2.125084638595581
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0003.in
+Lc2YIbKMaXcHYO-Pf-k-
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0003.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0003.out
+time to complete: 2.2102208137512207
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0004.in
+y7O8-8nYZvzRuf1UA7Sg
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0004.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0004.out
+time to complete: 2.3162996768951416
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0005.in
+7vEtGxCGWqfFU_fz4_8j
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0005.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0005.out
+time to complete: 2.1794192790985107
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0006.in
+GP6Hwqy1i8980As2BMyn
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0006.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0006.out
+time to complete: 2.3700456619262695
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0007.in
+z4GcKEyW6bYonNFvSBPq
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0007.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0007.out
+time to complete: 2.1024255752563477
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0008.in
+N7n4ZsTRPvndxsi5V8nA
+CACHE USED
+/opt/pwscf_cache/N7n4ZsTRPvndxsi5V8nA.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0009.in
+tZtThTt7xQ_77UIv6NMr
+CACHE USED
+/opt/pwscf_cache/tZtThTt7xQ_77UIv6NMr.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0010.in
+IFWO3H8eUwTyDu2t09E0
+CACHE USED
+/opt/pwscf_cache/IFWO3H8eUwTyDu2t09E0.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0011.in
+xhq5VE3CMev0hY97kAxi
+CACHE USED
+/opt/pwscf_cache/xhq5VE3CMev0hY97kAxi.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0012.in
+jc9cIAuO5Xon5x4mshdN
+CACHE USED
+/opt/pwscf_cache/jc9cIAuO5Xon5x4mshdN.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0013.in
+YFbO4LciANOjn9hsl5Vk
+CACHE USED
+/opt/pwscf_cache/YFbO4LciANOjn9hsl5Vk.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0014.in
+PYvf9YsD9OQDjiFdaAcG
+CACHE USED
+/opt/pwscf_cache/PYvf9YsD9OQDjiFdaAcG.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0015.in
+4rchoNJzGS_HLWS-3rMd
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0015.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d8_0015.out
+time to complete: 2.1684718132019043
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0001.in
+6XwrG1aEcGYObPUL3y4e
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0001.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0001.out
+time to complete: 2.2195487022399902
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0002.in
+_4DUOvv9RYTnHteJ0Wc3
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0002.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0002.out
+time to complete: 2.5567853450775146
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0003.in
+FyqCBGumFVaDMGf20Yw3
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0003.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0003.out
+time to complete: 2.1420655250549316
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0004.in
+6HIq2NkbtgJRCTyrK9aU
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0004.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0004.out
+time to complete: 2.255413055419922
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0005.in
+rTpLhCp6ZA3SUfLwW_zH
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0005.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0005.out
+time to complete: 3.1999852657318115
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0006.in
+wVG3aEUGLyu_9XIDCOOr
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0006.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0006.out
+time to complete: 2.274890422821045
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0007.in
+7wMuH1qItGpS1DU6TwLu
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0007.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0007.out
+time to complete: 2.4884238243103027
+**** JOB DONE ****
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0008.in
+N7n4ZsTRPvndxsi5V8nA
+CACHE USED
+/opt/pwscf_cache/N7n4ZsTRPvndxsi5V8nA.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0009.in
+Mn-1nYZvbRgLZ2TQ3v8d
+CACHE USED
+/opt/pwscf_cache/Mn-1nYZvbRgLZ2TQ3v8d.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0010.in
+k6BgSlHp2Jka9goBJymS
+CACHE USED
+/opt/pwscf_cache/k6BgSlHp2Jka9goBJymS.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0011.in
+_bjU1f84YwnOBvqlRF3m
+CACHE USED
+/opt/pwscf_cache/_bjU1f84YwnOBvqlRF3m.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0012.in
+iTtbxQq7VEPCzeqcNET6
+CACHE USED
+/opt/pwscf_cache/iTtbxQq7VEPCzeqcNET6.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0013.in
+hmp55AkmBhel0V43Ig2N
+CACHE USED
+/opt/pwscf_cache/hmp55AkmBhel0V43Ig2N.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0014.in
+sldNgT93cAsOtPdToTNz
+CACHE USED
+/opt/pwscf_cache/sldNgT93cAsOtPdToTNz.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0015.in
+T97sYtjNRfzkKdaUcHIO
+mpirun -n 4 /opt/qe/bin/pw.x -npool 2 -in /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0015.in > /DATA/disk3/cloud/Code/python/qeeos/examples/al_004/out/ec_rfkj/ec_rfkj_d9_0015.out
+time to complete: 2.126713752746582
+**** JOB DONE ****

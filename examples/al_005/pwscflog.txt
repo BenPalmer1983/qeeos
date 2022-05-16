@@ -1,0 +1,540 @@
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0001.in
+kpxhC56o0po1tw5ScnUN
+CACHE USED
+/opt/pwscf_cache/kpxhC56o0po1tw5ScnUN.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0002.in
+5gYlnNhvx5m45oglN1D4
+CACHE USED
+/opt/pwscf_cache/5gYlnNhvx5m45oglN1D4.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0003.in
+-jnZVvrBZKHS_LDWavMF
+CACHE USED
+/opt/pwscf_cache/-jnZVvrBZKHS_LDWavMF.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0004.in
+gjp1dAYSXPTLXuXJrKVK
+CACHE USED
+/opt/pwscf_cache/gjp1dAYSXPTLXuXJrKVK.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0005.in
+L5uYBX_nfVQ-zjSdroJJ
+CACHE USED
+/opt/pwscf_cache/L5uYBX_nfVQ-zjSdroJJ.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0006.in
+CYWr3FAeCg_pTVXvPJ3e
+CACHE USED
+/opt/pwscf_cache/CYWr3FAeCg_pTVXvPJ3e.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0007.in
+RVnndtARCjCpqpVFPC7e
+CACHE USED
+/opt/pwscf_cache/RVnndtARCjCpqpVFPC7e.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0008.in
+1P474gwhC1eoUVLz2_kb
+CACHE USED
+/opt/pwscf_cache/1P474gwhC1eoUVLz2_kb.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0009.in
+aXkHdiQRvj1ZQ7-g7ZYv
+CACHE USED
+/opt/pwscf_cache/aXkHdiQRvj1ZQ7-g7ZYv.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0010.in
+6WorBxWmPFbecIIO6Pcr
+CACHE USED
+/opt/pwscf_cache/6WorBxWmPFbecIIO6Pcr.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0011.in
+hWN7f4cYYPTP-v3Zkf5g
+CACHE USED
+/opt/pwscf_cache/hWN7f4cYYPTP-v3Zkf5g.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0012.in
+oeVwvCh_R7-kjZdf4QYj
+CACHE USED
+/opt/pwscf_cache/oeVwvCh_R7-kjZdf4QYj.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0013.in
+kKJiWRrH9KoCFyyCaagE
+CACHE USED
+/opt/pwscf_cache/kKJiWRrH9KoCFyyCaagE.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0014.in
+zOWffEA__jPVDfisl9dk
+CACHE USED
+/opt/pwscf_cache/zOWffEA__jPVDfisl9dk.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d1_0015.in
+H6eI0W03s09M4Dci4NEj
+CACHE USED
+/opt/pwscf_cache/H6eI0W03s09M4Dci4NEj.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0001.in
+65Uo3xkeVgLBq_xHO6D8
+CACHE USED
+/opt/pwscf_cache/65Uo3xkeVgLBq_xHO6D8.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0002.in
+vOB-un9V8Dsy9OoDpydC
+CACHE USED
+/opt/pwscf_cache/vOB-un9V8Dsy9OoDpydC.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0003.in
+j8dcUQTzTuLt6Z0rI16M
+CACHE USED
+/opt/pwscf_cache/j8dcUQTzTuLt6Z0rI16M.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0004.in
+BYunFVCDGqWFTG3u0dc0
+CACHE USED
+/opt/pwscf_cache/BYunFVCDGqWFTG3u0dc0.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0005.in
+6xIq_NfX8-AzuiVVDDiu
+CACHE USED
+/opt/pwscf_cache/6xIq_NfX8-AzuiVVDDiu.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0006.in
+tf1Q47cgkNRj3lQdrgVJ
+CACHE USED
+/opt/pwscf_cache/tf1Q47cgkNRj3lQdrgVJ.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0007.in
+y9O8r8NIr69IQCzimdto
+CACHE USED
+/opt/pwscf_cache/y9O8r8NIr69IQCzimdto.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0008.in
+1P474gwhC1eoUVLz2_kb
+CACHE USED
+/opt/pwscf_cache/1P474gwhC1eoUVLz2_kb.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0009.in
+hBh6Z4TQfvIZqPJHCSyr
+CACHE USED
+/opt/pwscf_cache/hBh6Z4TQfvIZqPJHCSyr.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0010.in
+2Lway0u8pURDnmJtmRpr
+CACHE USED
+/opt/pwscf_cache/2Lway0u8pURDnmJtmRpr.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0011.in
+mZ5rwlC1OoP9Tc7sEtWx
+CACHE USED
+/opt/pwscf_cache/mZ5rwlC1OoP9Tc7sEtWx.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0012.in
+9A0C02k0Ngf5YY-Pr-JL
+CACHE USED
+/opt/pwscf_cache/9A0C02k0Ngf5YY-Pr-JL.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0013.in
+1aw4y0C8aokFxiy5m8lo
+CACHE USED
+/opt/pwscf_cache/1aw4y0C8aokFxiy5m8lo.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0014.in
+CHCqCpmplpVljBJeKQ6X
+CACHE USED
+/opt/pwscf_cache/CHCqCpmplpVljBJeKQ6X.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d2_0015.in
+17s4pMxDS67owti1x8u4
+CACHE USED
+/opt/pwscf_cache/17s4pMxDS67owti1x8u4.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0001.in
+8RYz7Owv21Y8XMHLOKva
+CACHE USED
+/opt/pwscf_cache/8RYz7Owv21Y8XMHLOKva.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0002.in
+nE5uIl6NQr3hcdQM-jfZ
+CACHE USED
+/opt/pwscf_cache/nE5uIl6NQr3hcdQM-jfZ.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0003.in
+bB8KsypOND-6bYkLBi_l
+CACHE USED
+/opt/pwscf_cache/bB8KsypOND-6bYkLBi_l.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0004.in
+y-2bI8aM0H82swxOa7ME
+CACHE USED
+/opt/pwscf_cache/y-2bI8aM0H82swxOa7ME.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0005.in
+YhDNOvT9rs9JsChOt7dQ
+CACHE USED
+/opt/pwscf_cache/YhDNOvT9rs9JsChOt7dQ.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0006.in
+Mlv1FYmD9qIBGO2Hoa5w
+CACHE USED
+/opt/pwscf_cache/Mlv1FYmD9qIBGO2Hoa5w.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0007.in
+UZTz7uAtuhJVOTTb-sTZ
+CACHE USED
+/opt/pwscf_cache/UZTz7uAtuhJVOTTb-sTZ.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0008.in
+1P474gwhC1eoUVLz2_kb
+CACHE USED
+/opt/pwscf_cache/1P474gwhC1eoUVLz2_kb.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0009.in
+GIuGpWBD_mHVOLza6cco
+CACHE USED
+/opt/pwscf_cache/GIuGpWBD_mHVOLza6cco.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0010.in
+_a-Un-pvFBiCNav4tYFT
+CACHE USED
+/opt/pwscf_cache/_a-Un-pvFBiCNav4tYFT.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0011.in
+Bdmk1p45Mgn11sM5D0_s
+CACHE USED
+/opt/pwscf_cache/Bdmk1p45Mgn11sM5D0_s.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0012.in
+8k4x4iIhONbbAI2ic9cM
+CACHE USED
+/opt/pwscf_cache/8k4x4iIhONbbAI2ic9cM.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0013.in
+ac4E4iYhTNnvVtLBa_0H
+CACHE USED
+/opt/pwscf_cache/ac4E4iYhTNnvVtLBa_0H.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0014.in
+nQdvwRW3jERezkedoURz
+CACHE USED
+/opt/pwscf_cache/nQdvwRW3jERezkedoURz.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d3_0015.in
+H8eIsW1PQ7XgLJ6_wr61
+CACHE USED
+/opt/pwscf_cache/H8eIsW1PQ7XgLJ6_wr61.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0001.in
+zE6eEoaxgGB2mk9pYBTO
+CACHE USED
+/opt/pwscf_cache/zE6eEoaxgGB2mk9pYBTO.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0002.in
+u2BU2nA9WgHFiK1aI4SM
+CACHE USED
+/opt/pwscf_cache/u2BU2nA9WgHFiK1aI4SM.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0003.in
+nfhs55IkeNwXK3qUFHiC
+CACHE USED
+/opt/pwscf_cache/nfhs55IkeNwXK3qUFHiC.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0004.in
+lNxnq5tEVS7D8uoxVybC
+CACHE USED
+/opt/pwscf_cache/lNxnq5tEVS7D8uoxVybC.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0005.in
+vKl_9nEB6ycqcNMPr3RI
+CACHE USED
+/opt/pwscf_cache/vKl_9nEB6ycqcNMPr3RI.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0006.in
+IMWPLHC_yrG9iExaq4JE
+CACHE USED
+/opt/pwscf_cache/IMWPLHC_yrG9iExaq4JE.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0007.in
+mRJrSRzrid18A42gU9fw
+CACHE USED
+/opt/pwscf_cache/mRJrSRzrid18A42gU9fw.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0008.in
+1P474gwhC1eoUVLz2_kb
+CACHE USED
+/opt/pwscf_cache/1P474gwhC1eoUVLz2_kb.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0009.in
+WXfHM_T3PszdecYUnPFv
+CACHE USED
+/opt/pwscf_cache/WXfHM_T3PszdecYUnPFv.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0010.in
+W_HHaKkGVijBJe_Q-Xf-
+CACHE USED
+/opt/pwscf_cache/W_HHaKkGVijBJe_Q-Xf-.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0011.in
+VZfD4_oj1xI6_MPXjfxc
+CACHE USED
+/opt/pwscf_cache/VZfD4_oj1xI6_MPXjfxc.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0012.in
+wJS2foAZmjJpaRwHi2t8
+CACHE USED
+/opt/pwscf_cache/wJS2foAZmjJpaRwHi2t8.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0013.in
+HRqLlGdmERWzHGSKnqZt
+CACHE USED
+/opt/pwscf_cache/HRqLlGdmERWzHGSKnqZt.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0014.in
+FfyACaeocVsPNPb7YIbO
+CACHE USED
+/opt/pwscf_cache/FfyACaeocVsPNPb7YIbO.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d4_0015.in
+Y9jMVfDA_uPV7fssNND7
+CACHE USED
+/opt/pwscf_cache/Y9jMVfDA_uPV7fssNND7.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0001.in
+HHKK2WYbTMPv7dosVxnC
+CACHE USED
+/opt/pwscf_cache/HHKK2WYbTMPv7dosVxnC.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0002.in
+choNFzyCma5oAlmhlpll
+CACHE USED
+/opt/pwscf_cache/choNFzyCma5oAlmhlpll.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0003.in
+XODLGuyFyau8FUODvaxY
+CACHE USED
+/opt/pwscf_cache/XODLGuyFyau8FUODvaxY.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0004.in
+5tsldNUTrzxKy6C86o4p
+CACHE USED
+/opt/pwscf_cache/5tsldNUTrzxKy6C86o4p.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0005.in
+fuUZvzV_PDHeaIQGHiKJ
+CACHE USED
+/opt/pwscf_cache/fuUZvzV_PDHeaIQGHiKJ.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0006.in
+Wn-Fv_Z-nTVvfB8_Qzvi
+CACHE USED
+/opt/pwscf_cache/Wn-Fv_Z-nTVvfB8_Qzvi.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0007.in
+Mf70gsR1XkXJXK-Kz_uf
+CACHE USED
+/opt/pwscf_cache/Mf70gsR1XkXJXK-Kz_uf.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0008.in
+1P474gwhC1eoUVLz2_kb
+CACHE USED
+/opt/pwscf_cache/1P474gwhC1eoUVLz2_kb.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0009.in
+Oy-aXYrLdKcSsPNPb7MI
+CACHE USED
+/opt/pwscf_cache/Oy-aXYrLdKcSsPNPb7MI.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0010.in
+AdmgJpGRmHlq9l8Bkyti
+CACHE USED
+/opt/pwscf_cache/AdmgJpGRmHlq9l8Bkyti.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0011.in
+kRhjp5pA1C06A0_gnVBv
+CACHE USED
+/opt/pwscf_cache/kRhjp5pA1C06A0_gnVBv.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0012.in
+uy1WQ7XgDJWuTFbugJF2
+CACHE USED
+/opt/pwscf_cache/uy1WQ7XgDJWuTFbugJF2.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0013.in
+PY-f3YEf_wDWCvqppFxC
+CACHE USED
+/opt/pwscf_cache/PY-f3YEf_wDWCvqppFxC.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0014.in
+zDyem8Vo-BL_W-3HQezg
+CACHE USED
+/opt/pwscf_cache/zDyem8Vo-BL_W-3HQezg.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d5_0015.in
+XFLKO_TbvshZt7tQ1T07
+CACHE USED
+/opt/pwscf_cache/XFLKO_TbvshZt7tQ1T07.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0001.in
+mGRqPlbdsIVOnDpuFBqC
+CACHE USED
+/opt/pwscf_cache/mGRqPlbdsIVOnDpuFBqC.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0002.in
+EH2ygaN0n4Nsv51YU7Pw
+CACHE USED
+/opt/pwscf_cache/EH2ygaN0n4Nsv51YU7Pw.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0003.in
+8GEy_yPWPfXcTI7uUtPx
+CACHE USED
+/opt/pwscf_cache/8GEy_yPWPfXcTI7uUtPx.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0004.in
+3sEdKwaWsHpOJD2SobZw
+CACHE USED
+/opt/pwscf_cache/3sEdKwaWsHpOJD2SobZw.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0005.in
+ztOdj8VczAeekU9jMB-2
+CACHE USED
+/opt/pwscf_cache/ztOdj8VczAeekU9jMB-2.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0006.in
+FUyDyaW8vEZ_bT4LAiSh
+CACHE USED
+/opt/pwscf_cache/FUyDyaW8vEZ_bT4LAiSh.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0007.in
+iAtaZQXTXLvKB_an0Fo2
+CACHE USED
+/opt/pwscf_cache/iAtaZQXTXLvKB_an0Fo2.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0008.in
+1P474gwhC1eoUVLz2_kb
+CACHE USED
+/opt/pwscf_cache/1P474gwhC1eoUVLz2_kb.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0009.in
+oKRyPmXdHIaKUGbyEKWy
+CACHE USED
+/opt/pwscf_cache/oKRyPmXdHIaKUGbyEKWy.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0010.in
+sJpOVDXCbKsKRO3nsdhM
+CACHE USED
+/opt/pwscf_cache/sJpOVDXCbKsKRO3nsdhM.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0011.in
+aQwH22M830kcxg65IouN
+CACHE USED
+/opt/pwscf_cache/aQwH22M830kcxg65IouN.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0012.in
+3REfKwmWRrzlmdFoWBDG
+CACHE USED
+/opt/pwscf_cache/3REfKwmWRrzlmdFoWBDG.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0013.in
+KTaXQHHiGJiGtadQgTB3
+CACHE USED
+/opt/pwscf_cache/KTaXQHHiGJiGtadQgTB3.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0014.in
+seVMbDMKb2UIbygKZ2DQ
+CACHE USED
+/opt/pwscf_cache/seVMbDMKb2UIbygKZ2DQ.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d6_0015.in
+WxLGS_fr4ZcjUNHz6KAq
+CACHE USED
+/opt/pwscf_cache/WxLGS_fr4ZcjUNHz6KAq.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0001.in
+TsjtNdr4VIzCKeyUebwU
+CACHE USED
+/opt/pwscf_cache/TsjtNdr4VIzCKeyUebwU.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0002.in
+MX734sIh2NUbnwVuDBmu
+CACHE USED
+/opt/pwscf_cache/MX734sIh2NUbnwVuDBmu.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0003.in
+u09UIDCOerIVmPxrC5ao
+CACHE USED
+/opt/pwscf_cache/u09UIDCOerIVmPxrC5ao.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0004.in
+mWVrDBOuT9nsxte5YUbP
+CACHE USED
+/opt/pwscf_cache/mWVrDBOuT9nsxte5YUbP.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0005.in
+JtiRlbNkT57sotpxBCGm
+CACHE USED
+/opt/pwscf_cache/JtiRlbNkT57sotpxBCGm.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0006.in
+9jYBDOuv5V0no1ZwDSev
+CACHE USED
+/opt/pwscf_cache/9jYBDOuv5V0no1ZwDSev.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0007.in
+WwbG0KY27MIvaN8HcysO
+CACHE USED
+/opt/pwscf_cache/WwbG0KY27MIvaN8HcysO.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0008.in
+1P474gwhC1eoUVLz2_kb
+CACHE USED
+/opt/pwscf_cache/1P474gwhC1eoUVLz2_kb.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0009.in
+VorBVKnCJuqRJHGSCHGq
+CACHE USED
+/opt/pwscf_cache/VorBVKnCJuqRJHGSCHGq.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0010.in
+UALyW_bHQKTivt5ZQnzh
+CACHE USED
+/opt/pwscf_cache/UALyW_bHQKTivt5ZQnzh.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0011.in
+OPjbtcVQDDOu390ck0xg
+CACHE USED
+/opt/pwscf_cache/OPjbtcVQDDOu390ck0xg.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0012.in
+j1xcu4RUnnltBlqldFgS
+CACHE USED
+/opt/pwscf_cache/j1xcu4RUnnltBlqldFgS.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0013.in
+fj8Z0zE2_w3W4fEg6xYq
+CACHE USED
+/opt/pwscf_cache/fj8Z0zE2_w3W4fEg6xYq.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0014.in
+98cA4Ocj4NgjR13kkdJg
+CACHE USED
+/opt/pwscf_cache/98cA4Ocj4NgjR13kkdJg.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d7_0015.in
+K5qUNHX6zIGeGE_GzWuf
+CACHE USED
+/opt/pwscf_cache/K5qUNHX6zIGeGE_GzWuf.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0001.in
+b6cIsOlPNnn5JsKRuX5X
+CACHE USED
+/opt/pwscf_cache/b6cIsOlPNnn5JsKRuX5X.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0002.in
+ia18A4ygS9voVZbD8Kwy
+CACHE USED
+/opt/pwscf_cache/ia18A4ygS9voVZbD8Kwy.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0003.in
+yY2bI8yMOb-8TY-vzZ6f
+CACHE USED
+/opt/pwscf_cache/yY2bI8yMOb-8TY-vzZ6f.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0004.in
+DF_u3V0fo09w4Csi9NYD
+CACHE USED
+/opt/pwscf_cache/DF_u3V0fo09w4Csi9NYD.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0005.in
+MEn2psBBqm1FA6igN9v4
+CACHE USED
+/opt/pwscf_cache/MEn2psBBqm1FA6igN9v4.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0006.in
+DrKt_VHXSLbqAJKiaVEH
+CACHE USED
+/opt/pwscf_cache/DrKt_VHXSLbqAJKiaVEH.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0007.in
+8C0yg2Z07Qsv9NoD5yom
+CACHE USED
+/opt/pwscf_cache/8C0yg2Z07Qsv9NoD5yom.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0008.in
+1P474gwhC1eoUVLz2_kb
+CACHE USED
+/opt/pwscf_cache/1P474gwhC1eoUVLz2_kb.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0009.in
+JIuStX9TgDN2b4sIxO_7
+CACHE USED
+/opt/pwscf_cache/JIuStX9TgDN2b4sIxO_7.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0010.in
+VmLBK_uXVXvDx_y7a8AE
+CACHE USED
+/opt/pwscf_cache/VmLBK_uXVXvDx_y7a8AE.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0011.in
+nAZuzRefIUePsXBPmnxp
+CACHE USED
+/opt/pwscf_cache/nAZuzRefIUePsXBPmnxp.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0012.in
+v3dYkTNjT5jsBdyk_9fU
+CACHE USED
+/opt/pwscf_cache/v3dYkTNjT5jsBdyk_9fU.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0013.in
+5Ggm91UA-yD__vrV9LcC
+CACHE USED
+/opt/pwscf_cache/5Ggm91UA-yD__vrV9LcC.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0014.in
+ceoMJz6SUrnxZubRYL-O
+CACHE USED
+/opt/pwscf_cache/ceoMJz6SUrnxZubRYL-O.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d8_0015.in
+GJ6GIqaNMHz2ecEU6zAq
+CACHE USED
+/opt/pwscf_cache/GJ6GIqaNMHz2ecEU6zAq.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0001.in
+guN174IsGN6HEqCxKqWV
+CACHE USED
+/opt/pwscf_cache/guN174IsGN6HEqCxKqWV.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0002.in
+OsP9fcwYG3SE3qgdZ0nQ
+CACHE USED
+/opt/pwscf_cache/OsP9fcwYG3SE3qgdZ0nQ.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0003.in
+FHeCwWS3zoCd_oTVXvHJ
+CACHE USED
+/opt/pwscf_cache/FHeCwWS3zoCd_oTVXvHJ.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0004.in
+be4I8isx1O87gwt2hQB7
+CACHE USED
+/opt/pwscf_cache/be4I8isx1O87gwt2hQB7.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0005.in
+Mg31scVMjDBeuk1Vk7hg
+CACHE USED
+/opt/pwscf_cache/Mg31scVMjDBeuk1Vk7hg.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0006.in
+AlSh7pMtX1bIYKbOILiO
+CACHE USED
+/opt/pwscf_cache/AlSh7pMtX1bIYKbOILiO.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0007.in
+VRfDM_n35sIlONbbII_O
+CACHE USED
+/opt/pwscf_cache/VRfDM_n35sIlONbbII_O.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0008.in
+1P474gwhC1eoUVLz2_kb
+CACHE USED
+/opt/pwscf_cache/1P474gwhC1eoUVLz2_kb.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0009.in
+A_GjeF8WozByKmGViHZa
+CACHE USED
+/opt/pwscf_cache/A_GjeF8WozByKmGViHZa.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0010.in
+jmtd5Q4nkhxhC5Oo39Ic
+CACHE USED
+/opt/pwscf_cache/jmtd5Q4nkhxhC5Oo39Ic.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0011.in
+7zwuW1vEV_TDzuidt8NQ
+CACHE USED
+/opt/pwscf_cache/7zwuW1vEV_TDzuidt8NQ.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0012.in
+aTgHt2dQwTW37Ewua1wE
+CACHE USED
+/opt/pwscf_cache/aTgHt2dQwTW37Ewua1wE.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0013.in
+WrrFJK6SArKhmVRrTlnt
+CACHE USED
+/opt/pwscf_cache/WrrFJK6SArKhmVRrTlnt.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0014.in
+_UXX7LIuSNDr_tjVRfLk
+CACHE USED
+/opt/pwscf_cache/_UXX7LIuSNDr_tjVRfLk.out
+/DATA/disk3/cloud/Code/python/qeeos/examples/al_005/out/ec_rfkj/ec_rfkj_d9_0015.in
+QIfiUZ3zAeCgupFVKDOW
+CACHE USED
+/opt/pwscf_cache/QIfiUZ3zAeCgupFVKDOW.out

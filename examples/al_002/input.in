@@ -1,0 +1,15 @@
+#TEMPLATE alfcc.in
+
+#CONFIG structure=fcc a0=4.04 units=angs cxyz=4,4,4 labels=Al,Al
+
+#DFTSETTINGS ecutwfc=50 ecutrho=200 kpoints=1,1,1,1,1,1 kpointstype=automatic degauss=0.01
+
+
+
+
+#RELAX run=True
+#EOS_BM run=True strain=0.01 steps=4
+#EC_MSKP run=True strain=0.01 steps=7
+#EC_RFKJ run=True strain=0.01 steps=7
+
+#DFTADJUST Al=-39.498964288,Ry,-3.36,eV 

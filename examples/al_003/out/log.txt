@@ -1,0 +1,58 @@
+2.4700e-04   QEEOS
+3.1376e-04   Read input file
+7.5316e-04   Load template and modify.
+1.7703e-03   PWscf Relaxation
+3.5207e-03   Relaxed a0 (bohr): 7.642507950000001
+3.5386e-03   Relaxed a0 (angs): 4.043655
+3.5706e-03   Relaxed nat                 4 
+3.5796e-03   Relaxed a0               4.043655 
+3.5882e-03   Relaxed UV               1.000000     0.000000     0.000000 
+3.5949e-03                            0.000000     1.000000     0.000000 
+3.6011e-03                            0.000000     0.000000     1.000000 
+3.6061e-03   Vol/atom                16.520178 
+3.6106e-03   Relaxed e (dft)      -2149.651608 
+3.6149e-03   Relaxed e              -13.267286 
+3.6192e-03   Relaxed epa             -3.316822 
+3.6228e-03   Saving relaxed data a0 and uv
+3.7403e-03   Making relaxed template using:
+3.7501e-03   Relaxed a0               4.043655 
+3.7570e-03   Cx                       1.000000 
+3.7620e-03   Relaxed a0 (scaled)      4.043655 angs   
+3.7668e-03   Relaxed a0 (scaled)      7.642508 bohr  
+3.7739e-03   Relaxed UV               1.000000     0.000000     0.000000 
+3.7801e-03                            0.000000     1.000000     0.000000 
+3.7861e-03                            0.000000     0.000000     1.000000 
+4.4913e-03   Run PWscf for EoS BM
+6.4077e-03   Running PWscf
+7.8576e-03   Read EoS BM results
+1.0211e-02   Save EoS BM results to file
+1.0507e-02   Run PWscf for EC MSKP
+1.3276e-02   Running PWscf
+1.5399e-02   Read EC MSKP results
+1.9090e-02   Save EC MSKP results to file
+1.9459e-02   Run PWscf for EC RFKJ
+5.3353e-02   Running PWscf
+9.3103e-02   Read EC RFKJ results
+1.0854e-01   Save EC RFKJ results to file
+1.1004e-01   
+1.1005e-01   
+1.1005e-01   Process Results
+1.1006e-01   ##########################
+1.1007e-01   Relaxed
+1.1008e-01   Loading data from file.
+1.1015e-01   EoS BM
+1.1017e-01   Loading data from file.
+1.1073e-01   e0 -3.316823233391036
+1.1074e-01   v0 16.534115431230582
+1.1075e-01   b0 0.5075728888295628
+1.1076e-01   b0p 2.0
+1.1079e-01   EC MSKP
+1.1081e-01   Loading data from files.
+1.1157e-01   EC RFKJ
+1.1161e-01   Loading data from files.
+1.1389e-01   
+1.1390e-01   
+1.1391e-01   Plots
+1.1391e-01   ##########################
+Time elapsed:       0.4312s
+End.

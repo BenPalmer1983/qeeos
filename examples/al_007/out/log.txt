@@ -1,0 +1,59 @@
+3.3760e-04   QEEOS
+6.0725e-04   Read input file
+1.3092e-03   Load template and modify.
+2.8040e-03   PWscf Relaxation
+3.8469e-03   saving: /DATA/disk3/cloud/Code/python/qeeos/examples/al_007/out/relax/relax.in
+5.4114e-03   reading: /DATA/disk3/cloud/Code/python/qeeos/examples/al_007/out/relax/relax.out
+5.7600e-03   {'pwtype': 'VC-RELAX', 'nat': 2, 'energy': -78.99129719, 'a0': 6.111255843, 'uv': array([[1., 0., 0.],
+       [0., 1., 0.],
+       [0., 0., 1.]]), 'vol': 228.23980968036784, 'labels': ['Al', 'Al'], 'vpa': 114.11990484018392, 'epa': -39.495648595}
+5.8010e-03   Relaxed a0 (bohr): 6.111255843
+5.8143e-03   Relaxed a0 (angs): 3.2334687
+5.8608e-03   Relaxed nat                 2 
+5.8782e-03   Relaxed a0               3.233469 
+5.8935e-03   Relaxed UV               1.000000     0.000000     0.000000 
+5.9068e-03                            0.000000     1.000000     0.000000 
+5.9195e-03                            0.000000     0.000000     1.000000 
+5.9292e-03   Vol/atom                16.893842 
+5.9385e-03   Relaxed e (dft)      -1074.735540 
+5.9476e-03   Relaxed e               -6.528261 
+5.9569e-03   Relaxed epa             -3.264130 
+5.9645e-03   Saving relaxed data a0 and uv
+6.1653e-03   Making relaxed template using:
+6.1815e-03   Relaxed a0               3.233469 
+6.1946e-03   Cx                       1.000000 
+6.2046e-03   Relaxed a0 (scaled)      3.233469 angs   
+6.2141e-03   Relaxed a0 (scaled)      6.111256 bohr  
+6.2275e-03   Relaxed UV               1.000000     0.000000     0.000000 
+6.2394e-03                            0.000000     1.000000     0.000000 
+6.2511e-03                            0.000000     0.000000     1.000000 
+7.2916e-03   Run PWscf for EoS BM
+1.0070e-02   Running PWscf
+1.2027e-02   Read EoS BM results
+1.5152e-02   Save EoS BM results to file
+1.5603e-02   Run PWscf for EC MSKP
+1.9579e-02   Running PWscf
+2.2592e-02   Read EC MSKP results
+2.7422e-02   Save EC MSKP results to file
+2.8054e-02   
+2.8071e-02   
+2.8081e-02   Process Results
+2.8091e-02   ##########################
+2.8114e-02   Relaxed
+2.8124e-02   Loading data from file.
+2.8218e-02   EoS BM
+2.8240e-02   Loading data from file.
+2.8976e-02   e0 -3.2641314799087686
+2.8997e-02   v0 16.904424184954824
+2.9007e-02   b0 0.4325513755663159
+2.9016e-02   b0p 2.0
+2.9049e-02   EC MSKP
+2.9075e-02   Loading data from files.
+3.0112e-02   EC RFKJ
+3.0159e-02   ...no EC RFKJ data file...
+3.0241e-02   
+3.0254e-02   
+3.0266e-02   Plots
+3.0274e-02   ##########################
+Time elapsed:       0.3475s
+End.

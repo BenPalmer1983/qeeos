@@ -1,0 +1,16 @@
+#TEMPLATE al.in
+
+#CONFIG structure=bcc a0=3.3 units=angs cxyz=1,1,1 labels=Al,Al
+
+#DFTSETTINGS ecutwfc=50 ecutrho=200 kpoints=36,36,36,1,1,1 kpointstype=automatic degauss=0.02
+
+
+
+
+#RELAX run=True
+#EOS_BM run=True strain=0.01 steps=4 calc=scf
+#EC_MSKP run=True strain=0.01 steps=7 calc=scf
+#EC_RFKJ run=False strain=0.01 steps=7 calc=scf
+
+
+#DFTADJUST Al=-39.50269486,Ry,-3.36,eV 
